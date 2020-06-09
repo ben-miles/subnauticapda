@@ -8,7 +8,6 @@
   <meta name="description" content="description">
   <meta name="author" content="author">
   <script src="js/vue.js"></script>
-  
   <link rel="stylesheet" type="text/css" href="css/app.css">
 
 </head>
