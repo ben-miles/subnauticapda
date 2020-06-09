@@ -7,7 +7,7 @@
   <title>title</title>
   <meta name="description" content="description">
   <meta name="author" content="author">
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="/js/vue.js"></script>
   <style>
   @charset "UTF-8";
 /*** FONTS ***/
