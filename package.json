@@ -1,0 +1,28 @@
+{
+  "name": "subnauticapda",
+  "version": "1.0.0",
+  "description": "A second screen companion app for the game Subnautica.",
+  "main": "app.js",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch src -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-miles/subnauticapda.git"
+  },
+  "keywords": [
+    "subnautica"
+  ],
+  "author": "Benjamin Miles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben-miles/subnauticapda/issues"
+  },
+  "homepage": "https://github.com/ben-miles/subnauticapda#readme"
+}
