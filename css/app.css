@@ -16,7 +16,7 @@ body, html {
 
 body, html, a, button {
   cursor: pointer;
-  cursor: url(//bcgm3.com/dev/subnauticapda/subnauticapda_cursor.svg), pointer; }
+  cursor: url(/img/subnauticapda_cursor.svg), pointer; }
 
 /*** VARIABLES ***/
 #app {
@@ -62,7 +62,7 @@ body, html, a, button {
     -webkit-text-fill-color: #f28d00; }
 
 #bkg {
-  background-image: url(//bcgm3.com/dev/subnauticapda/subnauticapda_bkg.jpg);
+  background-image: url(/img/subnauticapda_bkg.jpg);
   background-size: cover;
   background-position: center;
   filter: blur(10px);
@@ -74,7 +74,7 @@ body, html, a, button {
   z-index: -100; }
 
 #pda {
-  background: url(//bcgm3.com/dev/subnauticapda/subnauticapda_pda_sm.png);
+  background: url(/img/subnauticapda_pda_sm.png);
   background-repeat: repeat-x;
   background-size: contain;
   height: calc(100vh - 7vw - 20px);
@@ -82,7 +82,7 @@ body, html, a, button {
   width: 100%; }
   @media (min-width: 1024px) {
     #pda {
-      background: url(//bcgm3.com/dev/subnauticapda/subnauticapda_pda_lg.png);
+      background: url(/img/subnauticapda_pda_lg.png);
       background-position: 84.5% 0%;
       background-size: cover;
       height: 648px;

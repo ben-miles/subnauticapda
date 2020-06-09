@@ -2178,7 +2178,7 @@ let vue = new Vue({
 		},
 		img_src: function(value){
 			if (!value) return "";
-			value = "//bcgm3.com/dev/subnauticapda/" + value + ".png"
+			value = "img/" + value + ".png"
 			return value;
 		}
 	},
