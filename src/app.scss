@@ -16,7 +16,7 @@ body, html {
 }
 body, html, a, button {
 	cursor: pointer;
-	cursor: url(/img/subnauticapda_cursor.svg), pointer;
+	cursor: url(../img/subnauticapda_cursor.svg), pointer;
 }
 
 /*** VARIABLES ***/
@@ -73,7 +73,7 @@ $desktop-lg: 1920px;
 }
 
 #bkg {
-	background-image: url(/img/subnauticapda_bkg.jpg);
+	background-image: url(../img/subnauticapda_bkg.jpg);
 	background-size: cover;
 	background-position: center;
 	filter: blur(10px);
@@ -86,14 +86,14 @@ $desktop-lg: 1920px;
 }
 
 #pda {
-	background: url(/img/subnauticapda_pda_sm.png);
+	background: url(../img/subnauticapda_pda_sm.png);
 	background-repeat: repeat-x;
 	background-size: contain;
 	height: calc(100vh - 7vw - 20px);
 	padding: 50px 0;
 	width: 100%;
 	@media ( min-width: $desktop-sm ) {
-		background: url(/img/subnauticapda_pda_lg.png);
+		background: url(../img/subnauticapda_pda_lg.png);
 		background-position: 84.5% 0%;
 		background-size: cover;
 		height: 648px;
