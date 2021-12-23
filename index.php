@@ -2,17 +2,28 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Subnautica PDA</title>
-  <meta name="description" content="A second screen companion app for the game Subanutica.">
-  <meta name="author" content="Benjamin Miles">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="favicon.png">
-  <script type="text/javascript" src="js/vue.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/app.css">
+	<meta charset="utf-8">
+	<title>Subnautica PDA</title>
+	<meta name="description" content="A second screen companion app for the game Subanutica.">
+	<meta name="author" content="Benjamin Miles">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-P9JGR64');</script>
+	<!-- End Google Tag Manager -->
+	<link rel="icon" href="favicon.png">
+	<script type="text/javascript" src="js/vue.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9JGR64"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
     <div id="app">
         <h1 id="title"><span>SUB</span>NAUTICA PDA</h1>
         <div id="pda">
