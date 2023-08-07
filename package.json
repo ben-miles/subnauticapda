@@ -1,28 +1,37 @@
 {
   "name": "subnauticapda",
   "version": "1.0.0",
-  "description": "A second screen companion app for the game Subnautica.",
-  "main": "app.js",
-  "dependencies": {
-    "node-sass": "^4.14.1",
-    "vue": "^2.6.11"
-  },
-  "devDependencies": {},
+  "description": "An unofficial second-screen companion app for the game Subnautica.",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch src -o css"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ben-miles/subnauticapda.git"
+	  "type": "git",
+	  "url": "git+https://github.com/ben-miles/subnauticapda.git"
   },
   "keywords": [
-    "subnautica"
+	  "vuejs",
+	  "vue",
+	  "second-screen",
+	  "subnautica"
   ],
-  "author": "Benjamin Miles",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ben-miles/subnauticapda/issues"
+  "author": "Ben Miles",
+	"license": "CC-BY-NC-SA-4.0",
+	"bugs": {
+		"url": "https://github.com/ben-miles/subnauticapda/issues"
+	},
+	"homepage": "https://subnauticapda.dev",
+  "dependencies": {
+    "vue": "^3.3.4"
   },
-  "homepage": "https://github.com/ben-miles/subnauticapda#readme"
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.6"
+  },
+  "browserslist": [
+	  "defaults"
+  ]
 }
