@@ -9,29 +9,30 @@
     "preview": "vite preview"
   },
   "repository": {
-	  "type": "git",
-	  "url": "git+https://github.com/ben-miles/subnauticapda.git"
+    "type": "git",
+    "url": "git+https://github.com/ben-miles/subnauticapda.git"
   },
   "keywords": [
-	  "vuejs",
-	  "vue",
-	  "second-screen",
-	  "subnautica"
+    "vuejs",
+    "vue",
+    "second-screen",
+    "subnautica"
   ],
   "author": "Ben Miles",
-	"license": "CC-BY-NC-SA-4.0",
-	"bugs": {
-		"url": "https://github.com/ben-miles/subnauticapda/issues"
-	},
-	"homepage": "https://subnauticapda.dev",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/ben-miles/subnauticapda/issues"
+  },
+  "homepage": "https://subnauticapda.dev",
   "dependencies": {
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
     "vite": "^4.4.6"
   },
   "browserslist": [
-	  "defaults"
+    "defaults"
   ]
 }
