@@ -171,11 +171,11 @@ body, html, a, button {
       position: relative;
       top: 10px;
       width: 10px; }
-    #tabs .tab:hover, #tabs .tab.active {
+    #tabs .tab:hover, #tabs .tab.router-link-active  {
       background: #114cbf; }
     #tabs .tab:hover svg {
       fill: #fff; }
-    #tabs .tab.active:after {
+    #tabs .tab.router-link-active:after {
       background: #f3feff;
       box-shadow: 0 0 5px #2f5cb3, 0 0 5px #2f5cb3; }
     #tabs .tab div, #tabs .tab svg {

@@ -15,7 +15,7 @@ export default {
 
 <template>
 	<div id="tabs">
-		<RouterLink to="/list" class="tab active" id="list" aria-label="List" title="List">
+		<RouterLink to="/list" class="tab" id="list" aria-label="List" title="List">
 			<IconBook />
 		</RouterLink>
 		<RouterLink to="/items" class="tab" id="items" aria-label="Items" title="Items">
