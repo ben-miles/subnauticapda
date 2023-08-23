@@ -3,16 +3,19 @@
 @import url(//fonts.googleapis.com/css2?family=Days+One&family=Ubuntu&display=swap);
 body {
   font-family: "Ubuntu", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 /*** RESET ***/
 *, *:before, :after {
   box-sizing: border-box;
-  transition: all 0.2s linear; }
+  transition: all 0.125s linear;
+}
 
 body, html {
   height: 100%;
-  margin: 0; }
+  margin: 0;
+}
 
 body, html, a, button {
   cursor: pointer;
