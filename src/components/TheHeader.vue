@@ -1,5 +1,6 @@
 <script>
-import { RouterLink } from 'vue-router'
+import { RouterLink
+} from 'vue-router'
 import IconBook from './icons/IconBook.vue'
 import IconWrench from '../components/icons/IconWrench.vue'
 import IconDocument from '../components/icons/IconDocument.vue';
