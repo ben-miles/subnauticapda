@@ -1,12 +1,12 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
 import TheHeader from './components/TheHeader.vue'
-// import TheFooter from './components/TheFooter.vue'
+import TheFooter from './components/TheFooter.vue'
 
 export default {
 	components: {
 		TheHeader,
-		// TheFooter
+		TheFooter
 	}
 }
 </script>
@@ -19,7 +19,7 @@ export default {
 			<!-- <TheFooter /> -->
 		</div>
 	</div>
-	<h1 id="title"><span>SUB</span>NAUTICA PDA</h1>
+	<TheFooter />
 	<div id="bkg"></div>
 </template>
 
