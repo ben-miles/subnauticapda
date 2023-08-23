@@ -88,5 +88,126 @@ export default {
 </template>
 
 <style>
-
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgba(26, 102, 172, 0.1);
+  border: 1px solid rgba(200, 234, 246, 0.6);
+  box-shadow: inset 0 0 5px rgba(200, 234, 246, 0.5);
+  padding: 10px;
+  margin-bottom: 10px; }
+  .list-item .controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px; }
+    .list-item .controls .quantity-buttons {
+      display: flex;
+      flex-direction: row; }
+      .list-item .controls .quantity-buttons button {
+        border-radius: 5px 0 0 5px;
+        color: #85bedc;
+        font-weight: bold;
+        display: inline;
+        margin: 0;
+        text-shadow: 0 0 3px #1d67a4; }
+        .list-item .controls .quantity-buttons button:last-of-type {
+          border-radius: 0 5px 5px 0; }
+    .list-item .controls button {
+      background: rgba(26, 102, 172, 0.1);
+      border: 1px solid rgba(200, 234, 246, 0.6);
+      border-radius: 10px;
+      box-shadow: inset 0 0 15px rgba(200, 234, 246, 0.5);
+      margin-bottom: 15px;
+      outline: none;
+      padding: 10px 4px; }
+      .list-item .controls button svg {
+        width: 40px;
+        fill: #85bedc;
+        filter: drop-shadow(0 0 3px #1d67a4); }
+        @media (min-width: 1024px) {
+          .list-item .controls button svg {
+            width: 30px; } }
+      .list-item .controls button:hover svg {
+        fill: red; }
+  .list-item .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    width: 90px; }
+    .list-item .item .label {
+      text-align: center; }
+    .list-item .item img {
+      width: 100%;
+      margin-bottom: 10px; }
+    .list-item .item span {
+      font-weight: 600;
+      text-align: center;
+      line-height: normal; }
+  .list-item .data {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%; }
+    .list-item .data h3 {
+      background: rgba(26, 102, 172, 0.6);
+      border: 1px solid rgba(200, 234, 246, 0.6);
+      box-shadow: inset 0 0 5px rgba(200, 234, 246, 0.5);
+      font-size: .9em;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 5px;
+      padding: 3px 0 3px 10px;
+      width: 100%; }
+      .list-item .data h3:before {
+        content: "⌵";
+        margin-right: 10px;
+        transform: rotate(0deg);
+        display: inline-block; }
+      .list-item .data h3:not(:first-of-type) {
+        margin-top: 10px; }
+  .list-item .location,
+  .list-item .recipe {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 10px; }
+  .list-item .quantity, .list-item .yield {
+    background: #ffd003;
+    color: #7a3e00;
+    border-radius: 15px;
+    text-align: center;
+    padding: 4px;
+    box-shadow: 0 0 10px #8a512d, 0 0 5px #8a512d; }
+  .list-item .ingredient {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    position: relative; }
+    .list-item .ingredient:after {
+      display: block;
+      content: "+";
+      position: absolute;
+      right: -20px;
+      top: calc( 50% - 13px);
+      margin-right: 15px; }
+    .list-item .ingredient:last-child:after {
+      content: ""; }
+    .list-item .ingredient .quantity {
+      font-weight: bold;
+      margin-right: 10px; }
+    .list-item .ingredient img {
+      margin-right: 5px;
+      width: 30px; }
 </style>

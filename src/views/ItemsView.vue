@@ -65,5 +65,75 @@ export default {
 </template>
 
 <style>
-
+.group {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: auto;
+	justify-content: flex-start;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.group.collapsed {
+	height: 44px;
+	margin-bottom: 0;
+}
+.group.collapsed h3:before {
+	transform: rotate(-90deg);
+}
+.group h3 {
+    background: rgba(26, 102, 172, 0.6);
+    border: 1px solid rgba(200, 234, 246, 0.6);
+    box-shadow: inset 0 0 5px rgba(200, 234, 246, 0.5);
+    font-size: .9em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    padding: 3px 0 3px 10px;
+    width: 100%;
+}
+.group h3:before {
+	content: "⌵";
+	margin-right: 10px;
+	transform: rotate(0deg);
+	display: inline-block;
+}
+.group h3:hover {
+	background: rgba(0, 133, 255, 0.6);
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.9);
+}
+.group .item {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    width: calc( 33.3% - 10px);
+}
+@media (min-width: 500px) {
+	.group .item {
+        width: calc( 25% - 10px);
+	}
+}
+@media (min-width: 768px) {
+	.group .item {
+        width: calc( 16.6% - 10px);
+	}
+}
+.group .item img {
+	width: 100%;
+}
+.group .item span {
+	display: block;
+	font-size: .8em;
+	line-height: 1;
+	text-align: center;
+}
+.group .item:hover {
+	background: #114cbf;
+}
+.group .item:active {
+	background: #f28d00;
+}
 </style>
