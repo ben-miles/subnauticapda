@@ -1,18 +1,8 @@
 <script>
 import { RouterLink } from 'vue-router'
-import itemsData from '@/assets/data/items.json'
-// import IconTranslator from '../components/icons/IconTranslator.vue';
-// import IconItems from '../components/icons/IconItems.vue'
 
 export default {
-	components: { 
-		// IconTranslator,
-		// IconItems 
-	},
 	data() {
-		return {
-			itemsData
-		}
 	},
 	methods: {
 		// Toggle group
@@ -40,12 +30,10 @@ export default {
 </script>
 
 <template>
-
 	<!-- HEADING -->
 	<div id="heading">
 		<h2>Items</h2>
 	</div>
-
 	<!-- PANES -->
 	<div id="panes">
 		<div class="pane" id="items-pane">
@@ -59,9 +47,7 @@ export default {
 				</div>
 			</div>
 		</div>
-
 	</div>
-
 </template>
 
 <style>

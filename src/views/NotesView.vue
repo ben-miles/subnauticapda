@@ -11,6 +11,7 @@ export default {
 </script>
 
 <template>
+<!-- <div> -->
 	<!-- HEADING -->
 	<div id="heading">
 		<h2>Notes</h2>
@@ -21,6 +22,7 @@ export default {
 			<textarea v-model="notes" placeholder="Keep your notes here."></textarea>
 		</div>
 	</div>
+<!-- </div> -->
 </template>
 
 <style>
