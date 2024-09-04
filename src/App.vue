@@ -7,6 +7,27 @@ export default {
 	components: {
 		TheHeader,
 		TheFooter
+		toggleItem: function(itemId){
+			console.log(itemId)
+			// find items in each group in itemsData that match itemId
+			
+			let itemOriginal = this.itemsData.flatMap(item => group.items.find(item => item.id === itemId));
+			// let itemOriginal = this.itemsData.find(group => group.items.find(item => item.id === itemId));
+			console.log(itemOriginal);
+
+			// let itemOriginal = this.itemsData.find(item => item.id === itemId);
+			let itemList = this.list.push(itemOriginal) - 1;
+			if(itemOriginal.recipe){
+				// Add multiplier with default value
+				this.list[itemList].recipe.multiplier = 1;
+				// Copy original yield & ingredients quantities for later reference
+				this.list[itemList].recipe.yieldOriginal =itemOriginal.recipe.yield;
+				let ingredients = this.list[itemList].recipe.ingredients;
+				for(i = 0; i < ingredients.length; i++){
+					ingredients[i].quantity = ingredients[i].quantityOriginal = itemOriginal.recipe.ingredients[i].quantity; 
+				}
+			}
+		}
 	}
 }
 </script>

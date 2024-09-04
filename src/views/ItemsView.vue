@@ -5,6 +5,7 @@ export default {
 	components: {},
 	data() {
 	},
+	emits: ["toggleItem"],
 	methods: {
 		// Toggle group
 		toggle: function(groupId){
@@ -26,6 +27,14 @@ export default {
 				}
 			}
 		},
+		toggleItem(itemId) {
+			// console.log(itemId)
+			this.$emit("toggleItem", itemId);
+		}
+	},
+	props: {
+		itemsData: Object,
+		list: Array
 	}
 }
 </script>
@@ -40,10 +49,11 @@ export default {
 		<div class="pane" id="items-pane">
 			<div id="items-container">
 				<div v-for="(group, groupindex) in itemsData" class="group collapsed" :id="group.id">
-					<h3 v-on:click="toggle(group.id)">{{ group.name }}</h3>
-					<div v-for="(item, itemindex) in group.items" class="item" v-on:click="addToList(groupindex,itemindex)">
-						<img :src="'src/assets/images/' + item.id + '.png'" />
-						<span>{{ item.name }}</span>
+					<h3 v-on:click="toggle(group.id)">{{ group.name}}</h3>
+					<!-- <div v-for="(item, itemindex) in group.items" class="item" v-on:click="addToList(groupindex, itemindex)"> -->
+					<div v-for="(item, itemindex) in group.items" class="item" v-on:click="toggleItem(item.id)">
+						<img :src="`src/assets/images/${item.id}.png`" />
+						<span>{{ item.name}}</span>
 					</div>
 				</div>
 			</div>
