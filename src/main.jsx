@@ -4,7 +4,13 @@ import App from './App.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+	<StrictMode>
+		<div id="pda">
+			<div id="screen">
+				<App />
+				{/* <RouterView :key="$route.path" @toggleItem="toggleItem" :itemsData="itemsData" /> */}
+			</div>
+		</div>
+		<div id="bkg"></div>
+	</StrictMode>,
 )
