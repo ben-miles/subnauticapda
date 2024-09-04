@@ -15,6 +15,10 @@ export default {
 			this.list = localList ? localList : [];
 			this.notes = localNotes ? localNotes : "";
 		},
+		setLocalStorage: function(){
+			localStorage.setItem("subnauticapda_list", JSON.stringify(this.list));
+			localStorage.setItem("subnauticapda_notes", this.notes);
+		},
 		toggleItem: function(itemId){
 			console.log(itemId)
 			// find items in each group in itemsData that match itemId
