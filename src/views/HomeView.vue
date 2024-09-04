@@ -12,6 +12,7 @@ export default {
 		<h2>Home</h2>
 	</div>
 	<!-- PANES -->
+	<div id="panes"></div>
 </template>
 
 <style>

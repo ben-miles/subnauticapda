@@ -8,6 +8,14 @@ export default {
 	components: {
 		TheHeader,
 		TheFooter
+	},
+	data() {
+		return {
+			itemsData,
+			list: []
+		}
+	},
+	methods: {
 		getLocalStorage: function(){
 			// localStorage.clear(); // Uncomment to clear localStorage
 			let localList = JSON.parse(localStorage.getItem("subnauticapda_list"));
