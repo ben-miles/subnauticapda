@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import TheHeader from './components/TheHeader.vue'
 import TheFooter from './components/TheFooter.vue'
+import itemsData from '@/assets/data/items.json'
 
 export default {
 	components: {
@@ -36,8 +37,7 @@ export default {
 	<div id="pda">
 		<div id="screen">
 			<TheHeader />
-			<RouterView :key="$route.path" />
-			<!-- <TheFooter /> -->
+			<RouterView :key="$route.path" @toggleItem="toggleItem" :itemsData="itemsData" />
 		</div>
 	</div>
 	<TheFooter />
