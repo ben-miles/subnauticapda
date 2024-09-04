@@ -8,6 +8,13 @@ export default {
 	components: {
 		TheHeader,
 		TheFooter
+		getLocalStorage: function(){
+			// localStorage.clear(); // Uncomment to clear localStorage
+			let localList = JSON.parse(localStorage.getItem("subnauticapda_list"));
+			let localNotes = localStorage.getItem("subnauticapda_notes");
+			this.list = localList ? localList : [];
+			this.notes = localNotes ? localNotes : "";
+		},
 		toggleItem: function(itemId){
 			console.log(itemId)
 			// find items in each group in itemsData that match itemId
