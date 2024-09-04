@@ -153,11 +153,11 @@ body, html, a, button {
 	background-size: cover;
 	background-position: center;
 	filter: blur(10px);
-	height: 104%;
-	width: 104%;
+	height: 100%;
+	width: 100%;
 	position: absolute;
-	top: -2%;
-	left: -2%;
+	top: 0;
+	left: 0;
 	z-index: -100;
 }
 
