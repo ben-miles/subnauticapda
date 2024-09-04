@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,30 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+@charset "UTF-8";
+/*** FONTS ***/
+@import url(//fonts.googleapis.com/css2?family=Days+One&family=Ubuntu&display=swap);
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+
+/*** RESET ***/
+*, *:before, :after {
+  box-sizing: border-box;
+  transition: all 0.125s linear;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body, html, a, button {
+  cursor: pointer;
+  cursor: url(images/subnauticapda_cursor.svg), pointer;
+}
+
 }
