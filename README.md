@@ -1,8 +1,7 @@
-# React + Vite
+# subnauticapda
+A second screen companion app for the game Subnautica.
+Built with React for reactivity, and an emphasis on visual theming to maintain immersion.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Made to ease the crafting process by turning your phone or tablet into an always-on, expanded version of the in-game "PDA," eliminating the need to memorize (or frequently stop and check) crafting recipes for needed items.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Click items in the "Items" tab to add the crafting recipe to the "List" tab. Click items in the "List" tab to remove them. The "Notes" tab allows for miscellaneous reminders. All user data is kept in `localStorage`, and will be there when you come back, even after closing your browser tab/window.
