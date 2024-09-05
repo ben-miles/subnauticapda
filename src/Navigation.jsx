@@ -3,7 +3,7 @@ import IconBook from './IconBook.jsx';
 import IconDocument from './IconDocument.jsx';
 import IconWrench from './IconWrench.jsx';
 
-export default function Header() {
+export default function Navigation() {
 	return (
 		<>
 			<div id="tabs">

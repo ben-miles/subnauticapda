@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Header from './Header.jsx';
+import Navigation from './Navigation.jsx';
 import Title from './Title.jsx';
 import HomeView from './HomeView.jsx';
 import ItemsView from './ItemsView.jsx';
@@ -14,8 +14,8 @@ function App() {
 		<>
 			<div id="pda">
 				<div id="screen">
-					<Header />
 					<Title />
+					<Navigation />
 					<div id="panes">
 						<HomeView />
 						<ItemsView />
