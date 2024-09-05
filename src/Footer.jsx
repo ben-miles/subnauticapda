@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 
 {/* <script>
 import IconGitHub from './icons/IconGitHub.vue'
