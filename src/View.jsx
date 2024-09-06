@@ -3,14 +3,14 @@ import ItemsView from './ItemsView.jsx';
 import ListView from './ListView.jsx';
 import NotesView from './NotesView.jsx';
 
-export default function View({notes, setNotes, view}) {
+export default function View({items, setItems, notes, setNotes, view}) {
 	if(view === 'Home') {
 		return (
 			<HomeView />
 		)
 	} else if(view === 'Items') {
 		return (
-			<ItemsView />
+			<ItemsView items={items} setItems={setItems} />
 		)
 	} else if(view === 'List') {	
 		return (

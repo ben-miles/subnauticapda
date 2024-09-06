@@ -23,8 +23,8 @@ import { useState } from 'react';
 // 	}
 // }
 
-function ItemsView() {
 	const [count, setCount] = useState(0);
+export default function ItemsView({items, setItems}) {
 
 	return (
 		<>
@@ -43,5 +43,3 @@ function ItemsView() {
 		</>
 	)
 }
-
-export default ItemsView;

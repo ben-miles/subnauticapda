@@ -17,7 +17,7 @@ export default function App() {
 					<Navigation setView={setView} />
 					<Title title={view} />
 					<div id="panes">
-						<View notes={notes} setNotes={setNotes} view={view} />
+						<View items={items} setItems={setItems} notes={notes} setNotes={setNotes} view={view} />
 					</div>
 				</div>
 			</div>
