@@ -1,13 +1,9 @@
 import { useState } from 'react';
 
-function Title() {
-  return (
-    <>
+export default function Title({title}) {
+	return (
 		<div id="heading">
-			<h2>TITLE</h2>
+			<h2>{title}</h2>
 		</div>
-    </>
-  )
+	)
 }
-
-export default Title;

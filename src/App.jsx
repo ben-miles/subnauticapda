@@ -15,8 +15,8 @@ function App() {
 		<>
 			<div id="pda">
 				<div id="screen">
-					<Title />
 					<Navigation setView={setView} />
+					<Title title={view} />
 					<div id="panes">
 						<HomeView />
 						<ItemsView />
