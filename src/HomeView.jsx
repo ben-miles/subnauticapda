@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import IconAlert from './IconAlert.jsx';
 
-function HomeView() {
-	const [count, setCount] = useState(0);
-
+export default function HomeView() {
 	return (
 		<>
 			<div className="welcome pane" id="notes-pane">
@@ -20,5 +18,3 @@ function HomeView() {
     	</>
 	)
 }
-
-export default HomeView;

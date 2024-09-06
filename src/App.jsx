@@ -4,9 +4,7 @@ import Title from './Title.jsx';
 import View from './View.jsx';
 import Footer from './Footer.jsx';
 
-function App() {
-	const [count, setCount] = useState(0);
-
+export default function App() {
 	const [view, setView] = useState('Home');
 	const [notes, setNotes] = useState('');
 	
@@ -17,10 +15,6 @@ function App() {
 					<Navigation setView={setView} />
 					<Title title={view} />
 					<div id="panes">
-						{/* <RouterView :key="$route.path" @toggleItem="toggleItem" :itemsData="itemsData" /> */}
-						<button onClick={() => setCount((count) => count + 1)}>
-							count is {count}
-						</button>
 						<View notes={notes} setNotes={setNotes} view={view} />
 					</div>
 				</div>
@@ -30,5 +24,3 @@ function App() {
 		</>
 	)
 }
-
-export default App;
