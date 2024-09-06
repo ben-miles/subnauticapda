@@ -2,7 +2,10 @@ import {useState} from 'react';
 import ItemsData from "./assets/data/items.json";
 import Navigation from './Navigation.jsx';
 import Title from './Title.jsx';
-import View from './View.jsx';
+import HomeView from './HomeView.jsx';
+import ItemsView from './ItemsView.jsx';
+import ListView from './ListView.jsx';
+import NotesView from './NotesView.jsx';
 import Footer from './Footer.jsx';
 
 export default function App() {
@@ -17,7 +20,10 @@ export default function App() {
 					<Navigation setView={setView} />
 					<Title title={view} />
 					<div id="panes">
-						<View items={items} setItems={setItems} notes={notes} setNotes={setNotes} view={view} />
+						<HomeView view={view} />
+						<ItemsView view={view} items={items} setItems={setItems} />
+						<ListView view={view} />
+						<NotesView view={view} notes={notes} setNotes={setNotes} />
 					</div>
 				</div>
 			</div>
