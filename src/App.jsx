@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import {useState} from 'react';
 import Navigation from './Navigation.jsx';
 import Title from './Title.jsx';
 import HomeView from './HomeView.jsx';
@@ -10,12 +10,13 @@ import Footer from './Footer.jsx';
 function App() {
 	const [count, setCount] = useState(0);
 
+	const [view, setView] = useState('Home');
 	return (
 		<>
 			<div id="pda">
 				<div id="screen">
 					<Title />
-					<Navigation />
+					<Navigation setView={setView} />
 					<div id="panes">
 						<HomeView />
 						<ItemsView />

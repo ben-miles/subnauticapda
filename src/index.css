@@ -208,10 +208,11 @@ button {
 	position: relative;
 	top: 10px;
 	width: 10px;
+	transform: skew(20deg) !important;
 }
 
 #tabs .tab:hover,
-#tabs .tab.router-link-active {
+#tabs .tab.active {
 	background: #114cbf;
 }
 
@@ -219,12 +220,14 @@ button {
 	fill: #fff;
 }
 
-#tabs .tab.router-link-active:after {
+#tabs .tab.active:after {
 	background: #f3feff;
 	box-shadow: 0 0 5px #2f5cb3, 0 0 5px #2f5cb3;
 }
 
-#tabs .tab div,
+#tabs .tab span {
+	display: none;
+}
 #tabs .tab svg {
 	transform: skew(20deg) !important;
 }
