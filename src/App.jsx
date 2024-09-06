@@ -1,10 +1,7 @@
 import {useState} from 'react';
 import Navigation from './Navigation.jsx';
 import Title from './Title.jsx';
-import HomeView from './HomeView.jsx';
-import ItemsView from './ItemsView.jsx';
-import ListView from './ListView.jsx';
-import NotesView from './NotesView.jsx';
+import View from './View.jsx';
 import Footer from './Footer.jsx';
 
 function App() {
@@ -18,14 +15,11 @@ function App() {
 					<Navigation setView={setView} />
 					<Title title={view} />
 					<div id="panes">
-						<HomeView />
-						<ItemsView />
-						<ListView />
-						<NotesView />
 						{/* <RouterView :key="$route.path" @toggleItem="toggleItem" :itemsData="itemsData" /> */}
 						<button onClick={() => setCount((count) => count + 1)}>
 							count is {count}
 						</button>
+						<View notes={notes} setNotes={setNotes} view={view} />
 					</div>
 				</div>
 			</div>
