@@ -1,23 +1,12 @@
 import { useState } from 'react';
 
-// export default {
-// 	data() {
-// 		return {
-// 			notes: ""
-// 		}
-// 	},
-// }
-
-function NotesView() {
-	const [count, setCount] = useState(0);
-
+export default function NotesView({notes, setNotes}) {
+	const changeHandler = (event) => {
+		setNotes(event.target.value);
+	};
 	return (
-		<>
-			<div className="pane" id="notes-pane">
-				<textarea v-model="notes" placeholder="Keep your notes here."></textarea>
-			</div>
-		</>
+		<div className="pane" id="notes-pane">
+			<textarea onChange={changeHandler} placeholder="Keep your notes here." value={notes}></textarea>
+		</div>
 	)
 }
-
-export default NotesView;

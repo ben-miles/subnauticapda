@@ -8,6 +8,8 @@ function App() {
 	const [count, setCount] = useState(0);
 
 	const [view, setView] = useState('Home');
+	const [notes, setNotes] = useState('');
+	
 	return (
 		<>
 			<div id="pda">
