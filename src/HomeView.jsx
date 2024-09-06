@@ -6,7 +6,7 @@ function HomeView() {
 
 	return (
 		<>
-			<div className="pane" id="notes-pane">
+			<div className="welcome pane" id="notes-pane">
 				<div id="spoiler">
 					<IconAlert />
 					<span><b>Spoiler Alert!</b> If you have not yet completed <i>Subnautica</i>, you <b>will</b> encounter spoilers using this app.</span>
