@@ -16,8 +16,7 @@ export default function Navigation({setView}) {
 		setButtons(buttons.map(button => ({
 			...button,
 			isActive: button.label === label
-		}))); 
-		
+		})));
 	};
 	return (
 		<>

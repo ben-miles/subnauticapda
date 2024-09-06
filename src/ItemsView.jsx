@@ -1,29 +1,3 @@
-import { useState } from 'react';
-
-// export default {
-// 	components: {},
-// 	data() {
-// 		return {}
-// 	},
-// 	emits: ["toggleItem"],
-// 	methods: {
-// 		// Toggle group
-// 		toggle: function(groupId){
-// 			let group = document.getElementById(groupId);
-// 			group.classList.toggle("collapsed");
-// 		},
-// 		toggleItem(itemId) {
-// 			// console.log(itemId)
-// 			this.$emit("toggleItem", itemId);
-// 		}
-// 	},
-// 	props: {
-// 		itemsData: Object,
-// 		list: Array
-// 	}
-// }
-
-	const [count, setCount] = useState(0);
 export default function ItemsView({items, setItems}) {
 	const toggleGroup = (id) => {
 		let group = document.getElementById(id);
@@ -31,7 +5,6 @@ export default function ItemsView({items, setItems}) {
 	};
 
 	return (
-		<>
 		<div className="pane" id="items-pane">
 			<div id="items-container">
 				{items.map((group) => (
@@ -44,9 +17,6 @@ export default function ItemsView({items, setItems}) {
 							</div>
 						))}
 					</div>
-				</div>
-			</div> */}
-		</>
 				))}
 			</div>
 		</div>
