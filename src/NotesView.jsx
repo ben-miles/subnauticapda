@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 export default function NotesView({notes, setNotes}) {
 	const changeHandler = (event) => {
 		setNotes(event.target.value);
