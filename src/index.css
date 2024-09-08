@@ -445,7 +445,8 @@ footer a:hover .icon-github {
 	background: #114cbf;
 }
 
-.group .item:active {
+.group .item:active,
+.group .item.active {
 	background: #f28d00;
 }
 
