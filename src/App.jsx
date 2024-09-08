@@ -21,8 +21,8 @@ export default function App() {
 					<Title title={view} />
 					<div id="panes">
 						<HomeView view={view} />
+						<ListView view={view} items={items} setItems={setItems} />
 						<ItemsView view={view} items={items} setItems={setItems} />
-						<ListView view={view} />
 						<NotesView view={view} notes={notes} setNotes={setNotes} />
 					</div>
 				</div>
