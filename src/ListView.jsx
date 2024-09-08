@@ -15,35 +15,32 @@ export default function ListView({items, setItems, view}) {
 												<path d="M38.9,10.53a12,12,0,1,0,12,12A12,12,0,0,0,38.9,10.53Zm0,20.7a8.68,8.68,0,1,1,8.67-8.68A8.68,8.68,0,0,1,38.9,31.23Z"></path>
 											</svg>
 										</button>
-										{item.hasOwnProperty('recipe') ? <div className="quantity-buttons">
+										{item.hasOwnProperty('recipe') && <div className="quantity-buttons">
 											<button v-on:click="changeQuantity('+',index)" aria-label="Increase Quantity" title="Increase Quantity">+</button>
 											<button v-on:click="changeQuantity('-',index)" aria-label="Decrease Quantity" title="Decrease Quantity">-</button>
-										</div> : ''}
+										</div>}
 									</div>
 									<div className="item">
 										<img src={'./src/assets/images/' + item.id + '.png'} />
 										<div className="label">
-											{item.hasOwnProperty('recipe') ? <span className="yield">{ item.recipe.yield }</span> : ''}
+											{item.hasOwnProperty('recipe') && <span className="yield">{ item.recipe.yield }</span>}
 											<span>{ item.name }</span> 
 										</div>
 									</div>
-									{item.hasOwnProperty('location') ? <div className="data"><h3>Found in:</h3><div className="location">{ item.location }</div></div> : ''}
-									{item.hasOwnProperty('recipe') ? 
-										<div className="data">
-											<h3>Crafted from:</h3>
-											<div className="recipe">
-											{item.recipe.ingredients.map((ingredient) => (
-													<div className="ingredient">
-														<span className="quantity">{ ingredient.quantity }</span>
-														<img src={'./src/assets/images/' + ingredient.id + '.png'} />
-														<span className="name">{ ingredient.name }</span>
-													</div>
-												))}
-											</div>
-										</div> 
-									: 
-										''
-									}
+									{item.hasOwnProperty('location') && <div className="data"><h3>Found in:</h3><div className="location">{ item.location }</div></div>}
+									{item.hasOwnProperty('recipe') && 
+									<div className="data">
+										<h3>Crafted from:</h3>
+										<div className="recipe">
+										{item.recipe.ingredients.map((ingredient) => (
+												<div className="ingredient" key={ingredient.id}>
+													<span className="quantity">{ ingredient.quantity }</span>
+													<img src={'./src/assets/images/' + ingredient.id + '.png'} />
+													<span className="name">{ ingredient.name }</span>
+												</div>
+											))}
+										</div>
+									</div>}
 								</div>
 							))
 						))}
