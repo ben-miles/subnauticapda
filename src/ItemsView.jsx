@@ -1,12 +1,12 @@
 export default function ItemsView({view, items, setItems}) {
-	const toggleGroup = (groupIndex) => {
-		let itemsCopy = [...items];
-		itemsCopy[groupIndex].isOpen = !itemsCopy[groupIndex].isOpen;
+	const toggleGroup = (groupId) => {
+		let itemsCopy = {...items};
+		itemsCopy[groupId].isOpen = !itemsCopy[groupId].isOpen;
 		setItems(itemsCopy);
 	};
-	const toggleItem = (groupIndex,itemIndex) => {
-		let itemsCopy = [...items];
-		itemsCopy[groupIndex].items[itemIndex].isActive = !itemsCopy[groupIndex].items[itemIndex].isActive;
+	const toggleItem = (groupId,itemId) => {
+		let itemsCopy = {...items};
+		itemsCopy[groupId].items[itemId].isActive = !itemsCopy[groupId].items[itemId].isActive;
 		setItems(itemsCopy);
 	};
 
@@ -14,13 +14,13 @@ export default function ItemsView({view, items, setItems}) {
 		return (
 			<div className="pane" id="items-pane">
 				<div id="items-container">
-					{items.map((group, groupIndex) => (
-						<div className={'group ' + (group.isOpen ? 'open' : '')} id={group.id} key={groupIndex}>
-							<h3 onClick={() => { toggleGroup(groupIndex); }}>{group.name}</h3>
-							{group.items.map((item, itemIndex) => (
-								<div className={'item ' + (item.isActive ? 'active' : '')} id={item.id} key={itemIndex} onClick={() => { toggleItem(groupIndex,itemIndex); }}>
-									<img src={'./src/assets/images/' + item.id + '.png'} />
-									<span>{item.name}</span>
+					{Object.entries(items).map(([groupKey, groupValue]) => (
+						<div className={'group ' + (groupValue.isOpen ? 'open' : '')} id={groupKey} key={groupKey}>
+							<h3 onClick={() => { toggleGroup(groupKey); }}>{groupValue.name}</h3>
+							{Object.entries(groupValue.items).map(([itemKey, itemValue]) => (
+								<div className={'item ' + (itemValue.isActive ? 'active' : '')} id={itemKey} key={itemKey} onClick={() => { toggleItem(groupKey,itemKey); }}>
+									<img src={'./src/assets/images/' + itemKey + '.png'} />
+									<span>{itemValue.name}</span>
 								</div>
 							))}
 						</div>
