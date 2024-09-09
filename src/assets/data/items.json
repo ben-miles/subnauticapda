@@ -1,348 +1,348 @@
-[
-	{
+{
+	"floraseeds": {
 		"id": "floraseeds",
 		"name": "Flora & Seeds",
 		"description": "",
-		"items": [
-			{
+		"items": {
+			"acidmushroom": {
 				"id": "acidmushroom",
 				"name": "Acid Mushroom",
 				"location": "Crash Zone, Grassy Plateaus, Grassy Plateaus Caves, Lost River, Mushroom Forest, Reefback, Safe Shallows, Safe Shallows Caves"
 			},
-			{
+			"acidmushroomspore": {
 				"id": "acidmushroomspore",
 				"name": "Acid Mushroom Spore",
 				"location": "Crash Zone, Grassy Plateaus, Grassy Plateaus Caves, Lost River, Mushroom Forest, Reefback, Safe Shallows, Safe Shallows Caves"
 			},
-			{
+			"bloodoil": {
 				"id": "bloodoil",
 				"name": "Blood Oil",
 				"location": "Blood Kelp Caves, Blood Kelp Zone"
 			},
-			{
+			"bluepalmseed": {
 				"id": "bluepalmseed",
 				"name": "Blue Palm Seed",
 				"location": "Bulb Zone, Mushroom Forest, Mountains Caves, Safe Shallows"
 			},
-			{
+			"braincoralsample": {
 				"id": "braincoralsample",
 				"name": "Brain Coral Sample",
 				"location": "Bulb Zone, Grassy Plateaus, Kelp Forest, Mountains, Mushroom Forest, Safe Shallows"
 			},
-			{
+			"bulbbushsample": {
 				"id": "bulbbushsample",
 				"name": "Bulb Bush Sample",
 				"location": "Bulb Zone"
 			},
-			{
+			"bulbtreesample": {
 				"id": "bulbtreesample",
 				"name": "Bulb Tree Sample",
 				"location": "Floating Island, Mountain Island"
 			},
-			{
+			"cavebushseed": {
 				"id": "cavebushseed",
 				"name": "Cave Bush Seed",
 				"location": "Jellyshroom Cave, Mountains Caves, Sea Treader's Path, Sea Treader's Tunnel Caves"
 			},
-			{
+			"chinesepotato": {
 				"id": "chinesepotato",
 				"name": "Chinese Potato",
 				"location": "Floating Island"
 			},
-			{
+			"coraltubesample": {
 				"id": "coraltubesample",
 				"name": "Coral Tube Sample",
 				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
 			},
-			{
+			"creepvinesample": {
 				"id": "creepvinesample",
 				"name": "Creepvine Sample",
 				"location": "Kelp Forest"
 			},
-			{
+			"creepvineseedcluster": {
 				"id": "creepvineseedcluster",
 				"name": "Creepvine Seed Cluster",
 				"location": "Kelp Forest"
 			},
-			{
+			"deepshroom": {
 				"id": "deepshroom",
 				"name": "Deep Shroom",
 				"location": "Blood Kelp Zone, Sea Treader's Path, Sea Treader's Tunnel Caves"
 			},
-			{
+			"deepshroomspore": {
 				"id": "deepshroomspore",
 				"name": "Deep Shroom Spore",
 				"location": "Blood Kelp Zone, Sea Treader's Path, Sea Treader's Tunnel Caves"
 			},
-			{
+			"eyestalkseed": {
 				"id": "eyestalkseed",
 				"name": "Eye Stalk Seed",
 				"location": "Bulb Zone Caves, Kelp Forest Caves, Mountains Caves, Sparse Reef"
 			},
-			{
+			"fernpalmseed": {
 				"id": "fernpalmseed",
 				"name": "Fern Palm Seed",
 				"location": "Floating Island"
 			},
-			{
+			"fungalsample": {
 				"id": "fungalsample",
 				"name": "Fungal Sample",
 				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
 			},
-			{
+			"furledpapyrusseed": {
 				"id": "furledpapyrusseed",
 				"name": "Furled Papyrus Seed",
 				"location": "Grassy Plateaus, Grassy Plateaus Caves, Jellyshroom Cave, Mountains Caves, Reefback, Sea Treader's Tunnel Caves"
 			},
-			{
+			"gabesfeatherseed": {
 				"id": "gabesfeatherseed",
 				"name": "Gabe's Feather Seed",
 				"location": "Blood Kelp Zone, Sea Treader's Path, Sea Treader's Tunnel Caves"
 			},
-			{
+			"gelsack": {
 				"id": "gelsack",
 				"name": "Gel Sack",
 				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
 			},
-			{
+			"ghostweedseed": {
 				"id": "ghostweedseed",
 				"name": "Ghost Weed Seed",
 				"location": "Blood Kelp Zone, Bulb Zone, Lost River, Mountains"
 			},
-			{
+			"grubbasketseed": {
 				"id": "grubbasketseed",
 				"name": "Grub Basket Seed",
 				"location": "Floating Island"
 			},
-			{
+			"jaffacupseed": {
 				"id": "jaffacupseed",
 				"name": "Jaffa Cup Seed",
 				"location": "Floating Island"
 			},
-			{
+			"jellyshroomspore": {
 				"id": "jellyshroomspore",
 				"name": "Jellyshroom Spore",
 				"location": "Jellyshroom Cave"
 			},
-			{
+			"lanternfruit": {
 				"id": "lanternfruit",
 				"name": "Lantern Fruit",
 				"location": "Floating Island"
 			},
-			{
+			"marblemelon": {
 				"id": "marblemelon",
 				"name": "Marblemelon",
 				"location": "Floating Island"
 			},
-			{
+			"marblemelonseeds": {
 				"id": "marblemelonseeds",
 				"name": "Marblemelon Seeds",
 				"location": "Grand Reef, Sea Treader's Path"
 			},
-			{
+			"membraintreeseed": {
 				"id": "membraintreeseed",
 				"name": "Membrain Tree Seed",
 				"location": "Floating Island"
 			},
-			{
+			"mingplantseed": {
 				"id": "mingplantseed",
 				"name": "Ming Plant Seed",
 				"location": "Floating Island"
 			},
-			{
+			"pinkcap": {
 				"id": "pinkcap",
 				"name": "Pink Cap",
 				"location": "Floating Island"
 			},
-			{
+			"pinkcapspore": {
 				"id": "pinkcapspore",
 				"name": "Pink Cap Spore",
 				"location": "Floating Island"
 			},
-			{
+			"pygmyfanseed": {
 				"id": "pygmyfanseed",
 				"name": "Pygmy Fan Seed",
 				"location": "Bulb Zone, Kelp Forest, Mushroom Forest"
 			},
-			{
+			"redwortseed": {
 				"id": "redwortseed",
 				"name": "Redwort Seed",
 				"location": "Grassy Plateaus, Jellyshroom Cave, Sparse Reef, Underwater Islands"
 			},
-			{
+			"regressshellseed": {
 				"id": "regressshellseed",
 				"name": "Regress Shell Seed",
 				"location": "Grassy Plateaus Caves, Mountains Caves, Reefback, Sea Treader's Tunnel Caves"
 			},
-			{
+			"rougecradleseed": {
 				"id": "rougecradleseed",
 				"name": "Rouge Cradle Seed",
 				"location": "Grassy Plateaus, Grassy Plateaus Caves, Reefback"
 			},
-			{
+			"seacrownseed": {
 				"id": "seacrownseed",
 				"name": "Sea Crown Seed",
 				"location": "Bulb Zone, Dunes, Dunes Caves, Grassy Plateaus Caves"
 			},
-			{
+			"smallmarblemelon": {
 				"id": "smallmarblemelon",
 				"name": "Small Marblemelon",
 				"location": "Floating Island"
 			},
-			{
+			"speckledrattler": {
 				"id": "speckledrattler",
 				"name": "Speckled Rattler",
 				"location": "Floating Island"
 			},
-			{
+			"speckledrattlerspore": {
 				"id": "speckledrattlerspore",
 				"name": "Speckled Rattler Spore",
 				"location": "Floating Island"
 			},
-			{
+			"spikedhorngrassseed": {
 				"id": "spikedhorngrassseed",
 				"name": "Spiked Horn Grass Seed",
 				"location": "Bulb Zone Caves, Sea Treader's Path"
 			},
-			{
+			"spotteddockleafseed": {
 				"id": "spotteddockleafseed",
 				"name": "Spotted Dockleaf Seed",
 				"location": "Bulb Zone, Bulb Zone Caves, Mountains Caves, Underwater Islands"
 			},
-			{
+			"tigerplantseed": {
 				"id": "tigerplantseed",
 				"name": "Tiger Plant Seed",
 				"location": "Grassy Plateaus, Grassy Plateaus Caves, Reefback, Sparse Reef"
 			},
-			{
+			"tablecoralsample": {
 				"id": "tablecoralsample",
 				"name": "Table Coral Sample",
 				"location": "Bulb Zone, Crash Zone, Crash Zone Mesas, Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Lost River, Mushroom Forest, Reefback Leviathan, Safe Shallows"
 			},
-			{
+			"veinednettleseed": {
 				"id": "veinednettleseed",
 				"name": "Veined Nettle Seed",
 				"location": "Grassy Plateaus, Mushroom Forest, Reefback, Safe Shallows, Safe Shallows Caves"
 			},
-			{
+			"violetbeauseed": {
 				"id": "violetbeauseed",
 				"name": "Violet Beau Seed",
 				"location": "Grassy Plateaus, Jellyshroom Cave, Mountains Caves, Reefback, Sea Treader's Path"
 			},
-			{
+			"voxelshrubseed": {
 				"id": "voxelshrubseed",
 				"name": "Voxel Shrub Seed",
 				"location": "Floating Island"
 			},
-			{
+			"writhingweedseed": {
 				"id": "writhingweedseed",
 				"name": "Writhing Weed Seed",
 				"location": "Bulb Zone, Grassy Plateaus, Mushroom Forest, Mushroom Forest Caves, Reefback, Safe Shallows, Safe Shallows Caves"
 			}
-		]
+		}
 	},
-	{
+	"rawmaterials": {
 		"id": "rawmaterials",
 		"name": "Raw Materials",
 		"description": "Raw Materials are items for crafting processes and comprise all non-crafted materials found in Subnautica, one exception being Titanium, which can also be crafted from Metal Salvage.",
 		"tool": "",
-		"items": [
-			{
+		"items": {
+			"alienfeces": {
 				"id": "alienfeces",
 				"name": "Alien Feces",
 				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
 			},
-			{
+			"cavesulfur": {
 				"id": "cavesulfur",
 				"name": "Cave Sulfur",
 				"location": "Kelp Forest Caves, Safe Shallows Caves"
 			},
-			{
+			"copper": {
 				"id": "copper",
 				"name": "Copper",
 				"location": "Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Reefback, Safe Shallows, Safe Shallows Caves, Sparse Reef, Underwater Islands"
 			},
-			{
+			"crystallinesulfur": {
 				"id": "crystallinesulfur",
 				"name": "Crystalline Sulfur",
 				"location": "Inactive Lava Zone, Lava Lakes, Lost River"
 			},
-			{
+			"diamond": {
 				"id": "diamond",
 				"name": "Diamond",
 				"location": "Blood Kelp Caves, Bulb Zone, Deep Grand Reef, Grand Reef, Inactive Lava Zone, Mountains, Mountains Caves, Underwater Islands"
 			},
-			{
+			"gaspod": {
 				"id": "gaspod",
 				"name": "Gas Pod",
 				"location": "Crash Zone Mesas, Dunes, Safe Shallows"
 			},
-			{
+			"gold": {
 				"id": "gold",
 				"name": "Gold",
 				"location": "Blood Kelp Caves, Bulb Zone, Bulb Zone Caves, Crash Zone, Deep Grand Reef, Dunes, Grand Reef, Grassy Plateaus, Jellyshroom Cave, Mushroom Forest, Safe Shallows Caves, Underwater Islands"
 			},
-			{
+			"ioncube": {
 				"id": "ioncube",
 				"name": "Ion Cube",
 				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
 			},
-			{
+			"kyanite": {
 				"id": "kyanite",
 				"name": "Kyanite",
 				"location": "Inactive Lava Zone, Lava Castle, Lava Lakes"
 			},
-			{
+			"lead": {
 				"id": "lead",
 				"name": "Lead",
 				"location": "Bulb Zone, Crash Zone, Crash Zone Mesas, Dunes, Dunes Caves, Grand Reef, Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Lava Geyser, Mountains, Mountain Island, Mushroom Forest, Safe Shallows, Safe Shallows Caves"
 			},
-			{
+			"lithium": {
 				"id": "lithium",
 				"name": "Lithium",
 				"location": "Bulb Zone, Bulb Zone Caves, Crag Field, Crash Zone, Dunes, Dunes Caves, Floating Island, Grassy Plateaus, Jellyshroom Cave, Mountain Island, Mountains, Mountains Caves, Mushroom Forest, Mushroom Forest Caves, Sea Treader's Path, Sparse Reef"
 			},
-			{
+			"magnetite": {
 				"id": "magnetite",
 				"name": "Magnetite",
 				"location": "Jellyshroom Cave, Mountain Island, Mountains, Mountains Caves"
 			},
-			{
+			"metalsalvage": {
 				"id": "metalsalvage",
 				"name": "Metal Salvage",
 				"location": "Aurora, Blood Kelp Zone, Crash Zone, Dunes, Grassy Plateaus, Kelp Forest, Safe Shallows"
 			},
-			{
+			"nickelore": {
 				"id": "nickelore",
 				"name": "Nickel Ore",
 				"location": "Lost River"
 			},
-			{
+			"quartz": {
 				"id": "quartz",
 				"name": "Quartz",
 				"location": "Blood Kelp Caves, Blood Kelp Zone, Crash Zone, Dunes, Grand Reef, Grassy Plateaus, Kelp Forest, Safe Shallows, Safe Shallows Caves, Sea Treader's Path, Sea Treader's Tunnel Caves"
 			},
-			{
+			"ruby": {
 				"id": "ruby",
 				"name": "Ruby",
 				"location": "Bone Fields Caves, Bulb Zone, Deep Grand Reef, Deep Sparse Reef, Grand Reef, Inactive Lava Zone Corridor, Lost River, Mountains Caves, Sea Treader's Path, Sea Treader's Tunnel Caves"
 			},
-			{
+			"saltdeposit": {
 				"id": "saltdeposit",
 				"name": "Salt Deposit",
 				"location": "Aurora, Bulb Zone, Crash Zone, Deep Grand Reef, Floating Island, Grassy Plateaus, Kelp Forest, Mushroom Forest, Safe Shallows, Sparse Reef, Underwater Islands"
 			},
-			{
+			"silverore": {
 				"id": "silverore",
 				"name": "Silver Ore",
 				"location": "Dunes, Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Reefback, Safe Shallows Caves"
 			},
-			{
+			"stalkertooth": {
 				"id": "stalkertooth",
 				"name": "Stalker Tooth",
 				"location": "Kelp Forest"
 			},
-			{
+			"titanium": {
 				"id": "titanium",
 				"name": "Titanium",
 				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves",
@@ -357,20 +357,20 @@
 					"yield": 4
 				}
 			},
-			{
+			"uraninitecrystal": {
 				"id": "uraninitecrystal",
 				"name": "Uraninite Crystal",
 				"location": "Blood Kelp Zone, Grand Reef, Lost River, Mountains"
 			}
-		]
+		}
 	},
-	{
+	"basicmaterials": {
 		"id": "basicmaterials",
 		"name": "Basic Materials",
 		"description": "Basic Materials are part of the resources branch of the Fabricator, along with Electronics. They are gained from Raw Materials through crafting.",
 		"tool": "Fabricator",
-		"items": [
-			{
+		"items": {
+			"bleach": {
 				"id": "bleach",
 				"name": "Bleach",
 				"recipe": {
@@ -389,7 +389,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"enameledglass": {
 				"id": "enameledglass",
 				"name": "Enameled Glass",
 				"recipe": {
@@ -408,7 +408,7 @@
 					"yield": 1
 				}	
 			},
-			{
+			"fibermesh": {
 				"id": "fibermesh",
 				"name": "Fiber Mesh",
 				"recipe": {
@@ -422,7 +422,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"glass": {
 				"id": "glass",
 				"name": "Glass",
 				"recipe": {
@@ -436,7 +436,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"lubricant": {
 				"id": "lubricant",
 				"name": "Lubricant",
 				"recipe": {
@@ -450,7 +450,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"plasteelingot": {
 				"id": "plasteelingot",
 				"name": "Plasteel Ingot",
 				"recipe": {
@@ -469,7 +469,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"siliconerubber": {
 				"id": "siliconerubber",
 				"name": "Silicone Rubber",
 				"recipe": {
@@ -483,7 +483,7 @@
 					"yield": 2
 				}
 			},
-			{
+			"titaniumingot": {
 				"id": "titaniumingot",
 				"name": "Titanium Ingot",
 				"recipe": {
@@ -497,15 +497,15 @@
 					"yield": 1
 				}
 			}
-		]
+		}
 	},
-	{
+	"advancedmaterials": {
 		"id": "advancedmaterials",
 		"name": "Advanced Materials",
 		"description": "Advanced Materials are part of the resources branch of the Fabricator. They are gained from raw materials and basic materials through crafting.",
 		"tool": "Fabricator",
-		"items": [
-			{
+		"items": {
+			"aerogel": {
 				"id": "aerogel",
 				"name": "Aerogel",
 				"recipe": {
@@ -524,7 +524,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"benzene": {
 				"id": "benzene",
 				"name": "Benzene",
 				"recipe": {
@@ -538,7 +538,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"hydrochloricacid": {
 				"id": "hydrochloricacid",
 				"name": "Hydrochloric Acid",
 				"recipe": {
@@ -557,7 +557,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"polyaniline": {
 				"id": "polyaniline",
 				"name": "Polyaniline",
 				"recipe": {
@@ -576,7 +576,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"syntheticfibers": {
 				"id": "syntheticfibers",
 				"name": "Synthetic Fibers",
 				"recipe": {
@@ -595,15 +595,15 @@
 					"yield": 1
 				}
 			}
-		]
+		}
 	},
-	{
+	"electronics": {
 		"id": "electronics",
 		"name": "Electronics",
 		"description": "Electronics are crafted through the combination of two or more items via the Fabricator. Some items are only available by using the Console Commands or in Creative Mode.",
 		"tool": "Fabricator",
-		"items": [
-			{
+		"items": {
+			"advancedwiringkit": {
 				"id": "advancedwiringkit",
 				"name": "Advanced Wiring Kit",
 				"recipe": {
@@ -627,7 +627,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"battery": {
 				"id": "battery",
 				"name": "Battery",
 				"recipe": {
@@ -646,7 +646,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"computerchip": {
 				"id": "computerchip",
 				"name": "Computer Chip",
 				"recipe": {
@@ -670,7 +670,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"copperwire": {
 				"id": "copperwire",
 				"name": "Copper Wire",
 				"recipe": {
@@ -684,7 +684,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"ionbattery": {
 				"id": "ionbattery",
 				"name": "Ion Battery",
 				"recipe": {
@@ -708,7 +708,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"ionpowercell": {
 				"id": "ionpowercell",
 				"name": "Ion Power Cell",
 				"recipe": {
@@ -727,7 +727,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"powercell": {
 				"id": "powercell",
 				"name": "Power Cell",
 				"recipe": {
@@ -746,7 +746,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"reactorrod": {
 				"id": "reactorrod",
 				"name": "Reactor Rod",
 				"recipe": {
@@ -775,7 +775,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"wiringkit": {
 				"id": "wiringkit",
 				"name": "Wiring Kit",
 				"recipe": {
@@ -789,15 +789,15 @@
 					"yield": 1
 				}
 			}
-		]
+		}
 	},
-	{
+	"equipment": {
 		"id": "equipment",
 		"name": "Equipment",
 		"description": "Equipment is crafted from Basic Materials or Advanced Materials by using the Fabricator and the Modification Station.",
 		"tool": "Fabricator, Modification Station",
-		"items": [
-			{
+		"items": {
+			"compass": {
 				"id": "compass",
 				"name": "Compass",
 				"recipe": {
@@ -816,7 +816,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"fins": {
 				"id": "fins",
 				"name": "Fins",
 				"recipe": {
@@ -830,7 +830,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"fireextinguisher": {
 				"id": "fireextinguisher",
 				"name": "Fire Extinguisher",
 				"recipe": {
@@ -844,7 +844,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"firstaidkit": {
 				"id": "firstaidkit",
 				"name": "First Aid Kit",
 				"recipe": {
@@ -858,7 +858,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"floatingairpump": {
 				"id": "floatingairpump",
 				"name": "Floating Air Pump",
 				"recipe": {
@@ -872,7 +872,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"highcapacityo2tank": {
 				"id": "highcapacityo2tank",
 				"name": "High Capacity O2 Tank",
 				"recipe": {
@@ -901,7 +901,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"lightweighthighcapacitytank": {
 				"id": "lightweighthighcapacitytank",
 				"name": "Lightweight High Capacity Tank",
 				"recipe": {
@@ -920,7 +920,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"pipe": {
 				"id": "pipe",
 				"name": "Pipe",
 				"recipe": {
@@ -934,7 +934,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"radiationsuit": {
 				"id": "radiationsuit",
 				"name": "Radiation Suit",
 				"recipe": {
@@ -953,7 +953,7 @@
 					"yield": 5
 				}
 			},
-			{
+			"rebreather": {
 				"id": "rebreather",
 				"name": "Rebreather",
 				"recipe": {
@@ -972,7 +972,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"reinforceddivesuit": {
 				"id": "reinforceddivesuit",
 				"name": "Reinforced Dive Suit",
 				"recipe": {
@@ -996,7 +996,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"scannerroomhudchip": {
 				"id": "scannerroomhudchip",
 				"name": "Scanner Room HUD Chip",
 				"recipe": {
@@ -1015,7 +1015,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"standardo2tank": {
 				"id": "standardo2tank",
 				"name": "Standard O2 Tank",
 				"recipe": {
@@ -1029,7 +1029,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"stillsuit": {
 				"id": "stillsuit",
 				"name": "Stillsuit",
 				"recipe": {
@@ -1053,7 +1053,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"swimchargefins": {
 				"id": "swimchargefins",
 				"name": "Swim Charge Fins",
 				"recipe": {
@@ -1077,7 +1077,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"ultraglidefins": {
 				"id": "ultraglidefins",
 				"name": "Ultra Glide Fins",
 				"recipe": {
@@ -1106,7 +1106,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"ultrahighcapacitytank": {
 				"id": "ultrahighcapacitytank",
 				"name": "Ultra High Capacity Tank",
 				"recipe": {
@@ -1125,15 +1125,15 @@
 					"yield": 1
 				}
 			}
-		]
+		}
 	},
-	{
+	"deployables": {
 		"id": "deployables",
 		"name": "Deployables",
 		"description": "Deployables are items crafted using the Fabricator. Except for the Seaglide and the Creature Decoy, all other Deployables need to be deployed in the environment in order to function.",
 		"tool": "Fabricator",
-		"items": [
-			{
+		"items": {
+			"beacon": {
 				"id": "beacon",
 				"name": "Beacon",
 				"recipe": {
@@ -1152,7 +1152,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"creaturedecoy": {
 				"id": "creaturedecoy",
 				"name": "Creature Decoy",
 				"recipe": {
@@ -1171,7 +1171,7 @@
 					"yield": 2
 				}
 			},
-			{
+			"gravtrap": {
 				"id": "gravtrap",
 				"name": "Grav Trap",
 				"recipe": {
@@ -1195,7 +1195,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"mobilevehiclebay": {
 				"id": "mobilevehiclebay",
 				"name": "Mobile Vehicle Bay",
 				"recipe": {
@@ -1219,7 +1219,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"seaglide": {
 				"id": "seaglide",
 				"name": "Seaglide",
 				"recipe": {
@@ -1248,7 +1248,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"waterprooflocker": {
 				"id": "waterprooflocker",
 				"name": "Waterproof Locker",
 				"recipe": {
@@ -1262,15 +1262,15 @@
 					"yield": 1
 				}
 			}
-		]
+		}
 	},
-	{
+	"tools": {
 		"id": "tools",
 		"name": "Tools",
 		"description": "Tools are devices that are either crafted from Basic Materials or Advanced Materials by using the Fabricator or upgraded from other Tools using the Modification Station. They are carried in the Inventory and can be equipped in the Toolbar. Some of them can also consume Energy, like the Flashlight.",
 		"tool": "Fabricator",
-		"items": [
-			{
+		"items": {
+			"airbladder": {
 				"id": "airbladder",
 				"name": "Air Bladder",
 				"recipe": {
@@ -1289,7 +1289,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"flare": {
 				"id": "flare",
 				"name": "Flare",
 				"recipe": {
@@ -1303,7 +1303,7 @@
 					"yield": 5
 				}
 			},
-			{
+			"flashlight": {
 				"id": "flashlight",
 				"name": "Flashlight",
 				"recipe": {
@@ -1322,7 +1322,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"habitatbuilder": {
 				"id": "habitatbuilder",
 				"name": "Habitat Builder",
 				"recipe": {
@@ -1346,7 +1346,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"lasercutter": {
 				"id": "lasercutter",
 				"name": "Laser Cutter",
 				"recipe": {
@@ -1375,7 +1375,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"lightstick": {
 				"id": "lightstick",
 				"name": "Light Stick",
 				"recipe": {
@@ -1399,7 +1399,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"pathfindertool": {
 				"id": "pathfindertool",
 				"name": "Pathfinder Tool",
 				"recipe": {
@@ -1423,7 +1423,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"propulsioncannon": {
 				"id": "propulsioncannon",
 				"name": "Propulsion Cannon",
 				"recipe": {
@@ -1447,7 +1447,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"repairtool": {
 				"id": "repairtool",
 				"name": "Repair Tool",
 				"recipe": {
@@ -1471,7 +1471,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"repulsioncannon": {
 				"id": "repulsioncannon",
 				"name": "Repulsion Cannon",
 				"recipe": {
@@ -1495,7 +1495,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"scanner": {
 				"id": "scanner",
 				"name": "Scanner",
 				"recipe": {
@@ -1514,7 +1514,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"stasisrifle": {
 				"id": "stasisrifle",
 				"name": "Stasis Rifle",
 				"recipe": {
@@ -1543,7 +1543,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"survivalknife": {
 				"id": "survivalknife",
 				"name": "Survival Knife",
 				"recipe": {
@@ -1562,7 +1562,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"thermoblade": {
 				"id": "thermoblade",
 				"name": "Thermoblade",
 				"recipe": {
@@ -1581,15 +1581,15 @@
 					"yield": 1
 				}
 			}
-		]
+		}
 	},
-	{
+	"seamoth": {
 		"id": "seamoth",
 		"name": "Seamoth",
 		"description": "",
 		"tool": "Mobile Vehicle Bay",
-		"items": [
-			{
+		"items": {
+			"seamoth": {
 				"id": "seamoth",
 				"name": "Seamoth",
 				"recipe": {
@@ -1623,7 +1623,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"seamothdepthmodulemk1": {
 				"id": "seamothdepthmodulemk1",
 				"name": "Seamoth Depth Module MK1",
 				"recipe": {
@@ -1642,7 +1642,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"seamothdepthmodulemk2": {
 				"id": "seamothdepthmodulemk2",
 				"name": "Seamoth Depth Module MK2",
 				"recipe": {
@@ -1671,7 +1671,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"seamothdepthmodulemk3": {
 				"id": "seamothdepthmodulemk3",
 				"name": "Seamoth Depth Module MK3",
 				"recipe": {
@@ -1695,7 +1695,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"seamothstoragemodule": {
 				"id": "seamothstoragemodule",
 				"name": "Seamoth Storage Module",
 				"recipe": {
@@ -1714,7 +1714,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"seamothhullreinforcement": {
 				"id": "seamothhullreinforcement",
 				"name": "Seamoth Hull Reinforcement",
 				"recipe": {
@@ -1738,7 +1738,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"seamothengineefficiencymodule": {
 				"id": "seamothengineefficiencymodule",
 				"name": "Seamoth Engine Efficiency Module",
 				"recipe": {
@@ -1757,7 +1757,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"seamothsolarcharger": {
 				"id": "seamothsolarcharger",
 				"name": "Seamoth Solar Charger",
 				"recipe": {
@@ -1776,7 +1776,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"seamothperimeterdefensesystem": {
 				"id": "seamothperimeterdefensesystem",
 				"name": "Seamoth Perimeter Defense System",
 				"recipe": {
@@ -1795,7 +1795,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"seamothtorpedosystem": {
 				"id": "seamothtorpedosystem",
 				"name": "Seamoth Torpedo System",
 				"recipe": {
@@ -1819,7 +1819,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"seamothsonar": {
 				"id": "seamothsonar",
 				"name": "Seamoth Sonar",
 				"recipe": {
@@ -1838,15 +1838,15 @@
 					"yield": 1
 				}
 			}
-		]
+		}
 	},
-	{
+	"prawnsuit": {
 		"id": "prawnsuit",
 		"name": "Prawn Suit",
 		"description": "",
 		"tool": "Mobile vehicle Bay",
-		"items": [
-			{
+		"items": {
+			"prawnsuit": {
 				"id": "prawnsuit",
 				"name": "Prawn Suit",
 				"recipe": {
@@ -1885,7 +1885,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"prawnsuitdepthmodulemk1": {
 				"id": "prawnsuitdepthmodulemk1",
 				"name": "Prawn Suit Depth Module MK1",
 				"recipe": {
@@ -1909,7 +1909,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"prawnsuitdepthmodulemk2": {
 				"id": "prawnsuitdepthmodulemk2",
 				"name": "Prawn Suit Depth Module MK2",
 				"recipe": {
@@ -1938,7 +1938,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"prawnsuitstoragemodule": {
 				"id": "prawnsuitstoragemodule",
 				"name": "Prawn Suit Storage Module",
 				"recipe": {
@@ -1957,7 +1957,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"prawnsuithullreinforcement": {
 				"id": "prawnsuithullreinforcement",
 				"name": "Prawn Suit Hull Reinforcement",
 				"recipe": {
@@ -1981,7 +1981,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"prawnsuitengineefficiencymodule": {
 				"id": "prawnsuitengineefficiencymodule",
 				"name": "Prawn Suit Engine Efficiency Module",
 				"recipe": {
@@ -2000,7 +2000,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"prawnsuitthermalreactor": {
 				"id": "prawnsuitthermalreactor",
 				"name": "Prawn Suit Thermal Reactor",
 				"recipe": {
@@ -2024,7 +2024,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"prawnsuitjumpjetupgrade": {
 				"id": "prawnsuitjumpjetupgrade",
 				"name": "Prawn Suit Jump Jet Upgrade",
 				"recipe": {
@@ -2053,7 +2053,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"prawnsuitdrillarm": {
 				"id": "prawnsuitdrillarm",
 				"name": "Prawn Suit Drill Arm",
 				"recipe": {
@@ -2077,7 +2077,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"prawnsuitgrapplingarm": {
 				"id": "prawnsuitgrapplingarm",
 				"name": "Prawn Suit Grappling Arm",
 				"recipe": {
@@ -2106,7 +2106,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"prawnsuitpropulsioncannon": {
 				"id": "prawnsuitpropulsioncannon",
 				"name": "Prawn Suit Propulsion Cannon",
 				"recipe": {
@@ -2135,7 +2135,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"prawnsuittorpedoarm": {
 				"id": "prawnsuittorpedoarm",
 				"name": "Prawn Suit Torpedo Arm",
 				"recipe": {
@@ -2159,16 +2159,16 @@
 					"yield": 1
 				}
 			}
-		]
+		}
 	},
-	{
+	"cyclops": {
 		"id": "cyclops",
 		"name": "Cyclops",
 		"description": "",
 		"tool": "Mobile Vehicle Bay",
-		"items": [
-			{
-				"id": "Cyclops",
+		"items": {
+			"cyclops": {
+				"id": "cyclops",
 				"name": "Cyclops",
 				"recipe": {
 					"ingredients": [
@@ -2201,7 +2201,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"cyclopsdepthmodulemk1": {
 				"id": "cyclopsdepthmodulemk1",
 				"name": "Cyclops Depth Module MK1",
 				"recipe": {
@@ -2220,7 +2220,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"cyclopsdepthmodulemk2": {
 				"id": "cyclopsdepthmodulemk2",
 				"name": "Cyclops Depth Module MK2",
 				"recipe": {
@@ -2244,7 +2244,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"cyclopsdepthmodulemk3": {
 				"id": "cyclopsdepthmodulemk3",
 				"name": "Cyclops Depth Module MK3",
 				"recipe": {
@@ -2268,7 +2268,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"cyclopsengineefficiencymodule": {
 				"id": "cyclopsengineefficiencymodule",
 				"name": "Cyclops Engine Efficiency Module",
 				"recipe": {
@@ -2292,7 +2292,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"cyclopsthermalreactormodule": {
 				"id": "cyclopsthermalreactormodule",
 				"name": "Cyclops Thermal Reactor Module",
 				"recipe": {
@@ -2316,7 +2316,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"cyclopssonarmodule": {
 				"id": "cyclopssonarmodule",
 				"name": "Cyclops Sonar Module",
 				"recipe": {
@@ -2335,7 +2335,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"cyclopsfiresuppressionsystemmodule": {
 				"id": "cyclopsfiresuppressionsystemmodule",
 				"name": "Cyclops Fire Suppression System Module",
 				"recipe": {
@@ -2354,7 +2354,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"cyclopsdockingbayrepairmodule": {
 				"id": "cyclopsdockingbayrepairmodule",
 				"name": "Cyclops Docking Bay Repair Module",
 				"recipe": {
@@ -2373,7 +2373,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"cyclopscreaturedecoytubemodule": {
 				"id": "cyclopscreaturedecoytubemodule",
 				"name": "Cyclops Creature Decoy Tube Module",
 				"recipe": {
@@ -2397,7 +2397,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"cyclopsshieldgeneratormodule": {
 				"id": "cyclopsshieldgeneratormodule",
 				"name": "Cyclops Shield Generator Module",
 				"recipe": {
@@ -2421,14 +2421,14 @@
 					"yield": 1
 				}
 			}
-		]
+		}
 	},
-	{
+	"neptuneescaperocket": {
 		"id": "neptuneescaperocket",
 		"name": "Neptune Escape Rocket",
 		"description": "The Neptune Escape Rocket is a vehicle that is used to leave Planet 4546B. It consists of five constructable parts: the Neptune Launch Platform, the Neptune Gantry, Neptune Ion Boosters, Neptune Fuel Reserve, and Neptune Cockpit. The Neptune Launch Platform can be built using the Mobile Vehicle Bay, while the other four components are built on the launch platform.",
-		"items": [
-			{
+		"items": {
+			"neptunelaunchplatform": {
 				"id": "neptunelaunchplatform",
 				"name": "Neptune Launch Platform",
 				"recipe": {
@@ -2452,7 +2452,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"neptunegantry": {
 				"id": "neptunegantry",
 				"name": "Neptune Gantry",
 				"recipe": {
@@ -2476,7 +2476,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"neptuneionboosters": {
 				"id": "neptuneionboosters",
 				"name": "Neptune Ion Boosters",
 				"recipe": {
@@ -2505,7 +2505,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"neptunefuelreserve": {
 				"id": "neptunefuelreserve",
 				"name": "Neptune Fuel Reserve",
 				"recipe": {
@@ -2534,7 +2534,7 @@
 					"yield": 1
 				}
 			},
-			{
+			"neptunecockpit": {
 				"id": "neptunecockpit",
 				"name": "Neptune Cockpit",
 				"recipe": {
@@ -2563,6 +2563,6 @@
 					"yield": 1
 				}
 			}
-		]
+		}
 	}
-]
+}
