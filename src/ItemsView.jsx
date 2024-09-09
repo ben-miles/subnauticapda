@@ -6,7 +6,12 @@ export default function ItemsView({view, items, setItems}) {
 	};
 	const toggleItem = (groupId,itemId) => {
 		let itemsCopy = {...items};
-		itemsCopy[groupId].items[itemId].isActive = !itemsCopy[groupId].items[itemId].isActive;
+		if(itemsCopy[groupId].items[itemId].isActive) {
+			itemsCopy[groupId].items[itemId].isActive = false;
+		} else {
+			itemsCopy[groupId].items[itemId].isActive = true;
+			itemsCopy[groupId].items[itemId].quantity = itemsCopy[groupId].items[itemId].quantity ? itemsCopy[groupId].items[itemId].quantity : 1;
+		}
 		setItems(itemsCopy);
 	};
 

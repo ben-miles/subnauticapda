@@ -6,7 +6,24 @@ export default function ListView({items, setItems, view}) {
 			setItems(itemsCopy);
 		};
 	};
-	
+	const increment = (groupKey, itemKey) => {
+		return () => {
+			let itemsCopy = {...items};
+			itemsCopy[groupKey].items[itemKey].quantity = itemsCopy[groupKey].items[itemKey].quantity + 1;
+			setItems(itemsCopy);
+		};
+	};
+	const decrement = (groupKey, itemKey) => {
+		return () => {
+			let itemsCopy = {...items};
+			if(itemsCopy[groupKey].items[itemKey].quantity === 1) {
+				itemsCopy[groupKey].items[itemKey].isActive = false;
+			}
+			itemsCopy[groupKey].items[itemKey].quantity = itemsCopy[groupKey].items[itemKey].quantity - 1;
+			setItems(itemsCopy);
+		};
+	};
+
 	if (view === 'List') {
 		return (
 			<>
@@ -24,14 +41,15 @@ export default function ListView({items, setItems, view}) {
 											</svg>
 										</button>
 										{itemValue.hasOwnProperty('recipe') && <div className="quantity-buttons">
-											<button v-on:click="changeQuantity('+',index)" aria-label="Increase Quantity" title="Increase Quantity">+</button>
-											<button v-on:click="changeQuantity('-',index)" aria-label="Decrease Quantity" title="Decrease Quantity">-</button>
+											<button onClick={increment(groupKey, itemKey)} aria-label="Increase Quantity" title="Increase Quantity">+</button>
+											{/* <span>{itemValue.quantity}</span> */}
+											<button onClick={decrement(groupKey, itemKey)} aria-label="Decrease Quantity" title="Decrease Quantity">-</button>
 										</div>}
 									</div>
 									<div className="item">
 										<img src={'./src/assets/images/' + itemKey + '.png'} />
 										<div className="label">
-											{itemValue.hasOwnProperty('recipe') && <span className="yield">{ itemValue.recipe.yield }</span>}
+											{itemValue.hasOwnProperty('recipe') && <span className="yield">{ (itemValue.quantity * itemValue.recipe.yield) }</span>}
 											<span>{ itemValue.name }</span> 
 										</div>
 									</div>
@@ -42,7 +60,7 @@ export default function ListView({items, setItems, view}) {
 										<div className="recipe">
 										{itemValue.recipe.ingredients.map((ingredient) => (
 												<div className="ingredient" key={ingredient.id}>
-													<span className="quantity">{ingredient.quantity}</span>
+													<span className="quantity">{ (itemValue.quantity * ingredient.quantity) }</span>
 													<img src={'./src/assets/images/' + ingredient.id + '.png'} />
 													<span className="name">{ingredient.name}</span>
 												</div>
