@@ -1,3 +1,5 @@
+import IconEye from './IconEye.jsx';
+
 export default function ListView({items, setItems, view}) {
 	const remove = (groupKey, itemKey) => {
 		return () => {
@@ -34,11 +36,7 @@ export default function ListView({items, setItems, view}) {
 								<div className='list-item' key={itemKey}>
 									<div className="controls">
 										<button onClick={remove(groupKey, itemKey)} aria-label="Remove" title="Remove">
-											<svg viewBox="0 0 77.79 45.1">
-													"Eye" by Poups, FR: https://thenounproject.com/term/eye/3350406/ 
-												<path d="M77.29,22.68a44.82,44.82,0,0,0-76.74-2L0,21.54l.5.88a44.92,44.92,0,0,0,39,22.68A44.66,44.66,0,0,0,77.25,24.4l.54-.85ZM39.47,41.76A41.55,41.55,0,0,1,3.92,21.64a41.48,41.48,0,0,1,70,1.81A41.29,41.29,0,0,1,39.47,41.76Z"></path>
-												<path d="M38.9,10.53a12,12,0,1,0,12,12A12,12,0,0,0,38.9,10.53Zm0,20.7a8.68,8.68,0,1,1,8.67-8.68A8.68,8.68,0,0,1,38.9,31.23Z"></path>
-											</svg>
+											<IconEye />
 										</button>
 										{itemValue.hasOwnProperty('recipe') && <div className="quantity-buttons">
 											<button onClick={increment(groupKey, itemKey)} aria-label="Increase Quantity" title="Increase Quantity">+</button>
