@@ -47,7 +47,7 @@ export default function ListView({items, setItems, view}) {
 										</div>}
 									</div>
 									<div className="item">
-										<img src={'images/' + itemKey + '.png'} loading="lazy" />
+										<img src={'images/' + itemKey + '.png'} alt={itemValue.name} loading="lazy" />
 										<div className="label">
 											{itemValue.hasOwnProperty('recipe') && <span className="yield">{ (itemValue.quantity * itemValue.recipe.yield) }</span>}
 											<span>{ itemValue.name }</span> 
@@ -61,7 +61,7 @@ export default function ListView({items, setItems, view}) {
 										{itemValue.recipe.ingredients.map((ingredient) => (
 												<div className="ingredient" key={ingredient.id}>
 													<span className="quantity">{ (itemValue.quantity * ingredient.quantity) }</span>
-													<img src={'images/' + ingredient.id + '.png'} loading="lazy" />
+													<img src={'images/' + ingredient.id + '.png'} alt={ingredient.name} loading="lazy" />
 													<span className="name">{ingredient.name}</span>
 												</div>
 											))}

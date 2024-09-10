@@ -24,7 +24,7 @@ export default function ItemsView({view, items, setItems}) {
 							<h3 onClick={() => { toggleGroup(groupKey); }}>{groupValue.name}</h3>
 							{Object.entries(groupValue.items).map(([itemKey, itemValue]) => (
 								<div className={'item ' + (itemValue.isActive ? 'active' : '')} id={itemKey} key={itemKey} onClick={() => { toggleItem(groupKey,itemKey); }}>
-									<img src={'images/' + itemKey + '.png'} loading="lazy" />
+									<img src={'images/' + itemKey + '.png'} alt={itemValue.name} loading="lazy" />
 									<span>{itemValue.name}</span>
 								</div>
 							))}
