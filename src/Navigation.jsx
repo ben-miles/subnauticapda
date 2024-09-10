@@ -4,9 +4,10 @@ import IconDocument from './IconDocument.jsx';
 import IconWrench from './IconWrench.jsx';
 
 const navButtons = [
-	{ id: 0, isActive: true, label: 'List', icon: <IconBook /> },
+	{ id: 0, isActive: false, label: 'List', icon: <IconBook /> },
 	{ id: 1, isActive: false, label: 'Items', icon: <IconWrench /> },
 	{ id: 2, isActive: false, label: 'Notes', icon: <IconDocument /> },
+	{ id: 3, isActive: true, label: 'Home', icon: <IconDocument /> },
   ];
 
 export default function Navigation({setView}) {
