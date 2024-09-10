@@ -26,7 +26,7 @@ html,
 a,
 button {
 	cursor: pointer;
-	cursor: url(./assets/images/subnauticapda_cursor.svg), pointer;
+	cursor: url(/images/subnauticapda_cursor.svg), pointer;
 }
 
 #app {
@@ -37,7 +37,7 @@ button {
 }
 
 #pda {
-	background: url(./assets/images/subnauticapda_pda_sm.png);
+	background: url(/images/subnauticapda_pda_sm.png);
 	background-repeat: repeat-x;
 	background-size: contain;
 	height: calc(100vh - 100px);
@@ -48,7 +48,7 @@ button {
 
 @media (min-width: 1024px) {
 	#pda {
-		background: url(./assets/images/subnauticapda_pda_lg.png);
+		background: url(/images/subnauticapda_pda_lg.png);
 		background-position: 84.5% 0%;
 		background-size: cover;
 		height: 648px;
@@ -168,7 +168,7 @@ button {
 }
 
 #bkg {
-	background-image: url(./assets/images/subnauticapda_bkg.jpg);
+	background-image: url(/images/subnauticapda_bkg.jpg);
 	background-size: cover;
 	background-position: center;
 	filter: blur(10px);
