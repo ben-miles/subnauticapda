@@ -1,6 +1,6 @@
 # SubnauticaPDA
 
-<img src=".github/images/screenshot-home.jpg" width="200" /> <img src=".github/images/screenshot-items.jpg" width="200" /> <img src=".github/images/screenshot-list.jpg" width="200" /> <img src=".github/images/screenshot-notes.jpg" width="200" />
+<img src=".github/images/screenshot-home.png" width="200" /> <img src=".github/images/screenshot-items.png" width="200" /> <img src=".github/images/screenshot-list.png" width="200" /> <img src=".github/images/screenshot-notes.png" width="200" />
 
 A second-screen companion app for the game "Subnautica." Turn your phone or tablet into an expanded version of the in-game PDA, eliminating the need to pause while looking for crafting or location info.
 
