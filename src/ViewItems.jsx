@@ -6,10 +6,10 @@ export default function ViewItems({view, items, setItems}) {
 	};
 	const toggleItem = (groupId,itemId) => {
 		let itemsCopy = {...items};
-		if(itemsCopy[groupId].items[itemId].isActive) {
-			itemsCopy[groupId].items[itemId].isActive = false;
+		if(itemsCopy[groupId].items[itemId].isPinned) {
+			itemsCopy[groupId].items[itemId].isPinned = false;
 		} else {
-			itemsCopy[groupId].items[itemId].isActive = true;
+			itemsCopy[groupId].items[itemId].isPinned = true;
 			itemsCopy[groupId].items[itemId].quantity = itemsCopy[groupId].items[itemId].quantity ? itemsCopy[groupId].items[itemId].quantity : 1;
 		}
 		setItems(itemsCopy);
@@ -23,7 +23,7 @@ export default function ViewItems({view, items, setItems}) {
 						<div className={'group ' + (groupValue.isOpen ? 'open' : '')} id={groupKey} key={groupKey}>
 							<h3 onClick={() => { toggleGroup(groupKey); }}>{groupValue.name}</h3>
 							{Object.entries(groupValue.items).map(([itemKey, itemValue]) => (
-								<div className={'item ' + (itemValue.isActive ? 'active' : '')} id={itemKey} key={itemKey} onClick={() => { toggleItem(groupKey,itemKey); }}>
+								<div className={'item ' + (itemValue.isPinned ? 'active' : '')} id={itemKey} key={itemKey} onClick={() => { toggleItem(groupKey,itemKey); }}>
 									<img src={'images/' + itemKey + '.png'} alt={itemValue.name} loading="lazy" />
 									<span>{itemValue.name}</span>
 								</div>

@@ -4,7 +4,7 @@ import Navigation from './Navigation.jsx';
 import Title from './Title.jsx';
 import ViewHelp from './ViewHelp.jsx';
 import ViewItems from './ViewItems.jsx';
-import ViewList from './ViewList.jsx';
+import ViewPinned from './ViewPinned.jsx';
 import ViewNotes from './ViewNotes.jsx';
 import Footer from './Footer.jsx';
 
@@ -20,7 +20,7 @@ export default function App() {
 					<Navigation setView={setView} />
 					<Title title={view} />
 					<div id="panes">
-						<ViewList view={view} items={items} setItems={setItems} />
+						<ViewPinned view={view} items={items} setItems={setItems} />
 						<ViewItems view={view} items={items} setItems={setItems} />
 						<ViewNotes view={view} notes={notes} setNotes={setNotes} />
 						<ViewHelp view={view} />

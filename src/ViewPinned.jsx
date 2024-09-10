@@ -1,10 +1,10 @@
 import IconEye from './IconEye.jsx';
 
-export default function ViewList({items, setItems, view}) {
+export default function ViewPinned({items, setItems, view}) {
 	const remove = (groupKey, itemKey) => {
 		return () => {
 			let itemsCopy = {...items};
-			itemsCopy[groupKey].items[itemKey].isActive = false;
+			itemsCopy[groupKey].items[itemKey].isPinned = false;
 			setItems(itemsCopy);
 		};
 	};
@@ -19,21 +19,21 @@ export default function ViewList({items, setItems, view}) {
 		return () => {
 			let itemsCopy = {...items};
 			if(itemsCopy[groupKey].items[itemKey].quantity === 1) {
-				itemsCopy[groupKey].items[itemKey].isActive = false;
+				itemsCopy[groupKey].items[itemKey].isPinned = false;
 			}
 			itemsCopy[groupKey].items[itemKey].quantity = itemsCopy[groupKey].items[itemKey].quantity - 1;
 			setItems(itemsCopy);
 		};
 	};
 
-	if (view === 'List') {
+	if (view === 'Pinned') {
 		return (
 			<>
-				<div className="pane" id="list-pane">
-					<div id="list-container">
+				<div className="pane" id="pinned-pane">
+					<div id="pinned-container">
 						{Object.entries(items).map(([groupKey, groupValue]) => (
-							Object.entries(groupValue.items).filter(([itemKey, itemValue]) => itemValue.isActive).map(([itemKey, itemValue]) => (
-								<div className='list-item' key={itemKey}>
+							Object.entries(groupValue.items).filter(([itemKey, itemValue]) => itemValue.isPinned).map(([itemKey, itemValue]) => (
+								<div className='pinned-item' key={itemKey}>
 									<div className="controls">
 										<button onClick={remove(groupKey, itemKey)} aria-label="Remove" title="Remove">
 											<IconEye />

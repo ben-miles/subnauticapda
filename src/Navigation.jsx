@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import IconBook from './IconBook.jsx';
+import IconPin from './IconPin.jsx';
 import IconDocument from './IconDocument.jsx';
 import IconWrench from './IconWrench.jsx';
 import IconHelp from './IconHelp.jsx';
 
 const navButtons = [
-	{ id: 0, isActive: false, label: 'List', icon: <IconBook /> },
+	{ id: 0, isActive: false, label: 'Pinned', icon: <IconPin /> },
 	{ id: 1, isActive: false, label: 'Items', icon: <IconWrench /> },
 	{ id: 2, isActive: false, label: 'Notes', icon: <IconDocument /> },
 	{ id: 3, isActive: true, label: 'Help', icon: <IconHelp /> },

@@ -449,7 +449,7 @@ footer a:hover .icon-github {
 	background: #f28d00;
 }
 
-.list-item {
+.pinned-item {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -461,7 +461,7 @@ footer a:hover .icon-github {
 	margin-bottom: 10px;
 }
 
-.list-item .controls {
+.pinned-item .controls {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -469,12 +469,12 @@ footer a:hover .icon-github {
 	margin-right: 15px;
 }
 
-.list-item .controls .quantity-buttons {
+.pinned-item .controls .quantity-buttons {
 	display: flex;
 	flex-direction: row;
 }
 
-.list-item .controls .quantity-buttons button {
+.pinned-item .controls .quantity-buttons button {
 	border-radius: 5px 0 0 5px;
 	color: #85bedc;
 	font-weight: bold;
@@ -483,11 +483,11 @@ footer a:hover .icon-github {
 	text-shadow: 0 0 3px #1d67a4;
 }
 
-.list-item .controls .quantity-buttons button:last-of-type {
+.pinned-item .controls .quantity-buttons button:last-of-type {
 	border-radius: 0 5px 5px 0;
 }
 
-.list-item .controls button {
+.pinned-item .controls button {
 	background: rgba(26, 102, 172, 0.1);
 	border: 1px solid rgba(200, 234, 246, 0.6);
 	border-radius: 10px;
@@ -497,23 +497,23 @@ footer a:hover .icon-github {
 	padding: 10px 4px;
 }
 
-.list-item .controls button svg {
+.pinned-item .controls button svg {
 	width: 40px;
 	fill: #85bedc;
 	filter: drop-shadow(0 0 3px #1d67a4);
 }
 
 @media (min-width: 1024px) {
-	.list-item .controls button svg {
+	.pinned-item .controls button svg {
 		width: 30px;
 	}
 }
 
-.list-item .controls button:hover svg {
+.pinned-item .controls button:hover svg {
 	fill: red;
 }
 
-.list-item .item {
+.pinned-item .item {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -521,22 +521,22 @@ footer a:hover .icon-github {
 	width: 90px;
 }
 
-.list-item .item .label {
+.pinned-item .item .label {
 	text-align: center;
 }
 
-.list-item .item img {
+.pinned-item .item img {
 	width: 100%;
 	margin-bottom: 10px;
 }
 
-.list-item .item span {
+.pinned-item .item span {
 	font-weight: 600;
 	text-align: center;
 	line-height: normal;
 }
 
-.list-item .data {
+.pinned-item .data {
 	align-self: flex-start;
 	display: flex;
 	flex-direction: column;
@@ -544,7 +544,7 @@ footer a:hover .icon-github {
 	width: 100%;
 }
 
-.list-item .data h3 {
+.pinned-item .data h3 {
 	background: rgba(26, 102, 172, 0.6);
 	border: 1px solid rgba(200, 234, 246, 0.6);
 	box-shadow: inset 0 0 5px rgba(200, 234, 246, 0.5);
@@ -556,19 +556,19 @@ footer a:hover .icon-github {
 	width: 100%;
 }
 
-.list-item .data h3:before {
+.pinned-item .data h3:before {
 	content: "⌵";
 	margin-right: 10px;
 	transform: rotate(0deg);
 	display: inline-block;
 }
 
-.list-item .data h3:not(:first-of-type) {
+.pinned-item .data h3:not(:first-of-type) {
 	margin-top: 10px;
 }
 
-.list-item .location,
-.list-item .recipe {
+.pinned-item .location,
+.pinned-item .recipe {
 	align-self: flex-start;
 	display: flex;
 	flex-direction: row;
@@ -578,8 +578,8 @@ footer a:hover .icon-github {
 	padding: 0 10px;
 }
 
-.list-item .quantity,
-.list-item .yield {
+.pinned-item .quantity,
+.pinned-item .yield {
 	background: #ffd003;
 	color: #7a3e00;
 	border-radius: 15px;
@@ -588,7 +588,7 @@ footer a:hover .icon-github {
 	box-shadow: 0 0 10px #8a512d, 0 0 5px #8a512d;
 }
 
-.list-item .ingredient {
+.pinned-item .ingredient {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -598,7 +598,7 @@ footer a:hover .icon-github {
 	position: relative;
 }
 
-.list-item .ingredient:after {
+.pinned-item .ingredient:after {
 	display: block;
 	content: "+";
 	position: absolute;
@@ -607,16 +607,16 @@ footer a:hover .icon-github {
 	margin-right: 15px;
 }
 
-.list-item .ingredient:last-child:after {
+.pinned-item .ingredient:last-child:after {
 	content: "";
 }
 
-.list-item .ingredient .quantity {
+.pinned-item .ingredient .quantity {
 	font-weight: bold;
 	margin-right: 10px;
 }
 
-.list-item .ingredient img {
+.pinned-item .ingredient img {
 	margin-right: 5px;
 	width: 30px;
 }
