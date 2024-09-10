@@ -1,6 +1,6 @@
 import IconAlert from './IconAlert.jsx';
 
-export default function HomeView({view}) {
+export default function ViewHome({view}) {
 	if (view === 'Home') {
 		return (
 			<div className="welcome pane" id="notes-pane">
