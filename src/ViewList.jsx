@@ -1,6 +1,6 @@
 import IconEye from './IconEye.jsx';
 
-export default function ListView({items, setItems, view}) {
+export default function ViewList({items, setItems, view}) {
 	const remove = (groupKey, itemKey) => {
 		return () => {
 			let itemsCopy = {...items};
