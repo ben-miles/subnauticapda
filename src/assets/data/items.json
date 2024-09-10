@@ -257,9 +257,9 @@
 				"name": "Cave Sulfur",
 				"location": "Kelp Forest Caves, Safe Shallows Caves"
 			},
-			"copper": {
-				"id": "copper",
-				"name": "Copper",
+			"copperore": {
+				"id": "copperore",
+				"name": "Copper Ore",
 				"location": "Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Reefback, Safe Shallows, Safe Shallows Caves, Sparse Reef, Underwater Islands"
 			},
 			"crystallinesulfur": {
@@ -1139,8 +1139,8 @@
 				"recipe": {
 					"ingredients": [
 						{
-							"id": "copper",
-							"name": "Copper",
+							"id": "copperore",
+							"name": "Copper Ore",
 							"quantity": 1
 						},
 						{
