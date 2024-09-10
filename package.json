@@ -1,6 +1,6 @@
 {
   "name": "subnauticapda",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An unofficial second-screen companion app for the game Subnautica.",
   "private": true,
   "type": "module",
@@ -15,8 +15,8 @@
     "url": "git+https://github.com/ben-miles/subnauticapda.git"
   },
   "keywords": [
-    "vuejs",
-    "vue",
+    "react",
+    "reactjs",
     "second-screen",
     "subnautica"
   ],
