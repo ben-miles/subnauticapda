@@ -5,7 +5,7 @@ import Title from './Title.jsx';
 import ViewHome from './ViewHome.jsx';
 import ViewItems from './ViewItems.jsx';
 import ViewList from './ViewList.jsx';
-import NotesView from './NotesView.jsx';
+import ViewNotes from './ViewNotes.jsx';
 import Footer from './Footer.jsx';
 
 export default function App() {
@@ -23,7 +23,7 @@ export default function App() {
 						<ViewHome view={view} />
 						<ViewList view={view} items={items} setItems={setItems} />
 						<ViewItems view={view} items={items} setItems={setItems} />
-						<NotesView view={view} notes={notes} setNotes={setNotes} />
+						<ViewNotes view={view} notes={notes} setNotes={setNotes} />
 					</div>
 				</div>
 			</div>

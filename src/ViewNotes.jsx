@@ -1,4 +1,4 @@
-export default function NotesView({view, notes, setNotes}) {
+export default function ViewNotes({view, notes, setNotes}) {
 	const changeHandler = (event) => {
 		setNotes(event.target.value);
 	};
