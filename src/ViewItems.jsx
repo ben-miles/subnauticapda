@@ -1,4 +1,4 @@
-export default function ItemsView({view, items, setItems}) {
+export default function ViewItems({view, items, setItems}) {
 	const toggleGroup = (groupId) => {
 		let itemsCopy = {...items};
 		itemsCopy[groupId].isOpen = !itemsCopy[groupId].isOpen;
