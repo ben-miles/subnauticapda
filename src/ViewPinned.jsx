@@ -27,8 +27,19 @@ export default function ViewPinned({items, setItems, view}) {
 	};
 
 	if (view === 'Pinned') {
-		return (
-			<>
+		// if there are no pinned items, display a message
+		if (!Object.entries(items).some(([groupKey, groupValue]) => Object.entries(groupValue.items).some(([itemKey, itemValue]) => itemValue.isPinned)) ) {
+			return (
+				<div className="pane" id="pinned-pane">
+					<div id="pinned-container">
+						<div className='pinned-item'>
+							<p className>No pinned items</p>
+						</div>
+					</div>
+				</div>
+			)
+		} else {
+			return (
 				<div className="pane" id="pinned-pane">
 					<div id="pinned-container">
 						{Object.entries(items).map(([groupKey, groupValue]) => (
@@ -71,7 +82,7 @@ export default function ViewPinned({items, setItems, view}) {
 
 					</div>
 				</div>
-			</>
-		)
+			)
+		}
 	}
 }
