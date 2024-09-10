@@ -2,7 +2,7 @@ import {useState} from 'react';
 import ItemsData from "./assets/data/items.json";
 import Navigation from './Navigation.jsx';
 import Title from './Title.jsx';
-import ViewHome from './ViewHome.jsx';
+import ViewHelp from './ViewHelp.jsx';
 import ViewItems from './ViewItems.jsx';
 import ViewList from './ViewList.jsx';
 import ViewNotes from './ViewNotes.jsx';
@@ -10,7 +10,7 @@ import Footer from './Footer.jsx';
 
 export default function App() {
 	const [items, setItems] = useState(ItemsData);
-	const [view, setView] = useState('Home');
+	const [view, setView] = useState('Help');
 	const [notes, setNotes] = useState('');
 	
 	return (
@@ -20,10 +20,10 @@ export default function App() {
 					<Navigation setView={setView} />
 					<Title title={view} />
 					<div id="panes">
-						<ViewHome view={view} />
 						<ViewList view={view} items={items} setItems={setItems} />
 						<ViewItems view={view} items={items} setItems={setItems} />
 						<ViewNotes view={view} notes={notes} setNotes={setNotes} />
+						<ViewHelp view={view} />
 					</div>
 				</div>
 			</div>
