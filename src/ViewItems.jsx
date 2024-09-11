@@ -1,3 +1,5 @@
+import IconPin from './IconPin.jsx';
+
 export default function ViewItems({view, items, setItems}) {
 	const toggleGroup = (groupId) => {
 		let itemsCopy = {...items};
@@ -23,6 +25,7 @@ export default function ViewItems({view, items, setItems}) {
 						<h3 onClick={() => { toggleGroup(groupKey); }}>{groupValue.name}</h3>
 						{Object.entries(groupValue.items).map(([itemKey, itemValue]) => (
 							<div className={'item ' + (itemValue.isPinned ? 'active' : '')} id={itemKey} key={itemKey} onClick={() => { toggleItem(groupKey,itemKey); }}>
+								{itemValue.isPinned && <IconPin />}
 								<img src={'images/' + itemKey + '.png'} alt={itemValue.name} loading="lazy" />
 								<span>{itemValue.name}</span>
 							</div>

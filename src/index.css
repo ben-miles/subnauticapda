@@ -410,7 +410,19 @@ footer a:hover .icon-github {
 	margin-bottom: 10px;
 	margin-right: 10px;
 	padding: 5px;
+	position: relative;
 	width: calc(33.3% - 10px);
+}
+
+.group .item svg {
+	width: 20px;
+	height: auto;
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	fill: #15c392;
+	stroke: #2fcba3;
+	stroke-width: 2px;
 }
 
 @media (min-width: 500px) {
@@ -440,8 +452,8 @@ footer a:hover .icon-github {
 	background: #114cbf;
 }
 
-.group .item:active,
-.group .item.active {
+.group .item:active
+/* .group .item.active */ { 
 	background: #f28d00;
 }
 
