@@ -124,11 +124,7 @@ button {
 	align-items: stretch;
 }
 
-#panes #notes-pane {
-	margin: 10px 0;
-}
-
-#panes .pane textarea {
+#panes .pane.notes textarea {
 	background: transparent;
 	border: 2px solid #c8eaf6;
 	border-radius: 7px;

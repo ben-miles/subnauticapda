@@ -17,20 +17,18 @@ export default function ViewItems({view, items, setItems}) {
 
 	if (view === 'Items') {
 		return (
-			<div className="pane" id="items-pane">
-				<div id="items-container">
-					{Object.entries(items).map(([groupKey, groupValue]) => (
-						<div className={'group ' + (groupValue.isOpen ? 'open' : '')} id={groupKey} key={groupKey}>
-							<h3 onClick={() => { toggleGroup(groupKey); }}>{groupValue.name}</h3>
-							{Object.entries(groupValue.items).map(([itemKey, itemValue]) => (
-								<div className={'item ' + (itemValue.isPinned ? 'active' : '')} id={itemKey} key={itemKey} onClick={() => { toggleItem(groupKey,itemKey); }}>
-									<img src={'images/' + itemKey + '.png'} alt={itemValue.name} loading="lazy" />
-									<span>{itemValue.name}</span>
-								</div>
-							))}
-						</div>
-					))}
-				</div>
+			<div className="pane items">
+				{Object.entries(items).map(([groupKey, groupValue]) => (
+					<div className={'group ' + (groupValue.isOpen ? 'open' : '')} id={groupKey} key={groupKey}>
+						<h3 onClick={() => { toggleGroup(groupKey); }}>{groupValue.name}</h3>
+						{Object.entries(groupValue.items).map(([itemKey, itemValue]) => (
+							<div className={'item ' + (itemValue.isPinned ? 'active' : '')} id={itemKey} key={itemKey} onClick={() => { toggleItem(groupKey,itemKey); }}>
+								<img src={'images/' + itemKey + '.png'} alt={itemValue.name} loading="lazy" />
+								<span>{itemValue.name}</span>
+							</div>
+						))}
+					</div>
+				))}
 			</div>
 		)
 	}

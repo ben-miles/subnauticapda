@@ -4,7 +4,7 @@ export default function ViewNotes({view, notes, setNotes}) {
 	};
 	if (view === 'Notes') {
 		return (
-			<div className="pane" id="notes-pane">
+			<div className="pane notes">
 				<textarea onChange={changeHandler} placeholder="Keep your notes here." value={notes}></textarea>
 			</div>
 		)
