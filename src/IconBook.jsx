@@ -1,6 +1,6 @@
 export default function IconBook() {
 	return (
-		<svg viewBox="0 0 36 34">
+		<svg viewBox="0 0 34 34">
 			<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="18" y1="2.9648" x2="18" y2="30.6665">
 				<stop offset="0" stopColor="#F3F9FD"/>
 				<stop offset="1" stopColor="#79D1F6"/>
