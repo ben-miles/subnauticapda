@@ -17,7 +17,7 @@ export default function App() {
 		<>
 			<div id="pda">
 				<div id="screen">
-					<Navigation setView={setView} />
+					<Navigation items={items} setView={setView} />
 					<Title title={view} />
 					<div id="panes">
 						<ViewPinned view={view} items={items} setItems={setItems} />

@@ -221,9 +221,10 @@ button {
 	box-shadow: 0 0 5px #2f5cb3, 0 0 5px #2f5cb3;
 }
 
-#tabs .tab span {
+#tabs .tab .label {
 	display: none;
 }
+
 #tabs .tab svg {
 	transform: skew(20deg) !important;
 }
@@ -234,6 +235,23 @@ button {
 	position: relative;
 	top: 2px;
 	filter: drop-shadow(0 0 3px #1d67a4);
+}
+
+#tabs .tab .badge {
+	background: #ffd003;
+	border-radius: 50%;
+	box-shadow: 0 0 10px #8a512d, 0 0 5px #8a512d;
+	color: #7a3e00;
+	height: 18px;
+	font-size: 10px;
+	font-weight: 600;
+	padding: 2px;
+	position: absolute;
+	right: 20px;
+	text-align: center;
+	transform: skew(20deg);
+	top: -10px;
+	width: 18px;
 }
 
 footer {

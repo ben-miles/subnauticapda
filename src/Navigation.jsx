@@ -11,7 +11,7 @@ const navButtons = [
 	{ id: 3, isActive: true, label: 'Help', icon: <IconHelp /> },
   ];
 
-export default function Navigation({setView}) {
+export default function Navigation({items, setView}) {
 	const [buttons, setButtons] = useState(navButtons);
 	const clickHandler = (label) => {
 		setView(label);
@@ -20,6 +20,12 @@ export default function Navigation({setView}) {
 			isActive: button.label === label
 		})));
 	};
+	const pinnedItems = Object.entries(items)
+	.map(([groupKey, groupValue]) => (
+		Object.values(groupValue.items).filter(item => item.isPinned)
+	))
+	.filter(count => count.length > 0).flat().length;
+	
 	return (
 		<>
 			<div id="tabs">
@@ -34,7 +40,8 @@ export default function Navigation({setView}) {
 						}}
 					>
 						{button.icon}
-						<span>{button.label}</span>
+						{button.label === 'Pinned' && pinnedItems > 0 && <span className="badge">{pinnedItems}</span>}
+						<span className="label">{button.label}</span>
 					</button>
 				))}
 			</div>
