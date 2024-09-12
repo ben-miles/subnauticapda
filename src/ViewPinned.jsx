@@ -6,6 +6,7 @@ export default function ViewPinned({items, setItems, view}) {
 			let itemsCopy = {...items};
 			itemsCopy[groupKey].items[itemKey].isPinned = false;
 			setItems(itemsCopy);
+			localStorage.setItem('items', JSON.stringify(items));
 		};
 	};
 	const increment = (groupKey, itemKey) => {
@@ -13,6 +14,7 @@ export default function ViewPinned({items, setItems, view}) {
 			let itemsCopy = {...items};
 			itemsCopy[groupKey].items[itemKey].quantity = itemsCopy[groupKey].items[itemKey].quantity + 1;
 			setItems(itemsCopy);
+			localStorage.setItem('items', JSON.stringify(items));
 		};
 	};
 	const decrement = (groupKey, itemKey) => {
@@ -23,6 +25,7 @@ export default function ViewPinned({items, setItems, view}) {
 			}
 			itemsCopy[groupKey].items[itemKey].quantity = itemsCopy[groupKey].items[itemKey].quantity - 1;
 			setItems(itemsCopy);
+			localStorage.setItem('items', JSON.stringify(items));
 		};
 	};
 

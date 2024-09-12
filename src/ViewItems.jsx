@@ -5,6 +5,7 @@ export default function ViewItems({view, items, setItems}) {
 		let itemsCopy = {...items};
 		itemsCopy[groupId].isOpen = !itemsCopy[groupId].isOpen;
 		setItems(itemsCopy);
+		localStorage.setItem('items', JSON.stringify(items));
 	};
 	const toggleItem = (groupId,itemId) => {
 		let itemsCopy = {...items};
@@ -15,6 +16,7 @@ export default function ViewItems({view, items, setItems}) {
 			itemsCopy[groupId].items[itemId].quantity = itemsCopy[groupId].items[itemId].quantity ? itemsCopy[groupId].items[itemId].quantity : 1;
 		}
 		setItems(itemsCopy);
+		localStorage.setItem('items', JSON.stringify(items));
 	};
 
 	if (view === 'Items') {
