@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import ItemsData from "./assets/data/items.json";
 import Navigation from './Navigation.jsx';
 import Title from './Title.jsx';
@@ -12,6 +12,22 @@ export default function App() {
 	const [items, setItems] = useState(ItemsData);
 	const [view, setView] = useState('Help');
 	const [notes, setNotes] = useState('');
+	// when the app first loads, retrieve state data from localStorage
+	useEffect(()=>{
+		if (localStorage.getItem('items')) {
+			setItems(JSON.parse(localStorage.getItem('items')));
+		}
+		if (localStorage.getItem('notes')) {
+			setNotes(localStorage.getItem('notes'));
+		}
+		if (localStorage.getItem('view')) {
+			const viewCopy = [...view];
+			viewCopy.forEach(button => {
+				button.isActive = button.id === localStorage.getItem('view');
+			});
+			setView(viewCopy);
+		}
+    }, []);
 	
 	return (
 		<>

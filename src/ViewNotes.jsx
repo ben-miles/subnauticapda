@@ -1,6 +1,7 @@
 export default function ViewNotes({view, notes, setNotes}) {
 	const changeHandler = (event) => {
 		setNotes(event.target.value);
+		localStorage.setItem('notes', event.target.value);
 	};
 	if (view === 'Notes') {
 		return (
