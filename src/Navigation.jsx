@@ -27,24 +27,22 @@ export default function Navigation({items, setView}) {
 	.filter(count => count.length > 0).flat().length;
 	
 	return (
-		<>
-			<div id="tabs">
-				{buttons.map((button) => (
-					<button 
-						className={button.isActive ? 'active tab' : 'tab'} 
-						aria-label={button.label} 
-						title={button.label} 
-						key={button.id} 
-						onClick={() => {
-							clickHandler(button.label);
-						}}
-					>
-						{button.icon}
-						{button.label === 'Pinned' && pinnedItems > 0 && <span className="badge">{pinnedItems}</span>}
-						<span className="label">{button.label}</span>
-					</button>
-				))}
-			</div>
-		</>
+		<div id="tabs">
+			{buttons.map((button) => (
+				<button 
+					className={button.isActive ? 'active tab' : 'tab'} 
+					aria-label={button.label} 
+					title={button.label} 
+					key={button.id} 
+					onClick={() => {
+						clickHandler(button.label);
+					}}
+				>
+					{button.icon}
+					{button.label === 'Pinned' && pinnedItems > 0 && <span className="badge">{pinnedItems}</span>}
+					<span className="label">{button.label}</span>
+				</button>
+			))}
+		</div>
 	)
 }
