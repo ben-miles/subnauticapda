@@ -1865,12 +1865,7 @@
 							"id": "enameledglass",
 							"name": "Enameled Glass",
 							"quantity": 1
-						},
-						{
-							"id": "aerogel",
-							"name": "Aerogel",
-							"quantity": 1
-						},
+						},						
 						{
 							"id": "diamond",
 							"name": "Diamond",
