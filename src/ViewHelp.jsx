@@ -1,7 +1,7 @@
 import IconAlert from './IconAlert.jsx';
 
 export default function ViewHelp({view}) {
-	if (view === 'Help') {
+	if (view.filter(view => view.id === 'Help')[0].isActive) {
 		return (
 			<div className="pane welcome">
 				<div id="spoiler">

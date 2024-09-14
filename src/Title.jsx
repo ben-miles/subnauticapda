@@ -1,7 +1,7 @@
-export default function Title({title}) {
+export default function Title({view}) {
 	return (
 		<div id="heading">
-			<h2>{title}</h2>
+			<h2>{view.filter(view => view.isActive === true).map(view => view.id)}</h2>
 		</div>
 	)
 }

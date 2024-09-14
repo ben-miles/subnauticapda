@@ -19,7 +19,7 @@ export default function ViewItems({view, items, setItems}) {
 		localStorage.setItem('items', JSON.stringify(items));
 	};
 
-	if (view === 'Items') {
+	if (view.filter(view => view.id === 'Items')[0].isActive) {
 		return (
 			<div className="pane items">
 				{Object.entries(items).map(([groupKey, groupValue]) => (

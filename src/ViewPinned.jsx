@@ -29,7 +29,7 @@ export default function ViewPinned({items, setItems, view}) {
 		};
 	};
 
-	if (view === 'Pinned') {
+	if (view.filter(view => view.id === 'Pinned')[0].isActive) {
 		// if there are no pinned items, display a message
 		if (!Object.entries(items).some(([groupKey, groupValue]) => Object.entries(groupValue.items).some(([itemKey, itemValue]) => itemValue.isPinned)) ) {
 			return (
