@@ -7,11 +7,21 @@ import ViewItems from './ViewItems.jsx';
 import ViewPinned from './ViewPinned.jsx';
 import ViewNotes from './ViewNotes.jsx';
 import Footer from './Footer.jsx';
+import IconPin from './IconPin.jsx';
+import IconDocument from './IconDocument.jsx';
+import IconWrench from './IconWrench.jsx';
+import IconHelp from './IconHelp.jsx';
 
 export default function App() {
 	const [items, setItems] = useState(ItemsData);
-	const [view, setView] = useState('Help');
 	const [notes, setNotes] = useState('');
+	const [view, setView] = useState([
+		{ id: 'Pinned', isActive: false, icon: <IconPin /> },
+		{ id: 'Items', isActive: false, icon: <IconWrench /> },
+		{ id: 'Notes', isActive: false, icon: <IconDocument /> },
+		{ id: 'Help', isActive: true, icon: <IconHelp /> },
+	]);
+	
 	// when the app first loads, retrieve state data from localStorage
 	useEffect(()=>{
 		if (localStorage.getItem('items')) {
