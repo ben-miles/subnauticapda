@@ -35,7 +35,7 @@ export default function ViewPinned({items, setItems, view}) {
 			return (
 				<div className="pane pinned">
 					<div className='pinned-item'>
-						<p className>No pinned items</p>
+						<p>No pinned items</p>
 					</div>
 				</div>
 			)
