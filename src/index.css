@@ -168,6 +168,11 @@ button {
 	align-items: stretch;
 }
 
+#panes .pane.pinned,
+#panes .pane.items {
+	padding-bottom: 20px;
+}
+
 #panes .pane.notes textarea {
 	background: transparent;
 	border: 2px solid #c8eaf6;
