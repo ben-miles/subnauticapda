@@ -48,30 +48,33 @@ button {
 
 @media (min-width: 1024px) {
 	#pda {
-		background: url(/images/subnauticapda_pda_lg.png);
-		background-position: 84.5% 0%;
+		background: url(/images/subnauticapda_pda_lg_min.png);
+		background-position: top right;
 		background-size: cover;
-		height: 648px;
-		width: 900px;
+		background-repeat: no-repeat;
+		height: 100vh;
+		max-height: 100vh;
+		width: 100%;
+		aspect-ratio: 320/241;
 		margin-right: auto;
 		margin-left: auto;
 		padding: 0;
 	}
 }
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
 	#pda {
 		height: 720px;
 		width: 1000px;
 	}
-}
+} */
 
-@media (min-width: 1650px) {
+/* @media (min-width: 1650px) {
 	#pda {
 		height: 864px;
 		width: 1200px;
 	}
-}
+} */
 
 #screen {
 	color: #fff;
@@ -83,13 +86,31 @@ button {
 
 @media (min-width: 1024px) {
 	#screen {
-		border-radius: 40px;
-		height: 75%;
-		padding: 2.5% 1.75%;
-		position: relative;
-		left: 27.5%;
-		width: 67%;
-		top: 13%;
+		border-radius: 60px;
+		height: 82.5%;
+		overflow: hidden;
+		padding: min(2%, 20px);
+		padding-bottom: 0;
+		position: absolute;
+		right: 89px;
+		top: 38px;
+		width: min( calc( 100vw - 89px ), 1014px);
+	}
+}
+
+@media (min-width: 1450px) {
+	#screen {
+		border-radius: 5vw;
+		height: min(56.5vw, 86%);
+		right: 6.125%;
+		width: 70%;
+		top: 2.5vw;
+	}
+}
+
+@media (min-width: 1500px) {
+	#screen {
+		border-radius: 5vw 5vw 0 0;
 	}
 }
 
