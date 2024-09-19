@@ -468,7 +468,7 @@ footer a:hover .icon-github {
 	margin-right: 10px;
 	padding: 5px;
 	position: relative;
-	width: calc(33.3% - 10px);
+	width: min( calc( ( 100% / 3 ) - 10px), calc( 128px - 10px ));
 }
 
 .group .item svg {
@@ -480,18 +480,6 @@ footer a:hover .icon-github {
 	fill: #15c392;
 	stroke: #2fcba3;
 	stroke-width: 2px;
-}
-
-@media (min-width: 500px) {
-	.group .item {
-		width: calc(25% - 10px);
-	}
-}
-
-@media (min-width: 768px) {
-	.group .item {
-		width: calc(16.6% - 10px);
-	}
 }
 
 .group .item img {
