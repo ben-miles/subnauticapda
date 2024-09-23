@@ -3,8 +3,8 @@ import IconAlert from './IconAlert.jsx';
 export default function ViewHelp({view}) {
 	if (view.filter(view => view.id === 'Help')[0].isActive) {
 		return (
-				<div id="spoiler">
 			<div className="pane help">
+				<div className="alert" id="spoiler">
 					<IconAlert />
 					<span><b>Spoiler Alert!</b> If you have not yet completed <i>Subnautica</i>, you <b>will</b> encounter spoilers using this app.</span>
 					<IconAlert />
