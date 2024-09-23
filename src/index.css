@@ -73,20 +73,6 @@ button {
 	}
 }
 
-/* @media (min-width: 1280px) {
-	#pda {
-		height: 720px;
-		width: 1000px;
-	}
-} */
-
-/* @media (min-width: 1650px) {
-	#pda {
-		height: 864px;
-		width: 1200px;
-	}
-} */
-
 #screen {
 	color: #fff;
 	height: 100%;
@@ -201,6 +187,24 @@ button {
 #panes p {
 	margin-bottom: 1em;
 } 
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 2% 10px;
+}
+
+@media (min-width: 1024px) {
+	.content {
+		width: 768px;
+	}
+}
+
+@media (min-width: 1920px) {
+	.content {
+		width: 1024px;
+	}
+}
 
 #bkg {
 	background-image: url(/images/subnauticapda_bkg.jpg);
@@ -454,7 +458,7 @@ footer a:hover .icon-github {
 .group {
 	align-items: flex-start;
 	display: flex;
-	height: 44px;
+	height: 48px;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
@@ -471,7 +475,7 @@ footer a:hover .icon-github {
 	background: rgba(26, 102, 172, 0.6);
 	border: 1px solid rgba(200, 234, 246, 0.6);
 	box-shadow: inset 0 0 5px rgba(200, 234, 246, 0.5);
-	font-size: .9em;
+	font-size: 1em;
 	font-weight: 600;
 	letter-spacing: 0.5px;
 	margin-bottom: 20px;
