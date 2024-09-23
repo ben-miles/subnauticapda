@@ -54,7 +54,11 @@ export default function App() {
 				</div>
 			</div>
 			<Footer />
-			<div id="bkg"></div>
+			<div id="bkg">
+				<video autoPlay loop muted>
+					<source src="../public/video/waves.webm" type="video/webm" />
+				</video>
+			</div>
 		</>
 	)
 }
