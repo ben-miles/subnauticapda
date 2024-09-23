@@ -1,4 +1,5 @@
 import IconEye from './IconEye.jsx';
+import IconAlert from './IconAlert.jsx';
 
 export default function ViewPinned({items, setItems, view}) {
 	const remove = (groupKey, itemKey) => {
@@ -34,8 +35,15 @@ export default function ViewPinned({items, setItems, view}) {
 		if (!Object.entries(items).some(([groupKey, groupValue]) => Object.entries(groupValue.items).some(([itemKey, itemValue]) => itemValue.isPinned)) ) {
 			return (
 				<div className="pane pinned">
-					<div className='pinned-item'>
-						<p>No pinned items</p>
+					<div className="content">
+						<div className="alert" id="no-pins">
+							<div className="icon">
+								<IconAlert />
+							</div>
+							<div className="text">
+								<span><b>No Pinned Items.</b> Go to <b>Items</b> and click to pin their recipes here.</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			)

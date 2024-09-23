@@ -10,7 +10,6 @@ export default function ViewHelp({view}) {
 							<IconAlert />
 						</div>
 						<div className="text">
-							{/* <h4>Spoiler Alert!</h4> */}
 							<span><b>This PDA contains spoilers.</b> If you have not yet completed <i>Subnautica</i>, proceed with caution!</span>
 						</div>
 					</div>
