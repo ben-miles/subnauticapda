@@ -4,10 +4,15 @@ export default function ViewHelp({view}) {
 	if (view.filter(view => view.id === 'Help')[0].isActive) {
 		return (
 			<div className="pane help">
-				<div className="alert" id="spoiler">
-					<IconAlert />
-					<span><b>Spoiler Alert!</b> If you have not yet completed <i>Subnautica</i>, you <b>will</b> encounter spoilers using this app.</span>
-					<IconAlert />
+					<div className="alert" id="spoiler">
+						<div className="icon">
+							<IconAlert />
+						</div>
+						<div className="text">
+							{/* <h4>Spoiler Alert!</h4> */}
+							<span><b>This PDA contains spoilers.</b> If you have not yet completed <i>Subnautica</i>, proceed with caution!</span>
+						</div>
+					</div>
 				</div>
 				<h1>Welcome aboard, Captain.</h1>
 				<p><b>Subnautica PDA</b> is a second-screen companion app for the game <a href="https://subnautica.com/" target="_blank" title="Subnautica Official Site"><i>Subnautica</i></a>. It was made to assist with crafting recipes and other helpful reminders. It is best used on a phone or tablet, while playing the game on PC or console.</p>
