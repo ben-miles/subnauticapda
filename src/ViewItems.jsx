@@ -1,19 +1,21 @@
+import {useState} from 'react';
 import IconPin from './IconPin.jsx';
 
-export default function ViewItems({view, items, setItems}) {
-	const toggleGroup = (groupId) => {
-		let itemsCopy = {...items};
-		itemsCopy[groupId].isOpen = !itemsCopy[groupId].isOpen;
-		setItems(itemsCopy);
-		localStorage.setItem('items', JSON.stringify(items));
+export default function ViewItems({view, groups, setGroups, items, setItems}) {
+	const toggleGroup = (groupIndex) => {
+		let groupsCopy = {...groups};
+		groupsCopy[groupIndex].isOpen = !groupsCopy[groupIndex].isOpen;
+		setGroups(groupsCopy);
+		localStorage.setItem('groups', JSON.stringify(groups));
 	};
-	const toggleItem = (groupId,itemId) => {
-		let itemsCopy = {...items};
-		if(itemsCopy[groupId].items[itemId].isPinned) {
-			itemsCopy[groupId].items[itemId].isPinned = false;
+	const toggleItem = (itemId) => {
+		let itemsCopy = [...items];
+		let thisItem = itemsCopy.filter((item) => item.id === itemId)[0];
+		if(thisItem.isPinned) {
+			thisItem.isPinned = false;
 		} else {
-			itemsCopy[groupId].items[itemId].isPinned = true;
-			itemsCopy[groupId].items[itemId].quantity = itemsCopy[groupId].items[itemId].quantity ? itemsCopy[groupId].items[itemId].quantity : 1;
+			thisItem.isPinned = true;
+			thisItem.quantity = thisItem.quantity ? thisItem.quantity : 1;
 		}
 		setItems(itemsCopy);
 		localStorage.setItem('items', JSON.stringify(items));
@@ -22,18 +24,21 @@ export default function ViewItems({view, items, setItems}) {
 	if (view.filter(view => view.id === 'Items')[0].isActive) {
 		return (
 			<div className="pane items">
-				{Object.entries(items).map(([groupKey, groupValue]) => (
-					<div className={'group ' + (groupValue.isOpen ? 'open' : '')} id={groupKey} key={groupKey}>
-						<h3 onClick={() => { toggleGroup(groupKey); }}>{groupValue.name}</h3>
-						{Object.entries(groupValue.items).map(([itemKey, itemValue]) => (
-							<div className={'item ' + (itemValue.isPinned ? 'active' : '')} id={itemKey} key={itemKey} onClick={() => { toggleItem(groupKey,itemKey); }}>
-								{itemValue.isPinned && <IconPin />}
-								<img src={'images/' + itemKey + '.png'} alt={itemValue.name} loading="lazy" />
-								<span>{itemValue.name}</span>
+				{Object.entries(groups).map(([groupIndex, group]) => (
+						<div className={'group ' + (group.isOpen ? 'open' : '')} key={group.id}>
+						<h3 onClick={() => { toggleGroup(groupIndex); }}>{group.name}</h3>
+
+							<div className={'item ' + (item.isPinned ? 'active' : '')} id={itemIndex} key={item.id} onClick={() => { toggleItem(item.id); }}>
+								{item.isPinned && <IconPin />}
+								<img src={'images/' + item.id + '.png'} alt={item.name} loading="lazy" />
+								<span>{item.name}</span>
 							</div>
 						))}
-					</div>
+
+						</div>
+					)
 				))}
+
 			</div>
 		)
 	}
