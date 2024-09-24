@@ -1,4 +1,5 @@
 import {useEffect, useState} from 'react';
+import GroupsData from "./assets/data/groups.json";
 import ItemsData from "./assets/data/items.json";
 import Navigation from './Navigation.jsx';
 import Title from './Title.jsx';
@@ -13,6 +14,7 @@ import IconWrench from './IconWrench.jsx';
 import IconHelp from './IconHelp.jsx';
 
 export default function App() {
+	const [groups, setGroups] = useState(GroupsData);
 	const [items, setItems] = useState(ItemsData);
 	const [notes, setNotes] = useState('');
 	const [view, setView] = useState([
@@ -24,6 +26,9 @@ export default function App() {
 	
 	// when the app first loads, retrieve state data from localStorage
 	useEffect(()=>{
+		if (localStorage.getItem('groups')) {
+			setGroups(JSON.parse(localStorage.getItem('groups')));
+		}
 		if (localStorage.getItem('items')) {
 			setItems(JSON.parse(localStorage.getItem('items')));
 		}
@@ -47,7 +52,7 @@ export default function App() {
 					<Title view={view} />
 					<div id="panes">
 						<ViewPinned view={view} items={items} setItems={setItems} />
-						<ViewItems view={view} items={items} setItems={setItems} />
+						<ViewItems view={view} groups={groups} setGroups={setGroups} items={items} setItems={setItems} />
 						<ViewNotes view={view} notes={notes} setNotes={setNotes} />
 						<ViewHelp view={view} />
 					</div>

@@ -1,0 +1,62 @@
+[
+	{
+		"id": "floraandseeds", 
+		"isOpen": true,
+		"name": "Flora & Seeds"
+	},
+	{
+		"id": "rawmaterials", 
+		"isOpen": true,
+		"name": "Raw Materials"
+	},
+	{
+		"id": "basicmaterials", 
+		"isOpen": true,
+		"name": "Basic Materials"
+	},
+	{
+		"id": "advancedmaterials", 
+		"isOpen": true,
+		"name": "Advanced Materials"
+	},
+	{
+		"id": "electronics", 
+		"isOpen": true,
+		"name": "Electronics"
+	},
+	{
+		"id": "equipment", 
+		"isOpen": true,
+		"name": "Equipment"
+	},
+	{
+		"id": "deployables", 
+		"isOpen": true,
+		"name": "Deployables"
+	},
+	{
+		"id": "tools", 
+		"isOpen": true,
+		"name": "Tools"
+	},
+	{
+		"id": "seamoth", 
+		"isOpen": true,
+		"name": "Seamoth"
+	},
+	{
+		"id": "prawnsuit", 
+		"isOpen": true,
+		"name": "Prawn Suit"
+	},
+	{
+		"id": "cyclops", 
+		"isOpen": true,
+		"name": "Cyclops"
+	},
+	{
+		"id": "neptuneescaperocket", 
+		"isOpen": true,
+		"name": "Neptune Escape Rocket"
+	}
+]
