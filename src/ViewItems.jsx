@@ -1,5 +1,7 @@
 import {useState} from 'react';
 import IconPin from './IconPin.jsx';
+import IconSearch from './IconSearch.jsx';
+import IconClear from './IconClear.jsx';
 
 export default function ViewItems({view, groups, setGroups, items, setItems}) {
 	const [search, setSearch] = useState('');
@@ -25,11 +27,18 @@ export default function ViewItems({view, groups, setGroups, items, setItems}) {
 		const searchTerm = e.target.value;
 		setSearch(searchTerm);
 	}
+	const clearSearch = () => {
+		setSearch('');
+	}
 
 	if (view.filter(view => view.id === 'Items')[0].isActive) {
 		return (
 			<div className="pane items">
-				<input type="text" placeholder="Search..." value={search} onChange={handleSearchChange} />
+				<div className="filter">
+					<div className="search-icon"><IconSearch /></div>
+					{search && <button className="search-clear" onClick={clearSearch}><IconClear /></button>}
+					<input className="search-input" type="text" placeholder="Start typing to filter items" value={search} onChange={handleSearchChange} />
+				</div>
 
 				{Object.entries(groups).map(([groupIndex, group]) => (
 					(Object.entries(items).filter(([itemIndex, item]) => item.group === group.name && item.name.toLowerCase().includes(search.toLowerCase())).length > 0) && (

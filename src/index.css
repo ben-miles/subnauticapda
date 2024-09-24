@@ -11,6 +11,8 @@
 	--color-blue-light: #56b2e0;
 	--color-blue-less-bright: #7fc8d7;
 	--color-blue-bright: #c8eaf6;
+	--color-teal: #15c392;
+	--color-teal-bright: #26E8C4;
 }
 
 body {
@@ -23,6 +25,7 @@ body {
 *:before,
 :after {
 	box-sizing: border-box;
+	position: relative;
 	transition: all 0.125s linear;
 }
 
@@ -453,6 +456,39 @@ footer a:hover .icon-github {
 
 .alert .text h4 {
 	margin: 0;
+}
+
+.search-input {
+	background: rgba(26, 102, 172, 0.6);
+	border: 1px solid rgba(200, 234, 246, 0.6);
+	box-shadow: inset 0 0 10px rgba(200, 234, 246, 0.5);
+	color: var(--color-teal-bright);
+	font-size: 1em;
+	height: 40px;
+	margin-bottom: 20px;
+	outline: none;
+	padding: 10px 40px;
+	width: 100%;
+}
+
+.search-icon {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	height: auto;
+	width: 24px;
+	z-index: 2;
+}
+
+.search-clear {
+	background: rgba(255,255,255,0.1);
+	border: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 40px;
+	width: 40px;
+	z-index: 2;
 }
 
 .group {
