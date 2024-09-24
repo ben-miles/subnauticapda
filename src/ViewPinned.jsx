@@ -2,29 +2,32 @@ import IconEye from './IconEye.jsx';
 import IconAlert from './IconAlert.jsx';
 
 export default function ViewPinned({items, setItems, view}) {
-	const remove = (groupKey, itemKey) => {
+	const remove = (itemId) => {
 		return () => {
-			let itemsCopy = {...items};
-			itemsCopy[groupKey].items[itemKey].isPinned = false;
+			let itemsCopy = [...items];
+			let thisItem = itemsCopy.filter((item) => item.id === itemId)[0];
+			thisItem.isPinned = false;
 			setItems(itemsCopy);
 			localStorage.setItem('items', JSON.stringify(items));
 		};
 	};
-	const increment = (groupKey, itemKey) => {
+	const increment = (itemId) => {
 		return () => {
-			let itemsCopy = {...items};
-			itemsCopy[groupKey].items[itemKey].quantity = itemsCopy[groupKey].items[itemKey].quantity + 1;
+			let itemsCopy = [...items];
+			let thisItem = itemsCopy.filter((item) => item.id === itemId)[0];
+			thisItem.quantity++;
 			setItems(itemsCopy);
 			localStorage.setItem('items', JSON.stringify(items));
 		};
 	};
-	const decrement = (groupKey, itemKey) => {
+	const decrement = (itemId) => {
 		return () => {
-			let itemsCopy = {...items};
-			if(itemsCopy[groupKey].items[itemKey].quantity === 1) {
-				itemsCopy[groupKey].items[itemKey].isPinned = false;
+			let itemsCopy = [...items];
+			let thisItem = itemsCopy.filter((item) => item.id === itemId)[0];
+			if(thisItem.quantity === 1) {
+				thisItem.isPinned = false;
 			}
-			itemsCopy[groupKey].items[itemKey].quantity = itemsCopy[groupKey].items[itemKey].quantity - 1;
+			thisItem.quantity--;
 			setItems(itemsCopy);
 			localStorage.setItem('items', JSON.stringify(items));
 		};
@@ -32,7 +35,7 @@ export default function ViewPinned({items, setItems, view}) {
 
 	if (view.filter(view => view.id === 'Pinned')[0].isActive) {
 		// if there are no pinned items, display a message
-		if (!Object.entries(items).some(([groupKey, groupValue]) => Object.entries(groupValue.items).some(([itemKey, itemValue]) => itemValue.isPinned)) ) {
+		if (!items.some(item => item.isPinned)) {
 			return (
 				<div className="pane pinned">
 					<div className="content">
@@ -50,43 +53,62 @@ export default function ViewPinned({items, setItems, view}) {
 		} else {
 			return (
 				<div className="pane pinned">
-					{Object.entries(items).map(([groupKey, groupValue]) => (
-						Object.entries(groupValue.items).filter(([itemKey, itemValue]) => itemValue.isPinned).map(([itemKey, itemValue]) => (
-							<div className='pinned-item' key={itemKey}>
-								<div className="controls">
-									<button onClick={remove(groupKey, itemKey)} aria-label="Remove" title="Remove">
-										<IconEye />
-									</button>
-									{itemValue.hasOwnProperty('recipe') && <div className="quantity-buttons">
-										<button onClick={increment(groupKey, itemKey)} aria-label="Increase Quantity" title="Increase Quantity">+</button>
-										{/* <span>{itemValue.quantity}</span> */}
-										<button onClick={decrement(groupKey, itemKey)} aria-label="Decrease Quantity" title="Decrease Quantity">-</button>
-									</div>}
-								</div>
-								<div className="item">
-									<img src={'images/' + itemKey + '.png'} alt={itemValue.name} loading="lazy" />
-									<div className="label">
-										{itemValue.hasOwnProperty('recipe') && <span className="yield">{ (itemValue.quantity * itemValue.recipe.yield) }</span>}
-										<span>{ itemValue.name }</span> 
+					
+					{Object.entries(items).filter(([itemIndex, item]) => item.isPinned).map(([itemIndex, item]) => (
+						<div className='pinned-item' key={item.id}>
+							<div className="controls">
+								<button onClick={remove(item.id)} aria-label="Remove" title="Remove">
+									<IconEye />
+								</button>
+								
+								{item.hasOwnProperty('recipe') && 
+									<div className="quantity-buttons">
+										<button onClick={increment(item.id)} aria-label="Increase Quantity" title="Increase Quantity">+</button>
+										{/* <span>{item.quantity}</span> */}
+										<button onClick={decrement(item.id)} aria-label="Decrease Quantity" title="Decrease Quantity">-</button>
 									</div>
+								}
+
+							</div>
+							<div className="item">
+								<img src={'images/' + item.id + '.png'} alt={item.name} loading="lazy" />
+								<div className="label">
+
+									{item.hasOwnProperty('recipe') && 
+										<span className="yield">{ (item.quantity * item.recipe.yield) }</span>
+									}
+
+									<span>{item.name}</span> 
 								</div>
-								{itemValue.hasOwnProperty('location') && <div className="data"><h3>Found in:</h3><div className="location">{ itemValue.location }</div></div>}
-								{itemValue.hasOwnProperty('recipe') && 
+							</div>
+							
+							{item.hasOwnProperty('location') && 
+								<div className="data">
+									<h3>Found in:</h3>
+									<div className="location">{ item.location }</div>
+								</div>
+							}
+							
+							{item.hasOwnProperty('recipe') && 
 								<div className="data">
 									<h3>Crafted from:</h3>
 									<div className="recipe">
-									{itemValue.recipe.ingredients.map((ingredient) => (
-											<div className="ingredient" key={ingredient.id}>
-												<span className="quantity">{ (itemValue.quantity * ingredient.quantity) }</span>
-												<img src={'images/' + ingredient.id + '.png'} alt={ingredient.name} loading="lazy" />
-												<span className="name">{ingredient.name}</span>
-											</div>
-										))}
+
+									{item.recipe.ingredients.map((ingredient) => (
+										<div className="ingredient" key={ingredient.id}>
+											<span className="quantity">{(item.quantity * ingredient.quantity)}</span>
+											<img src={'images/' + ingredient.id + '.png'} alt={ingredient.name} loading="lazy" />
+											<span className="name">{ingredient.name}</span>
+										</div>
+									))}
+
 									</div>
-								</div>}
-							</div>
-						))
+								</div>
+							}
+							
+						</div>
 					))}
+
 				</div>
 			)
 		}
