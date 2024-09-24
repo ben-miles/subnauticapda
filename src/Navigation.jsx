@@ -7,12 +7,7 @@ export default function Navigation({items, view, setView}) {
 		setView(viewCopy);
 		localStorage.setItem('view', buttonId);
 	};
-	const pinnedItems = Object.entries(items)
-		.map(([groupKey, groupValue]) => (
-			Object.values(groupValue.items)
-				.filter(item => item.isPinned)
-		))
-		.filter(count => count.length > 0).flat().length;
+	const pinnedItems = items.filter(item => item.isPinned).length;
 	
 	return (
 		<div id="tabs">
