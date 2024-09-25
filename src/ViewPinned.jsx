@@ -71,7 +71,7 @@ export default function ViewPinned({items, setItems, view}) {
 
 							</div>
 							<div className="item">
-								<img src={'images/' + item.id + '.png'} alt={item.name} loading="lazy" />
+								<img src={'images/items/' + item.id + '.png'} alt={item.name} loading="lazy" />
 								<div className="label">
 
 									{item.hasOwnProperty('recipe') && 
@@ -97,7 +97,7 @@ export default function ViewPinned({items, setItems, view}) {
 									{item.recipe.ingredients.map((ingredient) => (
 										<div className="ingredient" key={ingredient.id}>
 											<span className="quantity">{(item.quantity * ingredient.quantity)}</span>
-											<img src={'images/' + ingredient.id + '.png'} alt={ingredient.name} loading="lazy" />
+											<img src={'images/items/' + ingredient.id + '.png'} alt={ingredient.name} loading="lazy" />
 											<span className="name">{ingredient.name}</span>
 										</div>
 									))}
