@@ -576,10 +576,6 @@ footer a:hover .icon-github {
 	stroke-width: 2px;
 }
 
-.group .item img {
-	width: 100%;
-}
-
 .group .item span {
 	display: block;
 	font-size: .8em;
@@ -591,8 +587,7 @@ footer a:hover .icon-github {
 	background: var(--color-blue-darker);
 }
 
-.group .item:active
-/* .group .item.active */ { 
+.group .item:active { 
 	background: #f28d00;
 }
 
