@@ -62,7 +62,7 @@ button {
 
 @media (min-width: 1024px) {
 	#pda {
-		background: url(/images/subnauticapda_pda_lg_min.png);
+		background: url(/images/subnauticapda_pda_lg.png);
 		background-position: top right;
 		background-size: cover;
 		background-repeat: no-repeat;
