@@ -11,8 +11,7 @@
 	--color-blue-light: #56b2e0;
 	--color-blue-less-bright: #7fc8d7;
 	--color-blue-bright: #c8eaf6;
-	--color-teal: #15c392;
-	--color-teal-bright: #26E8C4;
+	--color-teal-bright: #22f7b6;
 }
 
 body {
@@ -480,6 +479,10 @@ footer a:hover .icon-github {
 	z-index: 2;
 }
 
+.search-icon svg {
+	fill: var(--color-teal-bright);
+}
+
 .search-clear {
 	background: rgba(255,255,255,0.1);
 	border: none;
@@ -489,6 +492,10 @@ footer a:hover .icon-github {
 	height: 40px;
 	width: 40px;
 	z-index: 2;
+}
+
+.search-clear svg {
+	fill: var(--color-teal-bright);
 }
 
 .group {
@@ -563,10 +570,9 @@ footer a:hover .icon-github {
 	width: 25px;
 	height: auto;
 	position: absolute;
-	fill: #15c392;
-	stroke: #2fcba3;
 	top: 12px;
 	right: -8px;
+	fill: var(--color-teal-bright);
 	stroke-width: 2px;
 }
 
