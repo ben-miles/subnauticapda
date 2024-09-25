@@ -1088,31 +1088,6 @@
 		}
 	},
 	{
-		"id": "stillsuit",
-		"group": "Equipment",
-		"name": "Stillsuit",
-		"recipe": {
-			"ingredients": [
-				{
-					"id": "syntheticfibers",
-					"name": "Synthetic Fibers",
-					"quantity": 1
-				},
-				{
-					"id": "aerogel",
-					"name": "Aerogel",
-					"quantity": 1
-				},
-				{
-					"id": "copperwire",
-					"name": "Copper Wire",
-					"quantity": 1
-				}
-			],
-			"yield": 1
-		}
-	},
-	{
 		"id": "swimchargefins",
 		"group": "Equipment",
 		"name": "Swim Charge Fins",
@@ -1182,6 +1157,31 @@
 					"id": "lithium",
 					"name": "Lithium",
 					"quantity": 4
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "waterfiltrationsuit",
+		"group": "Equipment",
+		"name": "Water Filtration Suit",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "syntheticfibers",
+					"name": "Synthetic Fibers",
+					"quantity": 1
+				},
+				{
+					"id": "aerogel",
+					"name": "Aerogel",
+					"quantity": 1
+				},
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
 				}
 			],
 			"yield": 1
