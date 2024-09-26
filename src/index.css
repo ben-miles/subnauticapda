@@ -553,20 +553,24 @@ footer a:hover .icon-github {
 	width: min( calc( ( 100% / 3 ) - 10px), calc( 128px - 10px ));
 }
 
-.group .item img {
+.item img,
+.ingredient img {
 	background-image: url(/images/subnauticapda_item-bkg.png);
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
-	padding: 10px;
+	padding: 7.5%;
 	width: 100%;
 }
+.ingredient img {
+	padding: 2px;
+}
 
-.group .item.pinned img {
+.item.pinned img {
 	background-image: url(/images/subnauticapda_item-pinned-bkg.png);
 }
 
-.group .item svg {
+.item svg {
 	width: 25px;
 	height: auto;
 	position: absolute;
@@ -667,10 +671,10 @@ footer a:hover .icon-github {
 	text-align: center;
 }
 
-.pinned-item .item img {
+/* .pinned-item .item img {
 	width: 100%;
 	margin-bottom: 10px;
-}
+} */
 
 .pinned-item .item span {
 	font-weight: 600;
