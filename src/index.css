@@ -562,7 +562,7 @@ footer a:hover .icon-github {
 	width: 100%;
 }
 
-.group .item.active img {
+.group .item.pinned img {
 	background-image: url(/images/subnauticapda_item-pinned-bkg.png);
 }
 

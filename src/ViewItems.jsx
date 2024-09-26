@@ -46,7 +46,7 @@ export default function ViewItems({view, groups, setGroups, items, setItems}) {
 						<h3 onClick={() => { toggleGroup(groupIndex); }}>{group.name}</h3>
 
 						{Object.entries(items).filter(([itemIndex, item]) => item.group === group.name && item.name.toLowerCase().includes(search.toLowerCase())).map(([itemIndex, item]) => (
-							<div className={'item ' + (item.isPinned ? 'active' : '')} id={itemIndex} key={item.id} onClick={() => { toggleItem(item.id); }}>
+							<div className={'item ' + (item.isPinned ? 'pinned' : '')} id={itemIndex} key={item.id} onClick={() => { toggleItem(item.id); }}>
 								{item.isPinned && <IconPin />}
 								<img src={'images/items/' + item.id + '.png'} alt={item.name} loading="lazy" />
 								<span>{item.name}</span>
