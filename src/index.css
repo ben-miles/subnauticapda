@@ -727,11 +727,16 @@ footer a:hover .icon-github {
 .pinned-item .quantity,
 .pinned-item .yield {
 	background: #ffd003;
-	color: #7a3e00;
-	border-radius: 15px;
-	text-align: center;
-	padding: 4px;
+	border-radius: 50%;
 	box-shadow: 0 0 10px #8a512d, 0 0 5px #8a512d;
+	color: #7a3e00;
+	display: inline-block;
+	font-weight: bold;
+	height: 26px;
+	margin-right: 5px;
+	padding: 2px;
+	text-align: center;
+	width: 26px;
 }
 
 .pinned-item .ingredient {
@@ -755,11 +760,6 @@ footer a:hover .icon-github {
 
 .pinned-item .ingredient:last-child:after {
 	content: "";
-}
-
-.pinned-item .ingredient .quantity {
-	font-weight: bold;
-	margin-right: 10px;
 }
 
 .pinned-item .ingredient img {
