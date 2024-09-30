@@ -60,8 +60,8 @@ export default function App() {
 			</div>
 			<Footer />
 			<div id="bkg">
-				<video autoPlay loop muted preload="auto" poster="../public/video/subnauticapda_waves.png">
-					<source src="../public/video/subnauticapda_waves.webm" type="video/webm" />
+				<video autoPlay loop muted preload="auto" poster="../video/subnauticapda_waves.png">
+					<source src="../video/subnauticapda_waves.webm" type="video/webm" />
 				</video>
 			</div>
 		</>
