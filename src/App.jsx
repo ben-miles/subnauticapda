@@ -61,7 +61,7 @@ export default function App() {
 			<Footer />
 			<div id="bkg">
 				<video autoPlay loop muted>
-					<source src="../public/video/waves.webm" type="video/webm" />
+					<source src="../public/video/subnauticapda_waves.webm" type="video/webm" />
 				</video>
 			</div>
 		</>
