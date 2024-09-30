@@ -31,8 +31,10 @@ See it live here: [SubnauticaPDA.dev](https://subnauticapda.dev)
 
 ## Special Thanks
 
-- Most of the item data and images were sourced from the [Subnautica Wiki on Fandom](https://subnautica.fandom.com/)
-- Background image: ["Aurora and Lifepod" by FOX3D](https://www.artstation.com/artwork/bxJJv)
+- Most data sourced from [Subnautica Wiki on Fandom](https://subnautica.fandom.com/)
+- PDA image: Modified version of ["PDA" by UnderseaDee](https://subnautica.fandom.com/wiki/PDA?file=PDA.png)
+- Item images: Extracted from game files using [UABE](https://github.com/SeriousCache/UABE)
+- Background video: Modified version of ["Underwater light filters down through blue water" by raymond](https://www.vecteezy.com/video/14398073-underwater-light-filters-down-through-blue-water-loop)
 - Alert icon: ["Alert" by Gautam Arora](https://thenounproject.com/term/alert/574450/)
 - Eye icon: ["Eye" by Poups](https://thenounproject.com/term/eye/3350406/)
 - GitHub icon: ["Octicon" by GitHub](https://github.com/)
