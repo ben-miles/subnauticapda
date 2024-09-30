@@ -37,7 +37,7 @@ export default function ViewItems({view, groups, setGroups, items, setItems}) {
 				<div className="filter">
 					<div className="search-icon"><IconSearch /></div>
 					{search && <button className="search-clear" onClick={clearSearch}><IconClear /></button>}
-					<input className="search-input" type="text" placeholder="Start typing to filter items" value={search} onChange={handleSearchChange} />
+					<input autoFocus className="search-input" type="text" placeholder="Start typing to filter items" value={search} id="search" onChange={handleSearchChange} />
 				</div>
 
 				{Object.entries(groups).map(([groupIndex, group]) => (
