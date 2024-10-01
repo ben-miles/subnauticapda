@@ -49,7 +49,7 @@ export default function ViewItems({view, groups, setGroups, items, setItems}) {
 							<div className={'item ' + (item.isPinned ? 'pinned' : '')} id={itemIndex} key={item.id} onClick={() => { toggleItem(item.id); }}>
 								{item.isPinned && <IconPin />}
 								<img src={'images/items/' + item.id + '.png'} alt={item.name} loading="lazy" />
-								<span>{item.name}</span>
+								<span className="name">{item.name}</span>
 							</div>
 						))}
 

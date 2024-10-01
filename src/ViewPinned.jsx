@@ -70,9 +70,7 @@ export default function ViewPinned({items, setItems, view}) {
 							</div>
 							<div className="item">
 								<img src={'images/items/' + item.id + '.png'} alt={item.name} loading="lazy" />
-								<div className="label">
-									<span>{item.name}</span> 
-								</div>
+								<span className="name">{item.name}</span> 
 							</div>
 							
 							{item.hasOwnProperty('location') && 

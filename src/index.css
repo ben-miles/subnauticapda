@@ -580,9 +580,9 @@ footer a:hover .icon-github {
 	stroke-width: 2px;
 }
 
-.group .item span {
+.item .name {
 	display: block;
-	font-size: .8em;
+	font-weight: 600;
 	line-height: 1;
 	text-align: center;
 }
@@ -665,21 +665,6 @@ footer a:hover .icon-github {
 	align-items: center;
 	margin-right: 15px;
 	width: 90px;
-}
-
-.pinned-item .item .label {
-	text-align: center;
-}
-
-/* .pinned-item .item img {
-	width: 100%;
-	margin-bottom: 10px;
-} */
-
-.pinned-item .item span {
-	font-weight: 600;
-	text-align: center;
-	line-height: normal;
 }
 
 .pinned-item .data {
