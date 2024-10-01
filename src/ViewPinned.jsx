@@ -61,23 +61,16 @@ export default function ViewPinned({items, setItems, view}) {
 									<IconEye />
 								</button>
 								
-								{item.hasOwnProperty('recipe') && 
-									<div className="quantity-buttons">
-										<button onClick={increment(item.id)} aria-label="Increase Quantity" title="Increase Quantity">+</button>
-										{/* <span>{item.quantity}</span> */}
-										<button onClick={decrement(item.id)} aria-label="Decrease Quantity" title="Decrease Quantity">-</button>
-									</div>
-								}
+								<div className="quantity-buttons">
+									<button onClick={increment(item.id)} aria-label="Increase Quantity" title="Increase Quantity">+</button>
+									<span>{(item.quantity * ( item.hasOwnProperty('recipe') ? item.recipe.yield : 1 ) )}</span>
+									<button onClick={decrement(item.id)} aria-label="Decrease Quantity" title="Decrease Quantity">-</button>
+								</div>
 
 							</div>
 							<div className="item">
 								<img src={'images/items/' + item.id + '.png'} alt={item.name} loading="lazy" />
 								<div className="label">
-
-									{item.hasOwnProperty('recipe') && 
-										<span className="yield">{ (item.quantity * item.recipe.yield) }</span>
-									}
-
 									<span>{item.name}</span> 
 								</div>
 							</div>
