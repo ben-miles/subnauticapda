@@ -138,14 +138,15 @@ button {
 	transform: rotate(-45deg);
 	display: block;
 	position: absolute;
+	left: -6px;
 	bottom: -4px;
 }
 
 #heading h2:after {
-	right: -7px;
+	left: unset;
+	right: -6px;
 	bottom: 0;
 }
-
 
 #panes {
 	display: flex;
