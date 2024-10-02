@@ -1,37 +1,62 @@
+import {useState} from 'react';
 import IconPin from './IconPin.jsx';
+import IconSearch from './IconSearch.jsx';
+import IconClear from './IconClear.jsx';
 
-export default function ViewItems({view, items, setItems}) {
-	const toggleGroup = (groupId) => {
-		let itemsCopy = {...items};
-		itemsCopy[groupId].isOpen = !itemsCopy[groupId].isOpen;
-		setItems(itemsCopy);
+export default function ViewItems({view, groups, setGroups, items, setItems}) {
+	const [search, setSearch] = useState('');
+	const toggleGroup = (groupIndex) => {
+		let groupsCopy = {...groups};
+		groupsCopy[groupIndex].isOpen = !groupsCopy[groupIndex].isOpen;
+		setGroups(groupsCopy);
+		localStorage.setItem('groups', JSON.stringify(groups));
 	};
-	const toggleItem = (groupId,itemId) => {
-		let itemsCopy = {...items};
-		if(itemsCopy[groupId].items[itemId].isPinned) {
-			itemsCopy[groupId].items[itemId].isPinned = false;
+	const toggleItem = (itemId) => {
+		let itemsCopy = [...items];
+		let thisItem = itemsCopy.filter((item) => item.id === itemId)[0];
+		if(thisItem.isPinned) {
+			thisItem.isPinned = false;
 		} else {
-			itemsCopy[groupId].items[itemId].isPinned = true;
-			itemsCopy[groupId].items[itemId].quantity = itemsCopy[groupId].items[itemId].quantity ? itemsCopy[groupId].items[itemId].quantity : 1;
+			thisItem.isPinned = true;
+			thisItem.quantity = thisItem.quantity ? thisItem.quantity : 1;
 		}
 		setItems(itemsCopy);
+		localStorage.setItem('items', JSON.stringify(items));
 	};
+	const handleSearchChange = (e) => { 
+		const searchTerm = e.target.value;
+		setSearch(searchTerm);
+	}
+	const clearSearch = () => {
+		setSearch('');
+	}
 
-	if (view === 'Items') {
+	if (view.filter(view => view.id === 'Items')[0].isActive) {
 		return (
 			<div className="pane items">
-				{Object.entries(items).map(([groupKey, groupValue]) => (
-					<div className={'group ' + (groupValue.isOpen ? 'open' : '')} id={groupKey} key={groupKey}>
-						<h3 onClick={() => { toggleGroup(groupKey); }}>{groupValue.name}</h3>
-						{Object.entries(groupValue.items).map(([itemKey, itemValue]) => (
-							<div className={'item ' + (itemValue.isPinned ? 'active' : '')} id={itemKey} key={itemKey} onClick={() => { toggleItem(groupKey,itemKey); }}>
-								{itemValue.isPinned && <IconPin />}
-								<img src={'images/' + itemKey + '.png'} alt={itemValue.name} loading="lazy" />
-								<span>{itemValue.name}</span>
+				<div className="filter">
+					<div className="search-icon"><IconSearch /></div>
+					{search && <button className="search-clear" onClick={clearSearch}><IconClear /></button>}
+					<input autoFocus className="search-input" type="text" placeholder="Start typing to filter items" value={search} id="search" onChange={handleSearchChange} />
+				</div>
+
+				{Object.entries(groups).map(([groupIndex, group]) => (
+					(Object.entries(items).filter(([itemIndex, item]) => item.group === group.name && item.name.toLowerCase().includes(search.toLowerCase())).length > 0) && (
+						<div className={'group ' + (group.isOpen ? 'open' : '')} key={group.id}>
+						<h3 onClick={() => { toggleGroup(groupIndex); }}>{group.name}</h3>
+
+						{Object.entries(items).filter(([itemIndex, item]) => item.group === group.name && item.name.toLowerCase().includes(search.toLowerCase())).map(([itemIndex, item]) => (
+							<div className={'item ' + (item.isPinned ? 'pinned' : '')} id={itemIndex} key={item.id} onClick={() => { toggleItem(item.id); }}>
+								{item.isPinned && <IconPin />}
+								<img src={'images/items/' + item.id + '.png'} alt={item.name} loading="lazy" />
+								<span className="name">{item.name}</span>
 							</div>
 						))}
-					</div>
+
+						</div>
+					)
 				))}
+
 			</div>
 		)
 	}

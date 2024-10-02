@@ -1,43 +1,34 @@
-import { useState } from 'react';
-import IconPin from './IconPin.jsx';
-import IconDocument from './IconDocument.jsx';
-import IconWrench from './IconWrench.jsx';
-import IconHelp from './IconHelp.jsx';
-
-const navButtons = [
-	{ id: 0, isActive: false, label: 'Pinned', icon: <IconPin /> },
-	{ id: 1, isActive: false, label: 'Items', icon: <IconWrench /> },
-	{ id: 2, isActive: false, label: 'Notes', icon: <IconDocument /> },
-	{ id: 3, isActive: true, label: 'Help', icon: <IconHelp /> },
-  ];
-
-export default function Navigation({setView}) {
-	const [buttons, setButtons] = useState(navButtons);
-	const clickHandler = (label) => {
-		setView(label);
-		setButtons(buttons.map(button => ({
-			...button,
-			isActive: button.label === label
-		})));
+export default function Navigation({items, view, setView}) {
+	const clickHandler = (buttonId) => {
+		let viewCopy = [...view];
+		viewCopy.forEach(button => {
+			button.isActive = button.id === buttonId;
+		});
+		setView(viewCopy);
+		localStorage.setItem('view', buttonId);
 	};
+	const pinnedItems = items.filter(item => item.isPinned).length;
+	
 	return (
-		<>
-			<div id="tabs">
-				{buttons.map((button) => (
+		<div id="tabs">
+			{view.map((button) => {
+				const IconComponent = `${button.icon}`;
+				return (
 					<button 
 						className={button.isActive ? 'active tab' : 'tab'} 
-						aria-label={button.label} 
-						title={button.label} 
+						aria-label={button.id} 
+						title={button.id} 
 						key={button.id} 
 						onClick={() => {
-							clickHandler(button.label);
+							clickHandler(button.id);
 						}}
 					>
 						{button.icon}
-						<span>{button.label}</span>
+						{button.id === 'Pinned' && pinnedItems > 0 && <span className="badge">{pinnedItems}</span>}
+						<span className="label">{button.id}</span>
 					</button>
-				))}
-			</div>
-		</>
+				)
+			})}
+		</div>
 	)
 }

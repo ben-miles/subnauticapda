@@ -1,2568 +1,2635 @@
-{
-	"floraseeds": {
-		"id": "floraseeds",
-		"name": "Flora & Seeds",
-		"description": "",
-		"items": {
-			"acidmushroom": {
-				"id": "acidmushroom",
-				"name": "Acid Mushroom",
-				"location": "Crash Zone, Grassy Plateaus, Grassy Plateaus Caves, Lost River, Mushroom Forest, Reefback, Safe Shallows, Safe Shallows Caves"
-			},
-			"acidmushroomspore": {
-				"id": "acidmushroomspore",
-				"name": "Acid Mushroom Spore",
-				"location": "Crash Zone, Grassy Plateaus, Grassy Plateaus Caves, Lost River, Mushroom Forest, Reefback, Safe Shallows, Safe Shallows Caves"
-			},
-			"bloodoil": {
-				"id": "bloodoil",
-				"name": "Blood Oil",
-				"location": "Blood Kelp Caves, Blood Kelp Zone"
-			},
-			"bluepalmseed": {
-				"id": "bluepalmseed",
-				"name": "Blue Palm Seed",
-				"location": "Bulb Zone, Mushroom Forest, Mountains Caves, Safe Shallows"
-			},
-			"braincoralsample": {
-				"id": "braincoralsample",
-				"name": "Brain Coral Sample",
-				"location": "Bulb Zone, Grassy Plateaus, Kelp Forest, Mountains, Mushroom Forest, Safe Shallows"
-			},
-			"bulbbushsample": {
-				"id": "bulbbushsample",
-				"name": "Bulb Bush Sample",
-				"location": "Bulb Zone"
-			},
-			"bulbtreesample": {
-				"id": "bulbtreesample",
-				"name": "Bulb Tree Sample",
-				"location": "Floating Island, Mountain Island"
-			},
-			"cavebushseed": {
-				"id": "cavebushseed",
-				"name": "Cave Bush Seed",
-				"location": "Jellyshroom Cave, Mountains Caves, Sea Treader's Path, Sea Treader's Tunnel Caves"
-			},
-			"chinesepotato": {
-				"id": "chinesepotato",
-				"name": "Chinese Potato",
-				"location": "Floating Island"
-			},
-			"coraltubesample": {
-				"id": "coraltubesample",
-				"name": "Coral Tube Sample",
-				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
-			},
-			"creepvinesample": {
-				"id": "creepvinesample",
-				"name": "Creepvine Sample",
-				"location": "Kelp Forest"
-			},
-			"creepvineseedcluster": {
-				"id": "creepvineseedcluster",
-				"name": "Creepvine Seed Cluster",
-				"location": "Kelp Forest"
-			},
-			"deepshroom": {
-				"id": "deepshroom",
-				"name": "Deep Shroom",
-				"location": "Blood Kelp Zone, Sea Treader's Path, Sea Treader's Tunnel Caves"
-			},
-			"deepshroomspore": {
-				"id": "deepshroomspore",
-				"name": "Deep Shroom Spore",
-				"location": "Blood Kelp Zone, Sea Treader's Path, Sea Treader's Tunnel Caves"
-			},
-			"eyestalkseed": {
-				"id": "eyestalkseed",
-				"name": "Eye Stalk Seed",
-				"location": "Bulb Zone Caves, Kelp Forest Caves, Mountains Caves, Sparse Reef"
-			},
-			"fernpalmseed": {
-				"id": "fernpalmseed",
-				"name": "Fern Palm Seed",
-				"location": "Floating Island"
-			},
-			"fungalsample": {
-				"id": "fungalsample",
-				"name": "Fungal Sample",
-				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
-			},
-			"furledpapyrusseed": {
-				"id": "furledpapyrusseed",
-				"name": "Furled Papyrus Seed",
-				"location": "Grassy Plateaus, Grassy Plateaus Caves, Jellyshroom Cave, Mountains Caves, Reefback, Sea Treader's Tunnel Caves"
-			},
-			"gabesfeatherseed": {
-				"id": "gabesfeatherseed",
-				"name": "Gabe's Feather Seed",
-				"location": "Blood Kelp Zone, Sea Treader's Path, Sea Treader's Tunnel Caves"
-			},
-			"gelsack": {
-				"id": "gelsack",
-				"name": "Gel Sack",
-				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
-			},
-			"ghostweedseed": {
-				"id": "ghostweedseed",
-				"name": "Ghost Weed Seed",
-				"location": "Blood Kelp Zone, Bulb Zone, Lost River, Mountains"
-			},
-			"grubbasketseed": {
-				"id": "grubbasketseed",
-				"name": "Grub Basket Seed",
-				"location": "Floating Island"
-			},
-			"jaffacupseed": {
-				"id": "jaffacupseed",
-				"name": "Jaffa Cup Seed",
-				"location": "Floating Island"
-			},
-			"jellyshroomspore": {
-				"id": "jellyshroomspore",
-				"name": "Jellyshroom Spore",
-				"location": "Jellyshroom Cave"
-			},
-			"lanternfruit": {
-				"id": "lanternfruit",
-				"name": "Lantern Fruit",
-				"location": "Floating Island"
-			},
-			"marblemelon": {
-				"id": "marblemelon",
-				"name": "Marblemelon",
-				"location": "Floating Island"
-			},
-			"marblemelonseeds": {
-				"id": "marblemelonseeds",
-				"name": "Marblemelon Seeds",
-				"location": "Grand Reef, Sea Treader's Path"
-			},
-			"membraintreeseed": {
-				"id": "membraintreeseed",
-				"name": "Membrain Tree Seed",
-				"location": "Floating Island"
-			},
-			"mingplantseed": {
-				"id": "mingplantseed",
-				"name": "Ming Plant Seed",
-				"location": "Floating Island"
-			},
-			"pinkcap": {
-				"id": "pinkcap",
-				"name": "Pink Cap",
-				"location": "Floating Island"
-			},
-			"pinkcapspore": {
-				"id": "pinkcapspore",
-				"name": "Pink Cap Spore",
-				"location": "Floating Island"
-			},
-			"pygmyfanseed": {
-				"id": "pygmyfanseed",
-				"name": "Pygmy Fan Seed",
-				"location": "Bulb Zone, Kelp Forest, Mushroom Forest"
-			},
-			"redwortseed": {
-				"id": "redwortseed",
-				"name": "Redwort Seed",
-				"location": "Grassy Plateaus, Jellyshroom Cave, Sparse Reef, Underwater Islands"
-			},
-			"regressshellseed": {
-				"id": "regressshellseed",
-				"name": "Regress Shell Seed",
-				"location": "Grassy Plateaus Caves, Mountains Caves, Reefback, Sea Treader's Tunnel Caves"
-			},
-			"rougecradleseed": {
-				"id": "rougecradleseed",
-				"name": "Rouge Cradle Seed",
-				"location": "Grassy Plateaus, Grassy Plateaus Caves, Reefback"
-			},
-			"seacrownseed": {
-				"id": "seacrownseed",
-				"name": "Sea Crown Seed",
-				"location": "Bulb Zone, Dunes, Dunes Caves, Grassy Plateaus Caves"
-			},
-			"smallmarblemelon": {
-				"id": "smallmarblemelon",
-				"name": "Small Marblemelon",
-				"location": "Floating Island"
-			},
-			"speckledrattler": {
-				"id": "speckledrattler",
-				"name": "Speckled Rattler",
-				"location": "Floating Island"
-			},
-			"speckledrattlerspore": {
-				"id": "speckledrattlerspore",
-				"name": "Speckled Rattler Spore",
-				"location": "Floating Island"
-			},
-			"spikedhorngrassseed": {
-				"id": "spikedhorngrassseed",
-				"name": "Spiked Horn Grass Seed",
-				"location": "Bulb Zone Caves, Sea Treader's Path"
-			},
-			"spotteddockleafseed": {
-				"id": "spotteddockleafseed",
-				"name": "Spotted Dockleaf Seed",
-				"location": "Bulb Zone, Bulb Zone Caves, Mountains Caves, Underwater Islands"
-			},
-			"tigerplantseed": {
-				"id": "tigerplantseed",
-				"name": "Tiger Plant Seed",
-				"location": "Grassy Plateaus, Grassy Plateaus Caves, Reefback, Sparse Reef"
-			},
-			"tablecoralsample": {
-				"id": "tablecoralsample",
-				"name": "Table Coral Sample",
-				"location": "Bulb Zone, Crash Zone, Crash Zone Mesas, Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Lost River, Mushroom Forest, Reefback Leviathan, Safe Shallows"
-			},
-			"veinednettleseed": {
-				"id": "veinednettleseed",
-				"name": "Veined Nettle Seed",
-				"location": "Grassy Plateaus, Mushroom Forest, Reefback, Safe Shallows, Safe Shallows Caves"
-			},
-			"violetbeauseed": {
-				"id": "violetbeauseed",
-				"name": "Violet Beau Seed",
-				"location": "Grassy Plateaus, Jellyshroom Cave, Mountains Caves, Reefback, Sea Treader's Path"
-			},
-			"voxelshrubseed": {
-				"id": "voxelshrubseed",
-				"name": "Voxel Shrub Seed",
-				"location": "Floating Island"
-			},
-			"writhingweedseed": {
-				"id": "writhingweedseed",
-				"name": "Writhing Weed Seed",
-				"location": "Bulb Zone, Grassy Plateaus, Mushroom Forest, Mushroom Forest Caves, Reefback, Safe Shallows, Safe Shallows Caves"
-			}
+[
+	{
+		"id": "acidmushroom",
+		"group": "Flora & Seeds",
+		"name": "Acid Mushroom",
+		"location": "Crash Zone, Grassy Plateaus, Grassy Plateaus Caves, Lost River, Mushroom Forest, Reefback, Safe Shallows, Safe Shallows Caves"
+	},
+	{
+		"id": "acidmushroomspore",
+		"group": "Flora & Seeds",
+		"name": "Acid Mushroom Spore",
+		"location": "Crash Zone, Grassy Plateaus, Grassy Plateaus Caves, Lost River, Mushroom Forest, Reefback, Safe Shallows, Safe Shallows Caves"
+	},
+	{
+		"id": "bloodoil",
+		"group": "Flora & Seeds",
+		"name": "Blood Oil",
+		"location": "Blood Kelp Caves, Blood Kelp Zone"
+	},
+	{
+		"id": "bluepalmseed",
+		"group": "Flora & Seeds",
+		"name": "Blue Palm Seed",
+		"location": "Bulb Zone, Mushroom Forest, Mountains Caves, Safe Shallows"
+	},
+	{
+		"id": "braincoralsample",
+		"group": "Flora & Seeds",
+		"name": "Brain Coral Sample",
+		"location": "Bulb Zone, Grassy Plateaus, Kelp Forest, Mountains, Mushroom Forest, Safe Shallows"
+	},
+	{
+		"id": "bulbbushsample",
+		"group": "Flora & Seeds",
+		"name": "Bulb Bush Sample",
+		"location": "Bulb Zone"
+	},
+	{
+		"id": "bulbotreesample",
+		"group": "Flora & Seeds",
+		"name": "Bulbo Tree Sample",
+		"location": "Floating Island, Mountain Island"
+	},
+	{
+		"id": "cavebushseed",
+		"group": "Flora & Seeds",
+		"name": "Cave Bush Seed",
+		"location": "Jellyshroom Cave, Mountains Caves, Sea Treader's Path, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "chinesepotato",
+		"group": "Flora & Seeds",
+		"name": "Chinese Potato",
+		"location": "Floating Island"
+	},
+	{
+		"id": "coraltubesample",
+		"group": "Flora & Seeds",
+		"name": "Coral Tube Sample",
+		"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "creepvinesample",
+		"group": "Flora & Seeds",
+		"name": "Creepvine Sample",
+		"location": "Kelp Forest"
+	},
+	{
+		"id": "creepvineseedcluster",
+		"group": "Flora & Seeds",
+		"name": "Creepvine Seed Cluster",
+		"location": "Kelp Forest"
+	},
+	{
+		"id": "deepshroom",
+		"group": "Flora & Seeds",
+		"name": "Deep Shroom",
+		"location": "Blood Kelp Zone, Sea Treader's Path, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "deepshroomspore",
+		"group": "Flora & Seeds",
+		"name": "Deep Shroom Spore",
+		"location": "Blood Kelp Zone, Sea Treader's Path, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "eyestalkseed",
+		"group": "Flora & Seeds",
+		"name": "Eye Stalk Seed",
+		"location": "Bulb Zone Caves, Kelp Forest Caves, Mountains Caves, Sparse Reef"
+	},
+	{
+		"id": "fernpalmseed",
+		"group": "Flora & Seeds",
+		"name": "Fern Palm Seed",
+		"location": "Floating Island"
+	},
+	{
+		"id": "fungalsample",
+		"group": "Flora & Seeds",
+		"name": "Fungal Sample",
+		"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "furledpapyrusseed",
+		"group": "Flora & Seeds",
+		"name": "Furled Papyrus Seed",
+		"location": "Grassy Plateaus, Grassy Plateaus Caves, Jellyshroom Cave, Mountains Caves, Reefback, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "gabesfeatherseed",
+		"group": "Flora & Seeds",
+		"name": "Gabe's Feather Seed",
+		"location": "Blood Kelp Zone, Sea Treader's Path, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "gelsack",
+		"group": "Flora & Seeds",
+		"name": "Gel Sack",
+		"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "ghostweedseed",
+		"group": "Flora & Seeds",
+		"name": "Ghost Weed Seed",
+		"location": "Blood Kelp Zone, Bulb Zone, Lost River, Mountains"
+	},
+	{
+		"id": "grubbasketseed",
+		"group": "Flora & Seeds",
+		"name": "Grub Basket Seed",
+		"location": "Floating Island"
+	},
+	{
+		"id": "jaffacupseed",
+		"group": "Flora & Seeds",
+		"name": "Jaffa Cup Seed",
+		"location": "Floating Island"
+	},
+	{
+		"id": "jellyshroomspore",
+		"group": "Flora & Seeds",
+		"name": "Jellyshroom Spore",
+		"location": "Jellyshroom Cave"
+	},
+	{
+		"id": "lanternfruit",
+		"group": "Flora & Seeds",
+		"name": "Lantern Fruit",
+		"location": "Floating Island"
+	},
+	{
+		"id": "marblemelon",
+		"group": "Flora & Seeds",
+		"name": "Marblemelon",
+		"location": "Floating Island"
+	},
+	{
+		"id": "marblemelonseeds",
+		"group": "Flora & Seeds",
+		"name": "Marblemelon Seeds",
+		"location": "Grand Reef, Sea Treader's Path"
+	},
+	{
+		"id": "membraintreeseed",
+		"group": "Flora & Seeds",
+		"name": "Membrain Tree Seed",
+		"location": "Floating Island"
+	},
+	{
+		"id": "mingplantseed",
+		"group": "Flora & Seeds",
+		"name": "Ming Plant Seed",
+		"location": "Floating Island"
+	},
+	{
+		"id": "pinkcap",
+		"group": "Flora & Seeds",
+		"name": "Pink Cap",
+		"location": "Floating Island"
+	},
+	{
+		"id": "pinkcapspore",
+		"group": "Flora & Seeds",
+		"name": "Pink Cap Spore",
+		"location": "Floating Island"
+	},
+	{
+		"id": "pygmyfanseed",
+		"group": "Flora & Seeds",
+		"name": "Pygmy Fan Seed",
+		"location": "Bulb Zone, Kelp Forest, Mushroom Forest"
+	},
+	{
+		"id": "redwortseed",
+		"group": "Flora & Seeds",
+		"name": "Redwort Seed",
+		"location": "Grassy Plateaus, Jellyshroom Cave, Sparse Reef, Underwater Islands"
+	},
+	{
+		"id": "regressshellseed",
+		"group": "Flora & Seeds",
+		"name": "Regress Shell Seed",
+		"location": "Grassy Plateaus Caves, Mountains Caves, Reefback, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "rougecradleseed",
+		"group": "Flora & Seeds",
+		"name": "Rouge Cradle Seed",
+		"location": "Grassy Plateaus, Grassy Plateaus Caves, Reefback"
+	},
+	{
+		"id": "seacrownseed",
+		"group": "Flora & Seeds",
+		"name": "Sea Crown Seed",
+		"location": "Bulb Zone, Dunes, Dunes Caves, Grassy Plateaus Caves"
+	},
+	{
+		"id": "marblemelonsmall",
+		"group": "Flora & Seeds",
+		"name": "Small Marblemelon",
+		"location": "Floating Island"
+	},
+	{
+		"id": "speckledrattler",
+		"group": "Flora & Seeds",
+		"name": "Speckled Rattler",
+		"location": "Floating Island"
+	},
+	{
+		"id": "speckledrattlerspore",
+		"group": "Flora & Seeds",
+		"name": "Speckled Rattler Spore",
+		"location": "Floating Island"
+	},
+	{
+		"id": "spikedhorngrassseed",
+		"group": "Flora & Seeds",
+		"name": "Spiked Horn Grass Seed",
+		"location": "Bulb Zone Caves, Sea Treader's Path"
+	},
+	{
+		"id": "spotteddockleafseed",
+		"group": "Flora & Seeds",
+		"name": "Spotted Dockleaf Seed",
+		"location": "Bulb Zone, Bulb Zone Caves, Mountains Caves, Underwater Islands"
+	},
+	{
+		"id": "tigerplantseed",
+		"group": "Flora & Seeds",
+		"name": "Tiger Plant Seed",
+		"location": "Grassy Plateaus, Grassy Plateaus Caves, Reefback, Sparse Reef"
+	},
+	{
+		"id": "tablecoralsample",
+		"group": "Flora & Seeds",
+		"name": "Table Coral Sample",
+		"location": "Bulb Zone, Crash Zone, Crash Zone Mesas, Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Lost River, Mushroom Forest, Reefback Leviathan, Safe Shallows"
+	},
+	{
+		"id": "veinednettleseed",
+		"group": "Flora & Seeds",
+		"name": "Veined Nettle Seed",
+		"location": "Grassy Plateaus, Mushroom Forest, Reefback, Safe Shallows, Safe Shallows Caves"
+	},
+	{
+		"id": "violetbeauseed",
+		"group": "Flora & Seeds",
+		"name": "Violet Beau Seed",
+		"location": "Grassy Plateaus, Jellyshroom Cave, Mountains Caves, Reefback, Sea Treader's Path"
+	},
+	{
+		"id": "voxelshrubseed",
+		"group": "Flora & Seeds",
+		"name": "Voxel Shrub Seed",
+		"location": "Floating Island"
+	},
+	{
+		"id": "writhingweedseed",
+		"group": "Flora & Seeds",
+		"name": "Writhing Weed Seed",
+		"location": "Bulb Zone, Grassy Plateaus, Mushroom Forest, Mushroom Forest Caves, Reefback, Safe Shallows, Safe Shallows Caves"
+	},
+	{
+		"id": "alienfeces",
+		"group": "Raw Materials",
+		"name": "Alien Feces",
+		"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "cavesulfur",
+		"group": "Raw Materials",
+		"name": "Cave Sulfur",
+		"location": "Kelp Forest Caves, Safe Shallows Caves"
+	},
+	{
+		"id": "copperore",
+		"group": "Raw Materials",
+		"name": "Copper Ore",
+		"location": "Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Reefback, Safe Shallows, Safe Shallows Caves, Sparse Reef, Underwater Islands"
+	},
+	{
+		"id": "crystallinesulfur",
+		"group": "Raw Materials",
+		"name": "Crystalline Sulfur",
+		"location": "Inactive Lava Zone, Lava Lakes, Lost River"
+	},
+	{
+		"id": "diamond",
+		"group": "Raw Materials",
+		"name": "Diamond",
+		"location": "Blood Kelp Caves, Bulb Zone, Deep Grand Reef, Grand Reef, Inactive Lava Zone, Mountains, Mountains Caves, Underwater Islands"
+	},
+	{
+		"id": "gaspod",
+		"group": "Raw Materials",
+		"name": "Gas Pod",
+		"location": "Crash Zone Mesas, Dunes, Safe Shallows"
+	},
+	{
+		"id": "gold",
+		"group": "Raw Materials",
+		"name": "Gold",
+		"location": "Blood Kelp Caves, Bulb Zone, Bulb Zone Caves, Crash Zone, Deep Grand Reef, Dunes, Grand Reef, Grassy Plateaus, Jellyshroom Cave, Mushroom Forest, Safe Shallows Caves, Underwater Islands"
+	},
+	{
+		"id": "ioncube",
+		"group": "Raw Materials",
+		"name": "Ion Cube",
+		"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "kyanite",
+		"group": "Raw Materials",
+		"name": "Kyanite",
+		"location": "Inactive Lava Zone, Lava Castle, Lava Lakes"
+	},
+	{
+		"id": "lead",
+		"group": "Raw Materials",
+		"name": "Lead",
+		"location": "Bulb Zone, Crash Zone, Crash Zone Mesas, Dunes, Dunes Caves, Grand Reef, Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Lava Geyser, Mountains, Mountain Island, Mushroom Forest, Safe Shallows, Safe Shallows Caves"
+	},
+	{
+		"id": "lithium",
+		"group": "Raw Materials",
+		"name": "Lithium",
+		"location": "Bulb Zone, Bulb Zone Caves, Crag Field, Crash Zone, Dunes, Dunes Caves, Floating Island, Grassy Plateaus, Jellyshroom Cave, Mountain Island, Mountains, Mountains Caves, Mushroom Forest, Mushroom Forest Caves, Sea Treader's Path, Sparse Reef"
+	},
+	{
+		"id": "magnetite",
+		"group": "Raw Materials",
+		"name": "Magnetite",
+		"location": "Jellyshroom Cave, Mountain Island, Mountains, Mountains Caves"
+	},
+	{
+		"id": "metalsalvage",
+		"group": "Raw Materials",
+		"name": "Metal Salvage",
+		"location": "Aurora, Blood Kelp Zone, Crash Zone, Dunes, Grassy Plateaus, Kelp Forest, Safe Shallows"
+	},
+	{
+		"id": "nickelore",
+		"group": "Raw Materials",
+		"name": "Nickel Ore",
+		"location": "Lost River"
+	},
+	{
+		"id": "quartz",
+		"group": "Raw Materials",
+		"name": "Quartz",
+		"location": "Blood Kelp Caves, Blood Kelp Zone, Crash Zone, Dunes, Grand Reef, Grassy Plateaus, Kelp Forest, Safe Shallows, Safe Shallows Caves, Sea Treader's Path, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "ruby",
+		"group": "Raw Materials",
+		"name": "Ruby",
+		"location": "Bone Fields Caves, Bulb Zone, Deep Grand Reef, Deep Sparse Reef, Grand Reef, Inactive Lava Zone Corridor, Lost River, Mountains Caves, Sea Treader's Path, Sea Treader's Tunnel Caves"
+	},
+	{
+		"id": "saltdeposit",
+		"group": "Raw Materials",
+		"name": "Salt Deposit",
+		"location": "Aurora, Bulb Zone, Crash Zone, Deep Grand Reef, Floating Island, Grassy Plateaus, Kelp Forest, Mushroom Forest, Safe Shallows, Sparse Reef, Underwater Islands"
+	},
+	{
+		"id": "silverore",
+		"group": "Raw Materials",
+		"name": "Silver Ore",
+		"location": "Dunes, Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Reefback, Safe Shallows Caves"
+	},
+	{
+		"id": "stalkertooth",
+		"group": "Raw Materials",
+		"name": "Stalker Tooth",
+		"location": "Kelp Forest"
+	},
+	{
+		"id": "titanium",
+		"group": "Raw Materials",
+		"name": "Titanium",
+		"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "metalsalvage",
+					"name": "Metal Salvage",
+					"quantity": 1
+				}
+			],
+			"yield": 4
 		}
 	},
-	"rawmaterials": {
-		"id": "rawmaterials",
-		"name": "Raw Materials",
-		"description": "Raw Materials are items for crafting processes and comprise all non-crafted materials found in Subnautica, one exception being Titanium, which can also be crafted from Metal Salvage.",
-		"tool": "",
-		"items": {
-			"alienfeces": {
-				"id": "alienfeces",
-				"name": "Alien Feces",
-				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
-			},
-			"cavesulfur": {
-				"id": "cavesulfur",
-				"name": "Cave Sulfur",
-				"location": "Kelp Forest Caves, Safe Shallows Caves"
-			},
-			"copperore": {
-				"id": "copperore",
-				"name": "Copper Ore",
-				"location": "Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Reefback, Safe Shallows, Safe Shallows Caves, Sparse Reef, Underwater Islands"
-			},
-			"crystallinesulfur": {
-				"id": "crystallinesulfur",
-				"name": "Crystalline Sulfur",
-				"location": "Inactive Lava Zone, Lava Lakes, Lost River"
-			},
-			"diamond": {
-				"id": "diamond",
-				"name": "Diamond",
-				"location": "Blood Kelp Caves, Bulb Zone, Deep Grand Reef, Grand Reef, Inactive Lava Zone, Mountains, Mountains Caves, Underwater Islands"
-			},
-			"gaspod": {
-				"id": "gaspod",
-				"name": "Gas Pod",
-				"location": "Crash Zone Mesas, Dunes, Safe Shallows"
-			},
-			"gold": {
-				"id": "gold",
-				"name": "Gold",
-				"location": "Blood Kelp Caves, Bulb Zone, Bulb Zone Caves, Crash Zone, Deep Grand Reef, Dunes, Grand Reef, Grassy Plateaus, Jellyshroom Cave, Mushroom Forest, Safe Shallows Caves, Underwater Islands"
-			},
-			"ioncube": {
-				"id": "ioncube",
-				"name": "Ion Cube",
-				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves"
-			},
-			"kyanite": {
-				"id": "kyanite",
-				"name": "Kyanite",
-				"location": "Inactive Lava Zone, Lava Castle, Lava Lakes"
-			},
-			"lead": {
-				"id": "lead",
-				"name": "Lead",
-				"location": "Bulb Zone, Crash Zone, Crash Zone Mesas, Dunes, Dunes Caves, Grand Reef, Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Lava Geyser, Mountains, Mountain Island, Mushroom Forest, Safe Shallows, Safe Shallows Caves"
-			},
-			"lithium": {
-				"id": "lithium",
-				"name": "Lithium",
-				"location": "Bulb Zone, Bulb Zone Caves, Crag Field, Crash Zone, Dunes, Dunes Caves, Floating Island, Grassy Plateaus, Jellyshroom Cave, Mountain Island, Mountains, Mountains Caves, Mushroom Forest, Mushroom Forest Caves, Sea Treader's Path, Sparse Reef"
-			},
-			"magnetite": {
-				"id": "magnetite",
-				"name": "Magnetite",
-				"location": "Jellyshroom Cave, Mountain Island, Mountains, Mountains Caves"
-			},
-			"metalsalvage": {
-				"id": "metalsalvage",
-				"name": "Metal Salvage",
-				"location": "Aurora, Blood Kelp Zone, Crash Zone, Dunes, Grassy Plateaus, Kelp Forest, Safe Shallows"
-			},
-			"nickelore": {
-				"id": "nickelore",
-				"name": "Nickel Ore",
-				"location": "Lost River"
-			},
-			"quartz": {
-				"id": "quartz",
-				"name": "Quartz",
-				"location": "Blood Kelp Caves, Blood Kelp Zone, Crash Zone, Dunes, Grand Reef, Grassy Plateaus, Kelp Forest, Safe Shallows, Safe Shallows Caves, Sea Treader's Path, Sea Treader's Tunnel Caves"
-			},
-			"ruby": {
-				"id": "ruby",
-				"name": "Ruby",
-				"location": "Bone Fields Caves, Bulb Zone, Deep Grand Reef, Deep Sparse Reef, Grand Reef, Inactive Lava Zone Corridor, Lost River, Mountains Caves, Sea Treader's Path, Sea Treader's Tunnel Caves"
-			},
-			"saltdeposit": {
-				"id": "saltdeposit",
-				"name": "Salt Deposit",
-				"location": "Aurora, Bulb Zone, Crash Zone, Deep Grand Reef, Floating Island, Grassy Plateaus, Kelp Forest, Mushroom Forest, Safe Shallows, Sparse Reef, Underwater Islands"
-			},
-			"silverore": {
-				"id": "silverore",
-				"name": "Silver Ore",
-				"location": "Dunes, Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Reefback, Safe Shallows Caves"
-			},
-			"stalkertooth": {
-				"id": "stalkertooth",
-				"name": "Stalker Tooth",
-				"location": "Kelp Forest"
-			},
-			"titanium": {
-				"id": "titanium",
-				"name": "Titanium",
-				"location": "Grand Reef, Sea Treader's Path, Sea Treader's Tunnel Caves",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "metalsalvage",
-							"name": "Metal Salvage",
-							"quantity": 1
-						}
-					],
-					"yield": 4
+	{
+		"id": "uraninitecrystal",
+		"group": "Raw Materials",
+		"name": "Uraninite Crystal",
+		"location": "Blood Kelp Zone, Grand Reef, Lost River, Mountains"
+	},
+	{
+		"id": "bleach",
+		"group": "Basic Materials",
+		"name": "Bleach",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				},
+				{
+					"id": "coraltubesample",
+					"name": "Coral Tube Sample",
+					"quantity": 1
 				}
-			},
-			"uraninitecrystal": {
-				"id": "uraninitecrystal",
-				"name": "Uraninite Crystal",
-				"location": "Blood Kelp Zone, Grand Reef, Lost River, Mountains"
-			}
+			],
+			"yield": 1
 		}
 	},
-	"basicmaterials": {
-		"id": "basicmaterials",
-		"name": "Basic Materials",
-		"description": "Basic Materials are part of the resources branch of the Fabricator, along with Electronics. They are gained from Raw Materials through crafting.",
-		"tool": "Fabricator",
-		"items": {
-			"bleach": {
-				"id": "bleach",
-				"name": "Bleach",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "saltdeposit",
-							"name": "Salt Deposit",
-							"quantity": 1
-						},
-						{
-							"id": "coraltubesample",
-							"name": "Coral Tube Sample",
-							"quantity": 1
-						}
-					],
-					"yield": 1
+	{
+		"id": "enameledglass",
+		"group": "Basic Materials",
+		"name": "Enameled Glass",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				},
+				{
+					"id": "stalkertooth",
+					"name": "Stalker Tooth",
+					"quantity": 1
 				}
-			},
-			"enameledglass": {
-				"id": "enameledglass",
-				"name": "Enameled Glass",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "glass",
-							"name": "Glass",
-							"quantity": 1
-						},
-						{
-							"id": "stalkertooth",
-							"name": "Stalker Tooth",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}	
-			},
-			"fibermesh": {
-				"id": "fibermesh",
-				"name": "Fiber Mesh",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "creepvinesample",
-							"name": "Creepvine Sample",
-							"quantity": 2
-						}
-					],
-					"yield": 1
+			],
+			"yield": 1
+		}	
+	},
+	{
+		"id": "fibermesh",
+		"group": "Basic Materials",
+		"name": "Fiber Mesh",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "creepvinesample",
+					"name": "Creepvine Sample",
+					"quantity": 2
 				}
-			},
-			"glass": {
-				"id": "glass",
-				"name": "Glass",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "quartz",
-							"name": "Quartz",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"lubricant": {
-				"id": "lubricant",
-				"name": "Lubricant",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "creepvineseedcluster",
-							"name": "Creepvine Seed Cluster",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"plasteelingot": {
-				"id": "plasteelingot",
-				"name": "Plasteel Ingot",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titaniumingot",
-							"name": "Titanium Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"siliconerubber": {
-				"id": "siliconerubber",
-				"name": "Silicone Rubber",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "creepvineseedcluster",
-							"name": "Creepvine Seed Cluster",
-							"quantity": 1
-						}
-					],
-					"yield": 2
-				}
-			},
-			"titaniumingot": {
-				"id": "titaniumingot",
-				"name": "Titanium Ingot",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 10
-						}
-					],
-					"yield": 1
-				}
-			}
+			],
+			"yield": 1
 		}
 	},
-	"advancedmaterials": {
-		"id": "advancedmaterials",
-		"name": "Advanced Materials",
-		"description": "Advanced Materials are part of the resources branch of the Fabricator. They are gained from raw materials and basic materials through crafting.",
-		"tool": "Fabricator",
-		"items": {
-			"aerogel": {
-				"id": "aerogel",
-				"name": "Aerogel",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "gelsack",
-							"name": "Gel Sack",
-							"quantity": 1
-						},
-						{
-							"id": "ruby",
-							"name": "Ruby",
-							"quantity": 1
-						}
-					],
-					"yield": 1
+	{
+		"id": "glass",
+		"group": "Basic Materials",
+		"name": "Glass",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "quartz",
+					"name": "Quartz",
+					"quantity": 2
 				}
-			},
-			"benzene": {
-				"id": "benzene",
-				"name": "Benzene",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "bloodoil",
-							"name": "Blood Oil",
-							"quantity": 3
-						}
-					],
-					"yield": 1
-				}
-			},
-			"hydrochloricacid": {
-				"id": "hydrochloricacid",
-				"name": "Hydrochloric Acid",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "deepshroom",
-							"name": "Deep Shroom",
-							"quantity": 3
-						},
-						{
-							"id": "saltdeposit",
-							"name": "Salt Deposit",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"polyaniline": {
-				"id": "polyaniline",
-				"name": "Polyaniline",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "gold",
-							"name": "Gold",
-							"quantity": 1
-						},
-						{
-							"id": "hydrochloricacid",
-							"name": "Hydrochloric Acid",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"syntheticfibers": {
-				"id": "syntheticfibers",
-				"name": "Synthetic Fibers",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "benzene",
-							"name": "Benzene",
-							"quantity": 1 
-						},
-						{
-							"id": "syntheticfibers",
-							"name": "Synthetic Fibers",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			}
+			],
+			"yield": 1
 		}
 	},
-	"electronics": {
-		"id": "electronics",
-		"name": "Electronics",
-		"description": "Electronics are crafted through the combination of two or more items via the Fabricator. Some items are only available by using the Console Commands or in Creative Mode.",
-		"tool": "Fabricator",
-		"items": {
-			"advancedwiringkit": {
-				"id": "advancedwiringkit",
-				"name": "Advanced Wiring Kit",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "wiringkit",
-							"name": "Wiring Kit",
-							"quantity": 1
-						},
-						{
-							"id": "gold",
-							"name": "Gold",
-							"quantity": 2
-						},
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						}
-					],
-					"yield": 1
+	{
+		"id": "lubricant",
+		"group": "Basic Materials",
+		"name": "Lubricant",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "creepvineseedcluster",
+					"name": "Creepvine Seed Cluster",
+					"quantity": 1
 				}
-			},
-			"battery": {
-				"id": "battery",
-				"name": "Battery",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "acidmushroom",
-							"name": "Acid Mushroom",
-							"quantity": 2
-						},
-						{
-							"id": "gold",
-							"name": "Gold",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"computerchip": {
-				"id": "computerchip",
-				"name": "Computer Chip",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "tablecoralsample",
-							"name": "Table Coral Sample",
-							"quantity": 2
-						},
-						{
-							"id": "gold",
-							"name": "Gold",
-							"quantity": 1
-						},
-						{
-							"id": "copperwire",
-							"name": "Copper Wire",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"copperwire": {
-				"id": "copperwire",
-				"name": "Copper Wire",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "copperore",
-							"name": "Copper Ore",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"ionbattery": {
-				"id": "ionbattery",
-				"name": "Ion Battery",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "ioncube",
-							"name": "Ion Cube",
-							"quantity": 1
-						},
-						{
-							"id": "gold",
-							"name": "Gold",
-							"quantity": 1
-						},
-						{
-							"id": "silverore",
-							"name": "Silver Ore",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"ionpowercell": {
-				"id": "ionpowercell",
-				"name": "Ion Power Cell",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "ionbattery",
-							"name": "Ion Battery",
-							"quantity": 2
-						},
-						{
-							"id": "siliconerubber",
-							"name": "Silicone Rubber",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"powercell": {
-				"id": "powercell",
-				"name": "Power Cell",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 2
-						},
-						{
-							"id": "siliconerubber",
-							"name": "Silicone Rubber",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"reactorrod": {
-				"id": "reactorrod",
-				"name": "Reactor Rod",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "uraninitecrystal",
-							"name": "Uraninite Crystal",
-							"quantity": 3
-						},
-						{
-							"id": "lead",
-							"name": "Lead",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						},
-						{
-							"id": "glass",
-							"name": "Glass",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"wiringkit": {
-				"id": "wiringkit",
-				"name": "Wiring Kit",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "silverore",
-							"name": "Silver Ore",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			}
+			],
+			"yield": 1
 		}
 	},
-	"equipment": {
-		"id": "equipment",
-		"name": "Equipment",
-		"description": "Equipment is crafted from Basic Materials or Advanced Materials by using the Fabricator and the Modification Station.",
-		"tool": "Fabricator, Modification Station",
-		"items": {
-			"compass": {
-				"id": "compass",
-				"name": "Compass",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "copperwire",
-							"name": "Copper Wire",
-							"quantity": 1
-						},
-						{
-							"id": "wiringkit",
-							"name": "Wiring Kit",
-							"quantity": 1
-						}
-					],
-					"yield": 1
+	{
+		"id": "plasteelingot",
+		"group": "Basic Materials",
+		"name": "Plasteel Ingot",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titaniumingot",
+					"name": "Titanium Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 2
 				}
-			},
-			"fins": {
-				"id": "fins",
-				"name": "Fins",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "siliconerubber",
-							"name": "Silicone Rubber",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"fireextinguisher": {
-				"id": "fireextinguisher",
-				"name": "Fire Extinguisher",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 3
-						}
-					],
-					"yield": 1
-				}
-			},
-			"firstaidkit": {
-				"id": "firstaidkit",
-				"name": "First Aid Kit",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "fibermesh",
-							"name": "Fiber Mesh",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"floatingairpump": {
-				"id": "floatingairpump",
-				"name": "Floating Air Pump",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"highcapacityo2tank": {
-				"id": "highcapacityo2tank",
-				"name": "High Capacity O2 Tank",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "standardo2tank",
-							"name": "Standard O2 Tank",
-							"quantity": 1
-						},
-						{
-							"id": "glass",
-							"name": "Glass",
-							"quantity": 2
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 4
-						},
-						{
-							"id": "silverore",
-							"name": "Silver Ore",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"lightweighthighcapacitytank": {
-				"id": "lightweighthighcapacitytank",
-				"name": "Lightweight High Capacity Tank",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "highcapacityo2tank",
-							"name": "High Capacity O2 Tank",
-							"quantity": 1
-						},
-						{
-							"id": "plasteelingot",
-							"name": "Plastel Ingot",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"pipe": {
-				"id": "pipe",
-				"name": "Pipe",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"radiationsuit": {
-				"id": "radiationsuit",
-				"name": "Radiation Suit",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "fibermesh",
-							"name": "Fiber Mesh",
-							"quantity": 2
-						},
-						{
-							"id": "lead",
-							"name": "Lead",
-							"quantity": 2
-						}
-					],
-					"yield": 5
-				}
-			},
-			"rebreather": {
-				"id": "rebreather",
-				"name": "Rebreather",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "wiringkit",
-							"name": "Wiring Kit",
-							"quantity": 1
-						},
-						{
-							"id": "fibermesh",
-							"name": "Fiber Mesh",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"reinforceddivesuit": {
-				"id": "reinforceddivesuit",
-				"name": "Reinforced Dive Suit",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "syntheticfibers",
-							"name": "Synthetic Fibers",
-							"quantity": 1
-						},
-						{
-							"id": "diamond",
-							"name": "Diamond",
-							"quantity": 2
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"scannerroomhudchip": {
-				"id": "scannerroomhudchip",
-				"name": "Scanner Room HUD Chip",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						},
-						{
-							"id": "magnetite",
-							"name": "Magnetite",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"standardo2tank": {
-				"id": "standardo2tank",
-				"name": "Standard O2 Tank",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 3
-						}
-					],
-					"yield": 1
-				}
-			},
-			"stillsuit": {
-				"id": "stillsuit",
-				"name": "Stillsuit",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "syntheticfibers",
-							"name": "Synthetic Fibers",
-							"quantity": 1
-						},
-						{
-							"id": "aerogel",
-							"name": "Aerogel",
-							"quantity": 1
-						},
-						{
-							"id": "copperwire",
-							"name": "Copper Wire",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"swimchargefins": {
-				"id": "swimchargefins",
-				"name": "Swim Charge Fins",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "fins",
-							"name": "Fins",
-							"quantity": 1
-						},
-						{
-							"id": "polyaniline",
-							"name": "Polyaniline",
-							"quantity": 1
-						},
-						{
-							"id": "wiringkit",
-							"name": "Wiring Kit",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"ultraglidefins": {
-				"id": "ultraglidefins",
-				"name": "Ultra Glide Fins",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "fins",
-							"name": "Fins",
-							"quantity": 1
-						},
-						{
-							"id": "siliconerubber",
-							"name": "Silicone Rubber",
-							"quantity": 2
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"ultrahighcapacitytank": {
-				"id": "ultrahighcapacitytank",
-				"name": "Ultra High Capacity Tank",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "highcapacityo2tank",
-							"name": "High Capacity O2 Tank",
-							"quantity": 1
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 4
-						}
-					],
-					"yield": 1
-				}
-			}
+			],
+			"yield": 1
 		}
 	},
-	"deployables": {
-		"id": "deployables",
-		"name": "Deployables",
-		"description": "Deployables are items crafted using the Fabricator. Except for the Seaglide and the Creature Decoy, all other Deployables need to be deployed in the environment in order to function.",
-		"tool": "Fabricator",
-		"items": {
-			"beacon": {
-				"id": "beacon",
-				"name": "Beacon",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "copperore",
-							"name": "Copper Ore",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
+	{
+		"id": "siliconerubber",
+		"group": "Basic Materials",
+		"name": "Silicone Rubber",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "creepvineseedcluster",
+					"name": "Creepvine Seed Cluster",
+					"quantity": 1
 				}
-			},
-			"creaturedecoy": {
-				"id": "creaturedecoy",
-				"name": "Creature Decoy",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 3
-						},
-						{
-							"id": "wiringkit",
-							"name": "Wiring Kit",
-							"quantity": 1
-						}
-					],
-					"yield": 2
-				}
-			},
-			"gravtrap": {
-				"id": "gravtrap",
-				"name": "Grav Trap",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						},
-						{
-							"id": "copperore",
-							"name": "Copper Ore",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"mobilevehiclebay": {
-				"id": "mobilevehiclebay",
-				"name": "Mobile Vehicle Bay",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titaniumingot",
-							"name": "Titanium Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "lubricant",
-							"name": "Lubricant",
-							"quantity": 1
-						},
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"seaglide": {
-				"id": "seaglide",
-				"name": "Seaglide",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						},
-						{
-							"id": "lubricant",
-							"name": "Lubricant",
-							"quantity": 1
-						},
-						{
-							"id": "copperwire",
-							"name": "Copper Wire",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"waterprooflocker": {
-				"id": "waterprooflocker",
-				"name": "Waterproof Locker",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 4
-						}
-					],
-					"yield": 1
-				}
-			}
+			],
+			"yield": 2
 		}
 	},
-	"tools": {
-		"id": "tools",
-		"name": "Tools",
-		"description": "Tools are devices that are either crafted from Basic Materials or Advanced Materials by using the Fabricator or upgraded from other Tools using the Modification Station. They are carried in the Inventory and can be equipped in the Toolbar. Some of them can also consume Energy, like the Flashlight.",
-		"tool": "Fabricator",
-		"items": {
-			"airbladder": {
-				"id": "airbladder",
-				"name": "Air Bladder",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "siliconerubber",
-							"name": "Silicone Rubber",
-							"quantity": 1
-						},
-						{
-							"id": "bladderfish",
-							"name": "Bladderfish",
-							"quantity": 1
-						}
-					],
-					"yield": 1
+	{
+		"id": "titaniumingot",
+		"group": "Basic Materials",
+		"name": "Titanium Ingot",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 10
 				}
-			},
-			"flare": {
-				"id": "flare",
-				"name": "Flare",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "cavesulfur",
-							"name": "Cave Sulfur",
-							"quantity": 1
-						}
-					],
-					"yield": 5
-				}
-			},
-			"flashlight": {
-				"id": "flashlight",
-				"name": "Flashlight",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						},
-						{
-							"id": "glass",
-							"name": "Glass",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"habitatbuilder": {
-				"id": "habitatbuilder",
-				"name": "Habitat Builder",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "wiringkit",
-							"name": "Wiring Kit",
-							"quantity": 1
-						},
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						},
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"lasercutter": {
-				"id": "lasercutter",
-				"name": "Laser Cutter",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "diamond",
-							"name": "Diamond",
-							"quantity": 2
-						},
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						},
-						{
-							"id": "cavesulfur",
-							"name": "Cave Sulfur",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"lightstick": {
-				"id": "lightstick",
-				"name": "Light Stick",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						},
-						{
-							"id": "glass",
-							"name": "Glass",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"pathfindertool": {
-				"id": "pathfindertool",
-				"name": "Pathfinder Tool",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "creepvineseedcluster",
-							"name": "Creepvine Seed Cluster",
-							"quantity": 2
-						},
-						{
-							"id": "copperwire",
-							"name": "Copper Wire",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"propulsioncannon": {
-				"id": "propulsioncannon",
-				"name": "Propulsion Cannon",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "wiringkit",
-							"name": "Wiring Kit",
-							"quantity": 1
-						},
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"repairtool": {
-				"id": "repairtool",
-				"name": "Repair Tool",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "siliconerubber",
-							"name": "Silicone Rubber",
-							"quantity": 1
-						},
-						{
-							"id": "saltdeposit",
-							"name": "Salt Deposit",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"repulsioncannon": {
-				"id": "repulsioncannon",
-				"name": "Repulsion Cannon",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "propulsioncannon",
-							"name": "Propulsion Cannon",
-							"quantity": 1
-						},
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						},
-						{
-							"id": "magnetite",
-							"name": "Magnetite",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"scanner": {
-				"id": "scanner",
-				"name": "Scanner",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"stasisrifle": {
-				"id": "stasisrifle",
-				"name": "Stasis Rifle",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						},
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						},
-						{
-							"id": "magnetite",
-							"name": "Magnetite",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"survivalknife": {
-				"id": "survivalknife",
-				"name": "Survival Knife",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "siliconerubber",
-							"name": "Silicone Rubber",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"thermoblade": {
-				"id": "thermoblade",
-				"name": "Thermoblade",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "survivalknife",
-							"name": "Survival Knife",
-							"quantity": 1
-						},
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			}
+			],
+			"yield": 1
 		}
 	},
-	"seamoth": {
+	{
+		"id": "aerogel",
+		"group": "Advanced Materials",
+		"name": "Aerogel",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "gelsack",
+					"name": "Gel Sack",
+					"quantity": 1
+				},
+				{
+					"id": "ruby",
+					"name": "Ruby",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "benzene",
+		"group": "Advanced Materials",
+		"name": "Benzene",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "bloodoil",
+					"name": "Blood Oil",
+					"quantity": 3
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "hydrochloricacid",
+		"group": "Advanced Materials",
+		"name": "Hydrochloric Acid",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "deepshroom",
+					"name": "Deep Shroom",
+					"quantity": 3
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "polyaniline",
+		"group": "Advanced Materials",
+		"name": "Polyaniline",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "gold",
+					"name": "Gold",
+					"quantity": 1
+				},
+				{
+					"id": "hydrochloricacid",
+					"name": "Hydrochloric Acid",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "syntheticfibers",
+		"group": "Advanced Materials",
+		"name": "Synthetic Fibers",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "benzene",
+					"name": "Benzene",
+					"quantity": 1 
+				},
+				{
+					"id": "syntheticfibers",
+					"name": "Synthetic Fibers",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "advancedwiringkit",
+		"group": "Electronics",
+		"name": "Advanced Wiring Kit",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "gold",
+					"name": "Gold",
+					"quantity": 2
+				},
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "battery",
+		"group": "Electronics",
+		"name": "Battery",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "acidmushroom",
+					"name": "Acid Mushroom",
+					"quantity": 2
+				},
+				{
+					"id": "gold",
+					"name": "Gold",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "computerchip",
+		"group": "Electronics",
+		"name": "Computer Chip",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "tablecoralsample",
+					"name": "Table Coral Sample",
+					"quantity": 2
+				},
+				{
+					"id": "gold",
+					"name": "Gold",
+					"quantity": 1
+				},
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "copperwire",
+		"group": "Electronics",
+		"name": "Copper Wire",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "copperore",
+					"name": "Copper Ore",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "ionbattery",
+		"group": "Electronics",
+		"name": "Ion Battery",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "ioncube",
+					"name": "Ion Cube",
+					"quantity": 1
+				},
+				{
+					"id": "gold",
+					"name": "Gold",
+					"quantity": 1
+				},
+				{
+					"id": "silverore",
+					"name": "Silver Ore",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "ionpowercell",
+		"group": "Electronics",
+		"name": "Ion Power Cell",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "ionbattery",
+					"name": "Ion Battery",
+					"quantity": 2
+				},
+				{
+					"id": "siliconerubber",
+					"name": "Silicone Rubber",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "powercell",
+		"group": "Electronics",
+		"name": "Power Cell",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 2
+				},
+				{
+					"id": "siliconerubber",
+					"name": "Silicone Rubber",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "reactorrod",
+		"group": "Electronics",
+		"name": "Reactor Rod",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "uraninitecrystal",
+					"name": "Uraninite Crystal",
+					"quantity": 3
+				},
+				{
+					"id": "lead",
+					"name": "Lead",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				},
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "wiringkit",
+		"group": "Electronics",
+		"name": "Wiring Kit",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "silverore",
+					"name": "Silver Ore",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "compass",
+		"group": "Equipment",
+		"name": "Compass",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				},
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "fins",
+		"group": "Equipment",
+		"name": "Fins",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "siliconerubber",
+					"name": "Silicone Rubber",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "fireextinguisher",
+		"group": "Equipment",
+		"name": "Fire Extinguisher",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "firstaidkit",
+		"group": "Equipment",
+		"name": "First Aid Kit",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "fibermesh",
+					"name": "Fiber Mesh",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "floatingairpump",
+		"group": "Equipment",
+		"name": "Floating Air Pump",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "highcapacityo2tank",
+		"group": "Equipment",
+		"name": "High Capacity O2 Tank",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "standardo2tank",
+					"name": "Standard O2 Tank",
+					"quantity": 1
+				},
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 2
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 4
+				},
+				{
+					"id": "silverore",
+					"name": "Silver Ore",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "lightweighthighcapacitytank",
+		"group": "Equipment",
+		"name": "Lightweight High Capacity Tank",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "highcapacityo2tank",
+					"name": "High Capacity O2 Tank",
+					"quantity": 1
+				},
+				{
+					"id": "plasteelingot",
+					"name": "Plastel Ingot",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "pipe",
+		"group": "Equipment",
+		"name": "Pipe",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "radiationsuit",
+		"group": "Equipment",
+		"name": "Radiation Suit",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "fibermesh",
+					"name": "Fiber Mesh",
+					"quantity": 2
+				},
+				{
+					"id": "lead",
+					"name": "Lead",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "rebreather",
+		"group": "Equipment",
+		"name": "Rebreather",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "fibermesh",
+					"name": "Fiber Mesh",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "reinforceddivesuit",
+		"group": "Equipment",
+		"name": "Reinforced Dive Suit",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "syntheticfibers",
+					"name": "Synthetic Fibers",
+					"quantity": 1
+				},
+				{
+					"id": "diamond",
+					"name": "Diamond",
+					"quantity": 2
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "scannerroomhudchip",
+		"group": "Equipment",
+		"name": "Scanner Room HUD Chip",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "magnetite",
+					"name": "Magnetite",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "standardo2tank",
+		"group": "Equipment",
+		"name": "Standard O2 Tank",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "swimchargefins",
+		"group": "Equipment",
+		"name": "Swim Charge Fins",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "fins",
+					"name": "Fins",
+					"quantity": 1
+				},
+				{
+					"id": "polyaniline",
+					"name": "Polyaniline",
+					"quantity": 1
+				},
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "ultraglidefins",
+		"group": "Equipment",
+		"name": "Ultra Glide Fins",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "fins",
+					"name": "Fins",
+					"quantity": 1
+				},
+				{
+					"id": "siliconerubber",
+					"name": "Silicone Rubber",
+					"quantity": 2
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "ultrahighcapacitytank",
+		"group": "Equipment",
+		"name": "Ultra High Capacity Tank",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "highcapacityo2tank",
+					"name": "High Capacity O2 Tank",
+					"quantity": 1
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 4
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "waterfiltrationsuit",
+		"group": "Equipment",
+		"name": "Water Filtration Suit",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "syntheticfibers",
+					"name": "Synthetic Fibers",
+					"quantity": 1
+				},
+				{
+					"id": "aerogel",
+					"name": "Aerogel",
+					"quantity": 1
+				},
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "beacon",
+		"group": "Deployables",
+		"name": "Beacon",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "copperore",
+					"name": "Copper Ore",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "creaturedecoy",
+		"group": "Deployables",
+		"name": "Creature Decoy",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				},
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				}
+			],
+			"yield": 2
+		}
+	},
+	{
+		"id": "gravtrap",
+		"group": "Deployables",
+		"name": "Grav Trap",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				},
+				{
+					"id": "copperore",
+					"name": "Copper Ore",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "mobilevehiclebay",
+		"group": "Deployables",
+		"name": "Mobile Vehicle Bay",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titaniumingot",
+					"name": "Titanium Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "lubricant",
+					"name": "Lubricant",
+					"quantity": 1
+				},
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "seaglide",
+		"group": "Deployables",
+		"name": "Seaglide",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				},
+				{
+					"id": "lubricant",
+					"name": "Lubricant",
+					"quantity": 1
+				},
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "waterprooflocker",
+		"group": "Deployables",
+		"name": "Waterproof Locker",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 4
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "airbladder",
+		"group": "Tools",
+		"name": "Air Bladder",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "siliconerubber",
+					"name": "Silicone Rubber",
+					"quantity": 1
+				},
+				{
+					"id": "bladderfish",
+					"name": "Bladderfish",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "flare",
+		"group": "Tools",
+		"name": "Flare",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "cavesulfur",
+					"name": "Cave Sulfur",
+					"quantity": 1
+				}
+			],
+			"yield": 5
+		}
+	},
+	{
+		"id": "flashlight",
+		"group": "Tools",
+		"name": "Flashlight",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				},
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "habitatbuilder",
+		"group": "Tools",
+		"name": "Habitat Builder",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "lasercutter",
+		"group": "Tools",
+		"name": "Laser Cutter",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "diamond",
+					"name": "Diamond",
+					"quantity": 2
+				},
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				},
+				{
+					"id": "cavesulfur",
+					"name": "Cave Sulfur",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "lightstick",
+		"group": "Tools",
+		"name": "Light Stick",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				},
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "pathfindertool",
+		"group": "Tools",
+		"name": "Pathfinder Tool",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "creepvineseedcluster",
+					"name": "Creepvine Seed Cluster",
+					"quantity": 2
+				},
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "propulsioncannon",
+		"group": "Tools",
+		"name": "Propulsion Cannon",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "repairtool",
+		"group": "Tools",
+		"name": "Repair Tool",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "siliconerubber",
+					"name": "Silicone Rubber",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "repulsioncannon",
+		"group": "Tools",
+		"name": "Repulsion Cannon",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "propulsioncannon",
+					"name": "Propulsion Cannon",
+					"quantity": 1
+				},
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "magnetite",
+					"name": "Magnetite",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "scanner",
+		"group": "Tools",
+		"name": "Scanner",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "stasisrifle",
+		"group": "Tools",
+		"name": "Stasis Rifle",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				},
+				{
+					"id": "magnetite",
+					"name": "Magnetite",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "survivalknife",
+		"group": "Tools",
+		"name": "Survival Knife",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "siliconerubber",
+					"name": "Silicone Rubber",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "thermoblade",
+		"group": "Tools",
+		"name": "Thermoblade",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "survivalknife",
+					"name": "Survival Knife",
+					"quantity": 1
+				},
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
 		"id": "seamoth",
+		"group": "Seamoth",
 		"name": "Seamoth",
-		"description": "",
-		"tool": "Mobile Vehicle Bay",
-		"items": {
-			"seamoth": {
-				"id": "seamoth",
-				"name": "Seamoth",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titaniumingot",
-							"name": "Titanium Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "battery",
-							"name": "Battery",
-							"quantity": 1
-						},
-						{
-							"id": "glass",
-							"name": "Glass",
-							"quantity": 2
-						},
-						{
-							"id": "lubricant",
-							"name": "Lubricant",
-							"quantity": 2
-						},
-						{
-							"id": "lead",
-							"name": "Lead",
-							"quantity": 2
-						}
-					],
-					"yield": 1
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titaniumingot",
+					"name": "Titanium Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				},
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 2
+				},
+				{
+					"id": "lubricant",
+					"name": "Lubricant",
+					"quantity": 2
+				},
+				{
+					"id": "lead",
+					"name": "Lead",
+					"quantity": 2
 				}
-			},
-			"seamothdepthmodulemk1": {
-				"id": "seamothdepthmodulemk1",
-				"name": "Seamoth Depth Module MK1",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titaniumingot",
-							"name": "Titanium Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "glass",
-							"name": "Glass",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"seamothdepthmodulemk2": {
-				"id": "seamothdepthmodulemk2",
-				"name": "Seamoth Depth Module MK2",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "seamothdepthmodulemk1",
-							"name": "Seamoth Depth Module MK1",
-							"quantity": 1
-						},
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "magnetite",
-							"name": "Magnetite",
-							"quantity": 2
-						},
-						{
-							"id": "enameledglass",
-							"name": "Enameled Glass",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"seamothdepthmodulemk3": {
-				"id": "seamothdepthmodulemk3",
-				"name": "Seamoth Depth Module MK3",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "seamothdepthmodulemk2",
-							"name": "Seamoth Depth Module MK2",
-							"quantity": 1
-						},
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "ruby",
-							"name": "Ruby",
-							"quantity": 3
-						}
-					],
-					"yield": 1
-				}
-			},
-			"seamothstoragemodule": {
-				"id": "seamothstoragemodule",
-				"name": "Seamoth Storage Module",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 3
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"seamothhullreinforcement": {
-				"id": "seamothhullreinforcement",
-				"name": "Seamoth Hull Reinforcement",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 3
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 1
-						},
-						{
-							"id": "diamond",
-							"name": "Diamond",
-							"quantity": 4
-						}
-					],
-					"yield": 1
-				}
-			},
-			"seamothengineefficiencymodule": {
-				"id": "seamothengineefficiencymodule",
-				"name": "Seamoth Engine Efficiency Module",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						},
-						{
-							"id": "polyaniline",
-							"name": "Polyaniline",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"seamothsolarcharger": {
-				"id": "seamothsolarcharger",
-				"name": "Seamoth Solar Charger",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "advancedwiringkit",
-							"name": "Advanced Wiring Kit",
-							"quantity": 1
-						},
-						{
-							"id": "enameledglass",
-							"name": "Enameled Glass",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"seamothperimeterdefensesystem": {
-				"id": "seamothperimeterdefensesystem",
-				"name": "Seamoth Perimeter Defense System",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "polyaniline",
-							"name": "Polyaniline",
-							"quantity": 1
-						},
-						{
-							"id": "wiringkit",
-							"name": "Wiring Kit",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"seamothtorpedosystem": {
-				"id": "seamothtorpedosystem",
-				"name": "Seamoth Torpedo System",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 3
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 1
-						},
-						{
-							"id": "aerogel",
-							"name": "Aerogel",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"seamothsonar": {
-				"id": "seamothsonar",
-				"name": "Seamoth Sonar",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "copperwire",
-							"name": "Copper Wire",
-							"quantity": 1
-						},
-						{
-							"id": "magnetite",
-							"name": "Magnetite",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			}
+			],
+			"yield": 1
 		}
 	},
-	"prawnsuit": {
+	{
+		"id": "seamothdepthmodulemk1",
+		"group": "Seamoth",
+		"name": "Seamoth Depth Module MK1",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titaniumingot",
+					"name": "Titanium Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "seamothdepthmodulemk2",
+		"group": "Seamoth",
+		"name": "Seamoth Depth Module MK2",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "seamothdepthmodulemk1",
+					"name": "Seamoth Depth Module MK1",
+					"quantity": 1
+				},
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "magnetite",
+					"name": "Magnetite",
+					"quantity": 2
+				},
+				{
+					"id": "enameledglass",
+					"name": "Enameled Glass",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "seamothdepthmodulemk3",
+		"group": "Seamoth",
+		"name": "Seamoth Depth Module MK3",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "seamothdepthmodulemk2",
+					"name": "Seamoth Depth Module MK2",
+					"quantity": 1
+				},
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "ruby",
+					"name": "Ruby",
+					"quantity": 3
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "seamothstoragemodule",
+		"group": "Seamoth",
+		"name": "Seamoth Storage Module",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "seamothhullreinforcement",
+		"group": "Seamoth",
+		"name": "Seamoth Hull Reinforcement",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				},
+				{
+					"id": "diamond",
+					"name": "Diamond",
+					"quantity": 4
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "seamothengineefficiencymodule",
+		"group": "Seamoth",
+		"name": "Seamoth Engine Efficiency Module",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "polyaniline",
+					"name": "Polyaniline",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "seamothsolarcharger",
+		"group": "Seamoth",
+		"name": "Seamoth Solar Charger",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "advancedwiringkit",
+					"name": "Advanced Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "enameledglass",
+					"name": "Enameled Glass",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "seamothperimeterdefensesystem",
+		"group": "Seamoth",
+		"name": "Seamoth Perimeter Defense System",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "polyaniline",
+					"name": "Polyaniline",
+					"quantity": 1
+				},
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "seamothtorpedosystem",
+		"group": "Seamoth",
+		"name": "Seamoth Torpedo System",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				},
+				{
+					"id": "aerogel",
+					"name": "Aerogel",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "seamothsonar",
+		"group": "Seamoth",
+		"name": "Seamoth Sonar",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				},
+				{
+					"id": "magnetite",
+					"name": "Magnetite",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
 		"id": "prawnsuit",
+		"group": "Prawn Suit",
 		"name": "Prawn Suit",
-		"description": "",
-		"tool": "Mobile vehicle Bay",
-		"items": {
-			"prawnsuit": {
-				"id": "prawnsuit",
-				"name": "Prawn Suit",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 2
-						},
-						{
-							"id": "aerogel",
-							"name": "Aerogel",
-							"quantity": 2
-						},
-						{
-							"id": "enameledglass",
-							"name": "Enameled Glass",
-							"quantity": 1
-						},
-						{
-							"id": "aerogel",
-							"name": "Aerogel",
-							"quantity": 1
-						},
-						{
-							"id": "diamond",
-							"name": "Diamond",
-							"quantity": 2
-						},
-						{
-							"id": "lead",
-							"name": "Lead",
-							"quantity": 2
-						}
-					],
-					"yield": 1
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 2
+				},
+				{
+					"id": "aerogel",
+					"name": "Aerogel",
+					"quantity": 2
+				},
+				{
+					"id": "enameledglass",
+					"name": "Enameled Glass",
+					"quantity": 1
+				},						
+				{
+					"id": "diamond",
+					"name": "Diamond",
+					"quantity": 2
+				},
+				{
+					"id": "lead",
+					"name": "Lead",
+					"quantity": 2
 				}
-			},
-			"prawnsuitdepthmodulemk1": {
-				"id": "prawnsuitdepthmodulemk1",
-				"name": "Prawn Suit Depth Module MK1",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "nickelore",
-							"name": "Nickel Ore",
-							"quantity": 3
-						},
-						{
-							"id": "ruby",
-							"name": "Ruby",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"prawnsuitdepthmodulemk2": {
-				"id": "prawnsuitdepthmodulemk2",
-				"name": "Prawn Suit Depth Module MK2",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "prawnsuitdepthmodulemk1",
-							"name": "Prawn Suit Depth Module MK1",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 5
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 2
-						},
-						{
-							"id": "kyanite",
-							"name": "Kyanite",
-							"quantity": 3
-						}
-					],
-					"yield": 1
-				}
-			},
-			"prawnsuitstoragemodule": {
-				"id": "prawnsuitstoragemodule",
-				"name": "Prawn Suit Storage Module",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 3
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"prawnsuithullreinforcement": {
-				"id": "prawnsuithullreinforcement",
-				"name": "Prawn Suit Hull Reinforcement",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 3
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 1
-						},
-						{
-							"id": "diamond",
-							"name": "Diamond",
-							"quantity": 4
-						}
-					],
-					"yield": 1
-				}
-			},
-			"prawnsuitengineefficiencymodule": {
-				"id": "prawnsuitengineefficiencymodule",
-				"name": "Prawn Suit Engine Efficiency Module",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						},
-						{
-							"id": "polyaniline",
-							"name": "Polyaniline",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"prawnsuitthermalreactor": {
-				"id": "prawnsuitthermalreactor",
-				"name": "Prawn Suit Thermal Reactor",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "kyanite",
-							"name": "Kyanite",
-							"quantity": 2
-						},
-						{
-							"id": "polyaniline",
-							"name": "Polyaniline",
-							"quantity": 2
-						},
-						{
-							"id": "wiringkit",
-							"name": "Wiring Kit",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"prawnsuitjumpjetupgrade": {
-				"id": "prawnsuitjumpjetupgrade",
-				"name": "Prawn Suit Jump Jet Upgrade",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "nickelore",
-							"name": "Nickel Ore",
-							"quantity": 2
-						},
-						{
-							"id": "crystallinesulfur",
-							"name": "Crystalline Sulfur",
-							"quantity": 3
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 5
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"prawnsuitdrillarm": {
-				"id": "prawnsuitdrillarm",
-				"name": "Prawn Suit Drill Arm",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 5
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 1
-						},
-						{
-							"id": "diamond",
-							"name": "Diamond",
-							"quantity": 4
-						}
-					],
-					"yield": 1
-				}
-			},
-			"prawnsuitgrapplingarm": {
-				"id": "prawnsuitgrapplingarm",
-				"name": "Prawn Suit Grappling Arm",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "advancedwiringkit",
-							"name": "Advanced Wiring Kit",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 5
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 1
-						},
-						{
-							"id": "benzene",
-							"name": "Benzene",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"prawnsuitpropulsioncannon": {
-				"id": "prawnsuitpropulsioncannon",
-				"name": "Prawn Suit Propulsion Cannon",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						},
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 5
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 1
-						},
-						{
-							"id": "magnetite",
-							"name": "Magnetite",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"prawnsuittorpedoarm": {
-				"id": "prawnsuittorpedoarm",
-				"name": "Prawn Suit Torpedo Arm",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 5
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 1
-						},
-						{
-							"id": "aerogel",
-							"name": "Aerogel",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			}
+			],
+			"yield": 1
 		}
 	},
-	"cyclops": {
+	{
+		"id": "prawnsuitdepthmodulemk1",
+		"group": "Prawn Suit",
+		"name": "Prawn Suit Depth Module MK1",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "nickelore",
+					"name": "Nickel Ore",
+					"quantity": 3
+				},
+				{
+					"id": "ruby",
+					"name": "Ruby",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "prawnsuitdepthmodulemk2",
+		"group": "Prawn Suit",
+		"name": "Prawn Suit Depth Module MK2",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "prawnsuitdepthmodulemk1",
+					"name": "Prawn Suit Depth Module MK1",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 5
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 2
+				},
+				{
+					"id": "kyanite",
+					"name": "Kyanite",
+					"quantity": 3
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "prawnsuitstoragemodule",
+		"group": "Prawn Suit",
+		"name": "Prawn Suit Storage Module",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "prawnsuithullreinforcement",
+		"group": "Prawn Suit",
+		"name": "Prawn Suit Hull Reinforcement",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				},
+				{
+					"id": "diamond",
+					"name": "Diamond",
+					"quantity": 4
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "prawnsuitengineefficiencymodule",
+		"group": "Prawn Suit",
+		"name": "Prawn Suit Engine Efficiency Module",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "polyaniline",
+					"name": "Polyaniline",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "prawnsuitthermalreactor",
+		"group": "Prawn Suit",
+		"name": "Prawn Suit Thermal Reactor",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "kyanite",
+					"name": "Kyanite",
+					"quantity": 2
+				},
+				{
+					"id": "polyaniline",
+					"name": "Polyaniline",
+					"quantity": 2
+				},
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "prawnsuitjumpjetupgrade",
+		"group": "Prawn Suit",
+		"name": "Prawn Suit Jump Jet Upgrade",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "nickelore",
+					"name": "Nickel Ore",
+					"quantity": 2
+				},
+				{
+					"id": "crystallinesulfur",
+					"name": "Crystalline Sulfur",
+					"quantity": 3
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 5
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "prawnsuitdrillarm",
+		"group": "Prawn Suit",
+		"name": "Prawn Suit Drill Arm",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 5
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				},
+				{
+					"id": "diamond",
+					"name": "Diamond",
+					"quantity": 4
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "prawnsuitgrapplingarm",
+		"group": "Prawn Suit",
+		"name": "Prawn Suit Grappling Arm",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "advancedwiringkit",
+					"name": "Advanced Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 5
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				},
+				{
+					"id": "benzene",
+					"name": "Benzene",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "prawnsuitpropulsioncannon",
+		"group": "Prawn Suit",
+		"name": "Prawn Suit Propulsion Cannon",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 5
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				},
+				{
+					"id": "magnetite",
+					"name": "Magnetite",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "prawnsuittorpedoarm",
+		"group": "Prawn Suit",
+		"name": "Prawn Suit Torpedo Arm",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 5
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				},
+				{
+					"id": "aerogel",
+					"name": "Aerogel",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
 		"id": "cyclops",
+		"group": "Cyclops",
 		"name": "Cyclops",
-		"description": "",
-		"tool": "Mobile Vehicle Bay",
-		"items": {
-			"cyclops": {
-				"id": "cyclops",
-				"name": "Cyclops",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 3
-						},
-						{
-							"id": "enameledglass",
-							"name": "Enameled Glass",
-							"quantity": 3
-						},
-						{
-							"id": "lubricant",
-							"name": "Lubricant",
-							"quantity": 1
-						},
-						{
-							"id": "advancedwiringkit",
-							"name": "Advanced Wiring Kit",
-							"quantity": 1
-						},
-						{
-							"id": "lead",
-							"name": "Lead",
-							"quantity": 3
-						}
-					],
-					"yield": 1
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 3
+				},
+				{
+					"id": "enameledglass",
+					"name": "Enameled Glass",
+					"quantity": 3
+				},
+				{
+					"id": "lubricant",
+					"name": "Lubricant",
+					"quantity": 1
+				},
+				{
+					"id": "advancedwiringkit",
+					"name": "Advanced Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "lead",
+					"name": "Lead",
+					"quantity": 3
 				}
-			},
-			"cyclopsdepthmodulemk1": {
-				"id": "cyclopsdepthmodulemk1",
-				"name": "Cyclops Depth Module MK1",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "ruby",
-							"name": "Ruby",
-							"quantity": 3
-						}
-					],
-					"yield": 1
-				}
-			},
-			"cyclopsdepthmodulemk2": {
-				"id": "cyclopsdepthmodulemk2",
-				"name": "Cyclops Depth Module MK2",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "cyclopsdepthmodulemk1",
-							"name": "Cyclops Depth Module MK1",
-							"quantity": 1
-						},
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 3
-						},
-						{
-							"id": "nickelore",
-							"name": "Nickel Ore",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"cyclopsdepthmodulemk3": {
-				"id": "cyclopsdepthmodulemk3",
-				"name": "Cyclops Depth Module MK3",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "cyclopsdepthmodulemk2",
-							"name": "Cyclops Depth Module MK2",
-							"quantity": 1
-						},
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "kyanite",
-							"name": "Kyanite",
-							"quantity": 3
-						}
-					],
-					"yield": 1
-				}
-			},
-			"cyclopsengineefficiencymodule": {
-				"id": "cyclopsengineefficiencymodule",
-				"name": "Cyclops Engine Efficiency Module",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						},
-						{
-							"id": "benzene",
-							"name": "Benzene",
-							"quantity": 1
-						},
-						{
-							"id": "polyaniline",
-							"name": "Polyanaline",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"cyclopsthermalreactormodule": {
-				"id": "cyclopsthermalreactormodule",
-				"name": "Cyclops Thermal Reactor Module",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "polyaniline",
-							"name": "Polyaniline",
-							"quantity": 2
-						},
-						{
-							"id": "kyanite",
-							"name": "Kyanite",
-							"quantity": 4
-						},
-						{
-							"id": "wiringkit",
-							"name": "Wiring Kit",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"cyclopssonarmodule": {
-				"id": "cyclopssonarmodule",
-				"name": "Cyclops Sonar Module",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						},
-						{
-							"id": "magnetite",
-							"name": "Magnetite",
-							"quantity": 3
-						}
-					],
-					"yield": 1
-				}
-			},
-			"cyclopsfiresuppressionsystemmodule": {
-				"id": "cyclopsfiresuppressionsystemmodule",
-				"name": "Cyclops Fire Suppression System Module",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "aerogel",
-							"name": "Aerogel",
-							"quantity": 2
-						},
-						{
-							"id": "crystallinesulfur",
-							"name": "Crystalline Sulfur",
-							"quantity": 2
-						}
-					],
-					"yield": 1
-				}
-			},
-			"cyclopsdockingbayrepairmodule": {
-				"id": "cyclopsdockingbayrepairmodule",
-				"name": "Cyclops Docking Bay Repair Module",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "repairtool",
-							"name": "Repair Tool",
-							"quantity": 1
-						},
-						{
-							"id": "copperwire",
-							"name": "Copper Wire",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"cyclopscreaturedecoytubemodule": {
-				"id": "cyclopscreaturedecoytubemodule",
-				"name": "Cyclops Creature Decoy Tube Module",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "titanium",
-							"name": "Titanium",
-							"quantity": 3
-						},
-						{
-							"id": "lithium",
-							"name": "Lithium",
-							"quantity": 2
-						},
-						{
-							"id": "aerogel",
-							"name": "Aerogel",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			},
-			"cyclopsshieldgeneratormodule": {
-				"id": "cyclopsshieldgeneratormodule",
-				"name": "Cyclops Shield Generator Module",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "advancedwiringkit",
-							"name": "Advanced Wiring Kit",
-							"quantity": 1
-						},
-						{
-							"id": "polyaniline",
-							"name": "Polyaniline",
-							"quantity": 1
-						},
-						{
-							"id": "powercell",
-							"name": "Power Cell",
-							"quantity": 1
-						}
-					],
-					"yield": 1
-				}
-			}
+			],
+			"yield": 1
 		}
 	},
-	"neptuneescaperocket": {
-		"id": "neptuneescaperocket",
-		"name": "Neptune Escape Rocket",
-		"description": "The Neptune Escape Rocket is a vehicle that is used to leave Planet 4546B. It consists of five constructable parts: the Neptune Launch Platform, the Neptune Gantry, Neptune Ion Boosters, Neptune Fuel Reserve, and Neptune Cockpit. The Neptune Launch Platform can be built using the Mobile Vehicle Bay, while the other four components are built on the launch platform.",
-		"items": {
-			"neptunelaunchplatform": {
-				"id": "neptunelaunchplatform",
-				"name": "Neptune Launch Platform",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "lead",
-							"name": "Lead",
-							"quantity": 4
-						},
-						{
-							"id": "titaniumingot",
-							"name": "Titanium Ingot",
-							"quantity": 2
-						},
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						}
-					],
-					"yield": 1
+	{
+		"id": "cyclopsdepthmodulemk1",
+		"group": "Cyclops",
+		"name": "Cyclops Depth Module MK1",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "ruby",
+					"name": "Ruby",
+					"quantity": 3
 				}
-			},
-			"neptunegantry": {
-				"id": "neptunegantry",
-				"name": "Neptune Gantry",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "copperwire",
-							"name": "Copper Wire",
-							"quantity": 1
-						},
-						{
-							"id": "lubricant",
-							"name": "Lubricant",
-							"quantity": 1
-						}
-					],
-					"yield": 1
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "cyclopsdepthmodulemk2",
+		"group": "Cyclops",
+		"name": "Cyclops Depth Module MK2",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "cyclopsdepthmodulemk1",
+					"name": "Cyclops Depth Module MK1",
+					"quantity": 1
+				},
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 3
+				},
+				{
+					"id": "nickelore",
+					"name": "Nickel Ore",
+					"quantity": 1
 				}
-			},
-			"neptuneionboosters": {
-				"id": "neptuneionboosters",
-				"name": "Neptune Ion Boosters",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "nickelore",
-							"name": "Nickel Ore",
-							"quantity": 3
-						},
-						{
-							"id": "aerogel",
-							"name": "Aerogel",
-							"quantity": 2
-						},
-						{
-							"id": "wiringkit",
-							"name": "Wiring Kit",
-							"quantity": 1
-						}
-					],
-					"yield": 1
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "cyclopsdepthmodulemk3",
+		"group": "Cyclops",
+		"name": "Cyclops Depth Module MK3",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "cyclopsdepthmodulemk2",
+					"name": "Cyclops Depth Module MK2",
+					"quantity": 1
+				},
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "kyanite",
+					"name": "Kyanite",
+					"quantity": 3
 				}
-			},
-			"neptunefuelreserve": {
-				"id": "neptunefuelreserve",
-				"name": "Neptune Fuel Reserve",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "crystallinesulfur",
-							"name": "Crystalline Sulfur",
-							"quantity": 4
-						},
-						{
-							"id": "kyanite",
-							"name": "Kyanite",
-							"quantity": 4
-						},
-						{
-							"id": "ionpowercell",
-							"name": "Ion Power Cell",
-							"quantity": 2
-						}
-					],
-					"yield": 1
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "cyclopsengineefficiencymodule",
+		"group": "Cyclops",
+		"name": "Cyclops Engine Efficiency Module",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "benzene",
+					"name": "Benzene",
+					"quantity": 1
+				},
+				{
+					"id": "polyaniline",
+					"name": "Polyanaline",
+					"quantity": 1
 				}
-			},
-			"neptunecockpit": {
-				"id": "neptunecockpit",
-				"name": "Neptune Cockpit",
-				"recipe": {
-					"ingredients": [
-						{
-							"id": "cyclopsshieldgeneratormodule",
-							"name": "Cyclops Shield Generator Module",
-							"quantity": 1
-						},
-						{
-							"id": "plasteelingot",
-							"name": "Plasteel Ingot",
-							"quantity": 1
-						},
-						{
-							"id": "enameledglass",
-							"name": "Enameled Glass",
-							"quantity": 1
-						},
-						{
-							"id": "computerchip",
-							"name": "Computer Chip",
-							"quantity": 1
-						}
-					],
-					"yield": 1
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "cyclopsthermalreactormodule",
+		"group": "Cyclops",
+		"name": "Cyclops Thermal Reactor Module",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "polyaniline",
+					"name": "Polyaniline",
+					"quantity": 2
+				},
+				{
+					"id": "kyanite",
+					"name": "Kyanite",
+					"quantity": 4
+				},
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
 				}
-			}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "cyclopssonarmodule",
+		"group": "Cyclops",
+		"name": "Cyclops Sonar Module",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "magnetite",
+					"name": "Magnetite",
+					"quantity": 3
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "cyclopsfiresuppressionsystemmodule",
+		"group": "Cyclops",
+		"name": "Cyclops Fire Suppression System Module",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "aerogel",
+					"name": "Aerogel",
+					"quantity": 2
+				},
+				{
+					"id": "crystallinesulfur",
+					"name": "Crystalline Sulfur",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "cyclopsdockingbayrepairmodule",
+		"group": "Cyclops",
+		"name": "Cyclops Docking Bay Repair Module",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "repairtool",
+					"name": "Repair Tool",
+					"quantity": 1
+				},
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "cyclopscreaturedecoytubemodule",
+		"group": "Cyclops",
+		"name": "Cyclops Creature Decoy Tube Module",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 2
+				},
+				{
+					"id": "aerogel",
+					"name": "Aerogel",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "cyclopsshieldgeneratormodule",
+		"group": "Cyclops",
+		"name": "Cyclops Shield Generator Module",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "advancedwiringkit",
+					"name": "Advanced Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "polyaniline",
+					"name": "Polyaniline",
+					"quantity": 1
+				},
+				{
+					"id": "powercell",
+					"name": "Power Cell",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "neptunelaunchplatform",
+		"group": "Neptune Escape Rocket",
+		"name": "Neptune Launch Platform",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "lead",
+					"name": "Lead",
+					"quantity": 4
+				},
+				{
+					"id": "titaniumingot",
+					"name": "Titanium Ingot",
+					"quantity": 2
+				},
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "neptunegantry",
+		"group": "Neptune Escape Rocket",
+		"name": "Neptune Gantry",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				},
+				{
+					"id": "lubricant",
+					"name": "Lubricant",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "neptuneionboosters",
+		"group": "Neptune Escape Rocket",
+		"name": "Neptune Ion Boosters",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "nickelore",
+					"name": "Nickel Ore",
+					"quantity": 3
+				},
+				{
+					"id": "aerogel",
+					"name": "Aerogel",
+					"quantity": 2
+				},
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "neptunefuelreserve",
+		"group": "Neptune Escape Rocket",
+		"name": "Neptune Fuel Reserve",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "crystallinesulfur",
+					"name": "Crystalline Sulfur",
+					"quantity": 4
+				},
+				{
+					"id": "kyanite",
+					"name": "Kyanite",
+					"quantity": 4
+				},
+				{
+					"id": "ionpowercell",
+					"name": "Ion Power Cell",
+					"quantity": 2
+				}
+			],
+			"yield": 1
+		}
+	},
+	{
+		"id": "neptunecockpit",
+		"group": "Neptune Escape Rocket",
+		"name": "Neptune Cockpit",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "cyclopsshieldgeneratormodule",
+					"name": "Cyclops Shield Generator Module",
+					"quantity": 1
+				},
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "enameledglass",
+					"name": "Enameled Glass",
+					"quantity": 1
+				},
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				}
+			],
+			"yield": 1
 		}
 	}
-}
+]
