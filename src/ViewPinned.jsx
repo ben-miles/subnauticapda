@@ -62,9 +62,9 @@ export default function ViewPinned({items, setItems, view}) {
 								</button>
 								
 								<div className="quantity-buttons">
-									<button onClick={increment(item.id)} aria-label="Increase Quantity" title="Increase Quantity">+</button>
-									<span>{(item.quantity * ( item.hasOwnProperty('recipe') ? item.recipe.yield : 1 ) )}</span>
-									<button onClick={decrement(item.id)} aria-label="Decrease Quantity" title="Decrease Quantity">-</button>
+									<button onClick={increment(item.id)} aria-label="Increase Quantity" title="Increase Quantity" className="increase-quantity">▲</button>
+									<span>{(item.quantity * (item.hasOwnProperty('recipe') ? item.recipe.yield : 1 ))}</span>
+									<button onClick={decrement(item.id)} aria-label="Decrease Quantity" title="Decrease Quantity" className="decrease-quantity">▼</button>
 								</div>
 
 							</div>
@@ -76,7 +76,7 @@ export default function ViewPinned({items, setItems, view}) {
 							{item.hasOwnProperty('location') && 
 								<div className="data">
 									<h3>Found in:</h3>
-									<div className="location">{ item.location }</div>
+									<div className="location">{item.location}</div>
 								</div>
 							}
 							
