@@ -6,7 +6,7 @@ A second-screen companion app for the game "Subnautica." Turn your phone or tabl
 
 See it live here: [SubnauticaPDA.dev](https://subnauticapda.dev)
 
-**UPDATE:** December 13, 2022 - [Subnautica has been updated](https://unknownworlds.com/en/news/subnautica-living-large-update-released), and now features the ability to pin crafting recipes to your HUD.
+**UPDATE:** December 13, 2022 - [Subnautica has been updated](https://unknownworlds.com/en/news/subnautica-living-large-update-released), and now features the ability to pin crafting recipes to your HUD. The lack of this feature was the reason I originally built this app, but I've since updated it to provide additional quality-of-life improvements, like a search-as-you-type filter for crafting recipes.
 
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-58c4dc?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
