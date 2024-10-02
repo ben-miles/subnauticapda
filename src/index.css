@@ -610,7 +610,7 @@ footer a:hover .icon-github {
 	margin-bottom: 10px;
 }
 
-.pinned-item .controls {
+.controls {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -618,25 +618,8 @@ footer a:hover .icon-github {
 	margin-right: 15px;
 }
 
-.pinned-item .controls .quantity-buttons {
-	display: flex;
-	flex-direction: row;
-}
-
-.pinned-item .controls .quantity-buttons button {
-	border-radius: 5px 0 0 5px;
-	color: #85bedc;
-	font-weight: bold;
-	display: inline;
-	margin: 0;
-	text-shadow: 0 0 3px var(--color-blue-other);
-}
-
-.pinned-item .controls .quantity-buttons button:last-of-type {
-	border-radius: 0 5px 5px 0;
-}
-
-.pinned-item .controls button {
+.controls button {
+	align-items: center;
 	background: rgba(26, 102, 172, 0.1);
 	border: 1px solid rgba(200, 234, 246, 0.6);
 	border-radius: 10px;
@@ -646,20 +629,32 @@ footer a:hover .icon-github {
 	padding: 10px 4px;
 }
 
-.pinned-item .controls button svg {
 	width: 40px;
+.controls button svg {
 	fill: var(--color-blue-light);
 	filter: drop-shadow(0 0 3px var(--color-blue-other));
 }
 
-@media (min-width: 1024px) {
-	.pinned-item .controls button svg {
-		width: 30px;
-	}
+.controls button:hover svg {
+	fill: red;
 }
 
-.pinned-item .controls button:hover svg {
-	fill: red;
+.controls .quantity-buttons {
+	display: flex;
+	flex-direction: column;
+}
+
+.controls .quantity-buttons button {
+	border-radius: 5px 5px 0 0;
+	color: var(--color-blue-light);
+	font-weight: bold;
+	height: 20px;
+	margin: 0;
+	text-shadow: 0 0 3px var(--color-blue-other);
+}
+
+.controls .quantity-buttons button:last-of-type {
+	border-radius: 0 0 5px 5px;
 }
 
 .pinned-item .item {
