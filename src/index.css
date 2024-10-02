@@ -8,10 +8,16 @@
 	--color-blue-darker: #114cbf;
 	--color-blue-other: #1d67a4;
 	--color-blue-dark: #3d76cb;
+	--color-blue-lighter: #e0f4ff;
 	--color-blue-light: #56b2e0;
 	--color-blue-less-bright: #7fc8d7;
 	--color-blue-bright: #c8eaf6;
 	--color-teal-bright: #22f7b6;
+	--color-brown: #7a3e00;
+	--color-orange: #f28d00;
+	--color-yellow: #dabc3e;
+	--color-yellow-bright: #ffd003;
+	--color-white: #fff;
 }
 
 body {
@@ -76,7 +82,7 @@ button {
 }
 
 #screen {
-	color: #fff;
+	color: var(--color-white);
 	height: 100%;
 	padding: 10px;
 	display: flex;
@@ -114,8 +120,8 @@ button {
 }
 
 #heading h2 {
-	border-bottom: 2px solid #dabc3e;
-	color: #50bbcc;
+	border-bottom: 2px solid var(--color-yellow);
+	color: var(--color-blue-light);
 	font-weight: 600;
 	margin: 10px auto;
 	padding-bottom: 5px;
@@ -177,7 +183,7 @@ button {
 	border: 2px solid var(--color-blue-bright);
 	border-radius: 7px;
 	box-shadow: inset 0 0 10px var(--color-blue-bright);
-	color: #e0f4ff;
+	color: var(--color-blue-lighter);
 	height: 100%;
 	margin: 0;
 	outline: none;
@@ -240,7 +246,7 @@ button {
 	border: 2px solid var(--color-blue-bright);
 	border-radius: 7px;
 	box-shadow: inset 0 0 10px var(--color-blue-bright);
-	color: #e0f4ff;
+	color: var(--color-blue-lighter);
 	margin: 0 2px;
 	outline: 0;
 	padding: 2px 30px;
@@ -265,12 +271,12 @@ button {
 }
 
 #tabs .tab:hover svg {
-	fill: #fff;
+	fill: var(--color-white);
 }
 
 #tabs .tab.active:after {
-	background: #f3feff;
-	box-shadow: 0 0 5px #2f5cb3, 0 0 5px #2f5cb3;
+	background: var(--color-blue-lighter);
+	box-shadow: 0 0 5px var(--color-blue-other), 0 0 5px var(--color-blue-other);
 }
 
 #tabs .tab .label {
@@ -282,7 +288,7 @@ button {
 }
 
 #tabs .tab svg {
-	fill: url(#gradient) #fff;
+	fill: url(#gradient) var(--color-white);
 	width: 25px;
 	position: relative;
 	top: 2px;
@@ -290,10 +296,10 @@ button {
 }
 
 #tabs .tab .badge {
-	background: #ffd003;
+	background: var(--color-yellow-bright);
 	border-radius: 50%;
-	box-shadow: 0 0 10px #8a512d, 0 0 5px #8a512d;
-	color: #7a3e00;
+	box-shadow: 0 0 10px var(--color-brown), 0 0 5px var(--color-brown);
+	color: var(--color-brown);
 	height: 18px;
 	font-size: 10px;
 	font-weight: 600;
@@ -329,7 +335,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #fff;
+	color: var(--color-white);
 }
 
 footer .icon-github {
@@ -339,11 +345,11 @@ footer .icon-github {
 }
 
 footer a:hover .icon-github {
-	fill: #fff;
+	fill: var(--color-white);
 }
 
 #title {
-	background: linear-gradient(var(--color-blue-less-bright), #eee);
+	background: linear-gradient(var(--color-blue-less-bright), var(--color-white));
 	font-family: "Days One", sans-serif;
 	font-size: 40px;
 	margin: 0 auto 4px;
@@ -368,7 +374,7 @@ footer a:hover .icon-github {
 #title:before {
 	content: "SUBNAUTICA PDA";
 	background-clip: text;
-	color: #fff;
+	color: var(--color-white);
 	position: absolute;
 	top: -1px;
 	left: 0;
@@ -377,23 +383,20 @@ footer a:hover .icon-github {
 }
 
 #title span {
-	color: #f28d00;
+	color: var(--color-orange);
 }
 
 .help {
 	border: 2px solid var(--color-blue-bright);
 	border-radius: 7px;
 	box-shadow: inset 0 0 10px var(--color-blue-bright);
-	color: #e0f4ff;
+	color: var(--color-blue-lighter);
 	padding: 10px;
 }
 
-.help a {
-	color: #fff;
-}
-
+.help a,
 .help a:visited {
-	color: #fff;
+	color: var(--color-white);
 }
 
 .help a:hover {
@@ -409,7 +412,7 @@ footer a:hover .icon-github {
 }
 
 .help h1 {
-	color: #fff;
+	color: var(--color-white);
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -418,7 +421,7 @@ footer a:hover .icon-github {
 	border: 1px solid rgba(175, 255, 255, 0.5);
 	border-radius: 50px;
 	box-shadow: inset 0 0 35px rgba(0, 238, 255, 0.5);
-	color: #fff;
+	color: var(--color-white);
 	display: flex;
 	margin-bottom: 20px;
 	padding: 0;
@@ -427,7 +430,7 @@ footer a:hover .icon-github {
 }
 
 .alert .icon {
-	background: radial-gradient(rgba(0, 225, 255, 0.1) 25%, rgba(0, 225, 255, 0.9) 90%, #c8eaf6 100%);
+	background: radial-gradient(rgba(0, 225, 255, 0.1) 25%, rgba(0, 225, 255, 0.9) 90%, var(--color-blue-bright) 100%);
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
@@ -439,7 +442,7 @@ footer a:hover .icon-github {
 }
 
 .alert .icon svg {
-	fill: #fff;
+	fill: var(--color-white);
 	width: 100%;
 	height: auto;
 }
@@ -592,7 +595,7 @@ footer a:hover .icon-github {
 }
 
 .group .item:active { 
-	background: #f28d00;
+	background: var(--color-orange);
 }
 
 .pinned-item {
@@ -645,7 +648,7 @@ footer a:hover .icon-github {
 
 .pinned-item .controls button svg {
 	width: 40px;
-	fill: #85bedc;
+	fill: var(--color-blue-light);
 	filter: drop-shadow(0 0 3px var(--color-blue-other));
 }
 
@@ -711,10 +714,10 @@ footer a:hover .icon-github {
 
 .pinned-item .quantity,
 .pinned-item .yield {
-	background: #ffd003;
+	background: var(--color-yellow-bright);
 	border-radius: 50%;
-	box-shadow: 0 0 10px #8a512d, 0 0 5px #8a512d;
-	color: #7a3e00;
+	box-shadow: 0 0 10px var(--color-brown), 0 0 5px var(--color-brown);
+	color: var(--color-brown);
 	display: inline-block;
 	font-weight: bold;
 	height: 26px;
