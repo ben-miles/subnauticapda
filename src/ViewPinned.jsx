@@ -61,9 +61,9 @@ export default function ViewPinned({items, setItems, view}) {
 									<IconEye />
 								</button>
 								
-								<div className="quantity-buttons">
+								<div className="quantity">
 									<button onClick={increment(item.id)} aria-label="Increase Quantity" title="Increase Quantity" className="increase-quantity">▲</button>
-									<span>{(item.quantity * (item.hasOwnProperty('recipe') ? item.recipe.yield : 1 ))}</span>
+									<span className="quantity-display">{(item.quantity * (item.hasOwnProperty('recipe') ? item.recipe.yield : 1 ))}</span>
 									<button onClick={decrement(item.id)} aria-label="Decrease Quantity" title="Decrease Quantity" className="decrease-quantity">▼</button>
 								</div>
 
