@@ -369,12 +369,18 @@ footer a:hover .icon-github {
 #title {
 	background: linear-gradient(var(--color-blue-less-bright), var(--color-white));
 	font-family: "Days One", sans-serif;
-	font-size: 40px;
+	font-size: 24px;
 	margin: 0 auto 4px;
 	position: relative;
 	text-align: center;
 	background-clip: text;
 	color: transparent;
+}
+
+@media (min-width: 720px) {
+	#title {
+		font-size: 40px;
+	}
 }
 
 #title:after {
@@ -402,6 +408,17 @@ footer a:hover .icon-github {
 
 #title span {
 	color: var(--color-orange);
+}
+
+.copyright {
+	font-size: 10px;
+	line-height: normal;
+}
+
+@media (min-width: 720px) {
+	.copyright {
+		font-size: 12px;
+	}
 }
 
 .help {
