@@ -739,12 +739,12 @@ footer a:hover .icon-github {
 	width: 100%;
 }
 
-.pinned-item .data h3:before {
+/* .pinned-item .data h3:before {
 	content: "⌵";
 	margin-right: 10px;
 	transform: rotate(0deg);
 	display: inline-block;
-}
+} */
 
 .pinned-item .data h3:not(:first-of-type) {
 	margin-top: 10px;
@@ -759,6 +759,13 @@ footer a:hover .icon-github {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	padding: 0 10px;
+}
+
+.pinned-item .tool {
+	height: auto;
+	margin-right: 4px;
+	width: 20px;
+	vertical-align: bottom;
 }
 
 .pinned-item .ingredient .quantity,
