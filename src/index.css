@@ -59,8 +59,8 @@ button {
 	background: url(/images/subnauticapda_pda_sm.png);
 	background-repeat: repeat-x;
 	background-size: contain;
-	height: calc(100vh - 100px);
-	padding: 50px 0;
+	height: 100%;
+	padding: 65px 0 45px;
 	width: 100%;
 	filter: drop-shadow(2px 6px 20px rgba(0, 0, 0, 0.5));
 }
@@ -331,19 +331,29 @@ button {
 }
 
 footer {
-	position: absolute;
-	width: 100%;
-	bottom: 0;
+	align-items: center;
 	background: rgba(9, 7, 9, 0.7);
 	color: rgba(255, 255, 255, 0.5);
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	font-size: 10px;
 	justify-content: center;
-	min-height: 40px;
-	padding: 8px;
-	font-size: 12px;
+	line-height: normal;
+	min-height: 59px;
+	padding: 0 4px 4px;
+	position: absolute;
 	text-align: center;
+	top: 0;
+	width: 100%;
+}
+
+@media (min-width: 1024px) {
+	footer {
+		bottom: 0;
+		font-size: 12px;
+		padding: 8px;
+		top: unset;
+	}
 }
 
 footer a {
@@ -358,6 +368,7 @@ footer a:hover {
 
 footer .icon-github {
 	fill: rgba(255, 255, 255, 0.6);
+	display: none;
 	height: 14px;
 	width: auto;
 }
@@ -366,15 +377,28 @@ footer a:hover .icon-github {
 	fill: var(--color-white);
 }
 
+@media (min-width: 1024px) {
+	footer .icon-github {
+		display: inline-block;
+	}
+}
+
 #title {
 	background: linear-gradient(var(--color-blue-less-bright), var(--color-white));
 	font-family: "Days One", sans-serif;
-	font-size: 40px;
-	margin: 0 auto 4px;
+	font-size: 24px;
+	margin: 0;
 	position: relative;
 	text-align: center;
 	background-clip: text;
 	color: transparent;
+}
+
+@media (min-width: 1024px) {
+	#title {
+		font-size: 40px;
+		margin: 0 auto 4px;
+	}
 }
 
 #title:after {
@@ -722,12 +746,12 @@ footer a:hover .icon-github {
 	width: 100%;
 }
 
-.pinned-item .data h3:before {
+/* .pinned-item .data h3:before {
 	content: "⌵";
 	margin-right: 10px;
 	transform: rotate(0deg);
 	display: inline-block;
-}
+} */
 
 .pinned-item .data h3:not(:first-of-type) {
 	margin-top: 10px;
@@ -742,6 +766,13 @@ footer a:hover .icon-github {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	padding: 0 10px;
+}
+
+.pinned-item .tool {
+	height: auto;
+	margin-right: 4px;
+	width: 20px;
+	vertical-align: bottom;
 }
 
 .pinned-item .ingredient .quantity,

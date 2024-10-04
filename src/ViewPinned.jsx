@@ -82,7 +82,7 @@ export default function ViewPinned({items, setItems, view}) {
 							
 							{item.hasOwnProperty('recipe') && 
 								<div className="data">
-									<h3>Crafted from:</h3>
+									<h3>Crafted using the <img className="tool" src={'images/items/' + item.recipe.tool.replace(/\s+/g, '').toLowerCase() + '.png'} loading="lazy" />{item.recipe.tool} with these items:</h3>
 									<div className="recipe">
 
 									{item.recipe.ingredients.map((ingredient) => (
