@@ -58,6 +58,7 @@
 		"id": "neptuneescaperocket", 
 		"isOpen": true,
 		"name": "Neptune Escape Rocket"
+	},
 	{
 		"id": "baseparts", 
 		"isOpen": true,
@@ -68,5 +69,9 @@
 		"isOpen": true,
 		"name": "Miscellaneous Items"
 	},
+	{
+		"id": "placeableitems", 
+		"isOpen": true,
+		"name": "Placeable Items"
 	}
 ]

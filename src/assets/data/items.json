@@ -3085,5 +3085,90 @@
 		"id": "anunusualdoll",
 		"group": "Miscellaneous Items",
 		"name": "An Unusual Doll"
+	},
+	{
+		"id": "arcadegorgetoy",
+		"group": "Placeable Items",
+		"name": "Arcade Gorge Toy"
+	},
+	{
+		"id": "graycap",
+		"group": "Placeable Items",
+		"name": "Gray Cap"
+	},
+	{
+		"id": "bluecap",
+		"group": "Placeable Items",
+		"name": "Blue Cap"
+	},
+	{
+		"id": "largesampleflask",
+		"group": "Placeable Items",
+		"name": "Large Sample Flask"
+	},
+	{
+		"id": "smallsampleflask",
+		"group": "Placeable Items",
+		"name": "Small Sample Flask"
+	},
+	{
+		"id": "cylindricalsampleflask",
+		"group": "Placeable Items",
+		"name": "Cylindrical Sample Flask"
+	},
+	{
+		"id": "microscope",
+		"group": "Placeable Items",
+		"name": "Microscope"
+	},
+	{
+		"id": "fluidanalyzer",
+		"group": "Placeable Items",
+		"name": "Fluid Analyzer"
+	},
+	{
+		"id": "sampleanalyzer",
+		"group": "Placeable Items",
+		"name": "Sample Analyzer"
+	},
+	{
+		"id": "carryall",
+		"group": "Placeable Items",
+		"name": "Carry-all"
+	},
+	{
+		"id": "auroraposter",
+		"group": "Placeable Items",
+		"name": "Aurora Poster"
+	},
+	{
+		"id": "naturalselection2poster",
+		"group": "Placeable Items",
+		"name": "Natural Selection 2 Poster"
+	},
+	{
+		"id": "keepcalmposter",
+		"group": "Placeable Items",
+		"name": "Keep Calm Poster"
+	},
+	{
+		"id": "prawnsuitposterland",
+		"group": "Placeable Items",
+		"name": "Prawn Suit Poster - Land"
+	},
+	{
+		"id": "prawnsuitpostersea",
+		"group": "Placeable Items",
+		"name": "Prawn Suit Poster - Sea"
+	},
+	{
+		"id": "auroraminiature",
+		"group": "Placeable Items",
+		"name": "Aurora Miniature"
+	},
+	{
+		"id": "toycar",
+		"group": "Placeable Items",
+		"name": "Toy Car"
 	}
 ]
