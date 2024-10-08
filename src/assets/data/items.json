@@ -2730,5 +2730,236 @@
 			"tool": "Neptune Launch Platform",
 			"yield": 1
 		}
+	},
+	{
+		"id": "bulkhead",
+		"group": "Base Parts",
+		"name": "Bulkhead"
+	},
+	{
+		"id": "icompartment",
+		"group": "Base Parts",
+		"name": "I Compartment"
+	},
+	{
+		"id": "glasscompartment",
+		"group": "Base Parts",
+		"name": "Glass Compartment"
+	},
+	{
+		"id": "lcompartment",
+		"group": "Base Parts",
+		"name": "L Compartment"
+	},
+	{
+		"id": "lglasscompartment",
+		"group": "Base Parts",
+		"name": "L Glass Compartment"
+	},
+	{
+		"id": "tcompartment",
+		"group": "Base Parts",
+		"name": "T Compartment"
+	},
+	{
+		"id": "xcompartment",
+		"group": "Base Parts",
+		"name": "X Compartment"
+	},
+	{
+		"id": "foundation",
+		"group": "Base Parts",
+		"name": "Foundation"
+	},
+	{
+		"id": "hatch",
+		"group": "Base Parts",
+		"name": "Hatch"
+	},
+	{
+		"id": "largeroom",
+		"group": "Base Parts",
+		"name": "Large Room"
+	},
+	{
+		"id": "largeroomglassdome",
+		"group": "Base Parts",
+		"name": "Large Room Glass Dome"
+	},
+	{
+		"id": "moonpool",
+		"group": "Base Parts",
+		"name": "Moonpool"
+	},
+	{
+		"id": "multipurposeroom",
+		"group": "Base Parts",
+		"name": "Multipurpose Room"
+	},
+	{
+		"id": "multipurposeroomglassdome",
+		"group": "Base Parts",
+		"name": "Multipurpose Room Glass Dome"
+	},
+	{
+		"id": "observatory",
+		"group": "Base Parts",
+		"name": "Observatory"
+	},
+	{
+		"id": "reinforcement",
+		"group": "Base Parts",
+		"name": "Reinforcement"
+	},
+	{
+		"id": "scannerroom",
+		"group": "Base Parts",
+		"name": "Scanner Room"
+	},
+	{
+		"id": "verticalconnector",
+		"group": "Base Parts",
+		"name": "Vertical Connector"
+	},
+	{
+		"id": "window",
+		"group": "Base Parts",
+		"name": "Window"
+	},
+	{
+		"id": "solarpanel",
+		"group": "Base Parts",
+		"name": "Solar Panel"
+	},
+	{
+		"id": "thermalplant",
+		"group": "Base Parts",
+		"name": "Thermal Plant"
+	},
+	{
+		"id": "powertransmitter",
+		"group": "Base Parts",
+		"name": "Power Transmitter"
+	},
+	{
+		"id": "floodlight",
+		"group": "Base Parts",
+		"name": "Floodlight"
+	},
+	{
+		"id": "spotlight",
+		"group": "Base Parts",
+		"name": "Spotlight"
+	},
+	{
+		"id": "interiorgrowbed",
+		"group": "Base Parts",
+		"name": "Interior Growbed"
+	},
+	{
+		"id": "exteriorgrowbed",
+		"group": "Base Parts",
+		"name": "Exterior Growbed"
+	},
+	{
+		"id": "baseattachedairpump",
+		"group": "Base Parts",
+		"name": "Base-Attached Air Pump"
+	},
+	{
+		"id": "fabricator",
+		"group": "Base Parts",
+		"name": "Fabricator"
+	},
+	{
+		"id": "radio",
+		"group": "Base Parts",
+		"name": "Radio"
+	},
+	{
+		"id": "medicalkitfabricator",
+		"group": "Base Parts",
+		"name": "Medical Kit Fabricator"
+	},
+	{
+		"id": "walllocker",
+		"group": "Base Parts",
+		"name": "Wall Locker"
+	},
+	{
+		"id": "locker",
+		"group": "Base Parts",
+		"name": "Locker"
+	},
+	{
+		"id": "batterycharger",
+		"group": "Base Parts",
+		"name": "Battery Charger"
+	},
+	{
+		"id": "powercellcharger",
+		"group": "Base Parts",
+		"name": "Power Cell Charger"
+	},
+	{
+		"id": "aquarium",
+		"group": "Base Parts",
+		"name": "Aquarium"
+	},
+	{
+		"id": "modificationstation",
+		"group": "Base Parts",
+		"name": "Modification Station"
+	},
+	{
+		"id": "basicplantpot",
+		"group": "Base Parts",
+		"name": "Basic Plant Pot"
+	},
+	{
+		"id": "compositeplantpot",
+		"group": "Base Parts",
+		"name": "Composite Plant Pot"
+	},
+	{
+		"id": "chicplantpot",
+		"group": "Base Parts",
+		"name": "Chic Plant Pot"
+	},
+	{
+		"id": "plantshelf",
+		"group": "Base Parts",
+		"name": "Plant Shelf"
+	},
+	{
+		"id": "ladder",
+		"group": "Base Parts",
+		"name": "Ladder"
+	},
+	{
+		"id": "waterfiltrationmachine",
+		"group": "Base Parts",
+		"name": "Water Filtration Machine"
+	},
+	{
+		"id": "vehicleupgradeconsole",
+		"group": "Base Parts",
+		"name": "Vehicle Upgrade Console"
+	},
+	{
+		"id": "bioreactor",
+		"group": "Base Parts",
+		"name": "Bioreactor"
+	},
+	{
+		"id": "nuclearreactor",
+		"group": "Base Parts",
+		"name": "Nuclear Reactor"
+	},
+	{
+		"id": "aliencontainment",
+		"group": "Base Parts",
+		"name": "Alien Containment"
+	},
 	}
 ]

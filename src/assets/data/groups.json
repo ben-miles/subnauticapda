@@ -58,5 +58,10 @@
 		"id": "neptuneescaperocket", 
 		"isOpen": true,
 		"name": "Neptune Escape Rocket"
+	{
+		"id": "baseparts", 
+		"isOpen": true,
+		"name": "Base Parts"
+	},
 	}
 ]
