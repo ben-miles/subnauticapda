@@ -3089,86 +3089,103 @@
 	{
 		"id": "arcadegorgetoy",
 		"group": "Placeable Items",
-		"name": "Arcade Gorge Toy"
+		"name": "Arcade Gorge Toy",
+		"location": "Aurora"
 	},
 	{
 		"id": "greycap",
 		"group": "Placeable Items",
-		"name": "Grey Cap"
+		"name": "Grey Cap",
+		"location": "Lifepod 7, Wrecks"
 	},
 	{
 		"id": "bluecap",
 		"group": "Placeable Items",
-		"name": "Blue Cap"
+		"name": "Blue Cap",
+		"location": "Aurora, Wrecks"
 	},
 	{
 		"id": "largesampleflask",
 		"group": "Placeable Items",
-		"name": "Large Sample Flask"
+		"name": "Large Sample Flask",
+		"location": "Aurora"
 	},
 	{
 		"id": "smallsampleflask",
 		"group": "Placeable Items",
-		"name": "Small Sample Flask"
+		"name": "Small Sample Flask",
+		"location": "Degasi Seabases, Wrecks"
 	},
 	{
 		"id": "cylindricalsampleflask",
 		"group": "Placeable Items",
-		"name": "Cylindrical Sample Flask"
+		"name": "Cylindrical Sample Flask",
+		"location": "Aurora, Lifepod 7, Wrecks"
 	},
 	{
 		"id": "microscope",
 		"group": "Placeable Items",
-		"name": "Microscope"
+		"name": "Microscope",
+		"location": "Degasi Seabases, Aurora, Lifepod 7, Wrecks"
 	},
 	{
 		"id": "fluidanalyzer",
 		"group": "Placeable Items",
-		"name": "Fluid Analyzer"
+		"name": "Fluid Analyzer",
+		"location": "Degasi Seabases, Wrecks"
 	},
 	{
 		"id": "sampleanalyzer",
 		"group": "Placeable Items",
-		"name": "Sample Analyzer"
+		"name": "Sample Analyzer",
+		"location": "Degasi Seabases, Aurora, Wrecks"
 	},
 	{
 		"id": "carryall",
 		"group": "Placeable Items",
-		"name": "Carry-all"
+		"name": "Carry-all",
+		"location": "Degasi Seabases, Aurora, Wrecks"
 	},
 	{
 		"id": "auroraposter",
 		"group": "Placeable Items",
-		"name": "Aurora Poster"
+		"name": "Aurora Poster",
+		"location": "Aurora"
 	},
 	{
 		"id": "naturalselection2poster",
 		"group": "Placeable Items",
-		"name": "Natural Selection 2 Poster"
+		"name": "Natural Selection 2 Poster",
+		"location": "Aurora, Wrecks"
 	},
 	{
 		"id": "keepcalmposter",
 		"group": "Placeable Items",
-		"name": "Keep Calm Poster"
+		"name": "Keep Calm Poster",
+		"location": "Aurora"
 	},
 	{
 		"id": "prawnsuitposterland",
 		"group": "Placeable Items",
-		"name": "Prawn Suit Poster - Land"
+		"name": "Prawn Suit Poster - Land",
+		"location": "Aurora"
 	},
 	{
 		"id": "prawnsuitpostersea",
 		"group": "Placeable Items",
-		"name": "Prawn Suit Poster - Sea"
+		"name": "Prawn Suit Poster - Sea",
+		"location": "Aurora"
 	},
 	{
 		"id": "auroraminiature",
 		"group": "Placeable Items",
-		"name": "Aurora Miniature"
+		"name": "Aurora Miniature",
+		"location": "Aurora"
 	},
 	{
 		"id": "toycar",
 		"group": "Placeable Items",
-		"name": "Toy Car"
+		"name": "Toy Car",
+		"location": "Lifepod 7"
 	}
 ]
