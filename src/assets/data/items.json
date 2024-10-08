@@ -2734,357 +2734,1423 @@
 	{
 		"id": "bulkhead",
 		"group": "Base Parts",
-		"name": "Bulkhead"
+		"name": "Bulkhead",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				},
+				{
+					"id": "siliconerubber",
+					"name": "Silicone Rubber",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "icompartment",
 		"group": "Base Parts",
-		"name": "I Compartment"
+		"name": "I Compartment",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "glasscompartment",
 		"group": "Base Parts",
-		"name": "Glass Compartment"
+		"name": "Glass Compartment",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "lcompartment",
 		"group": "Base Parts",
-		"name": "L Compartment"
+		"name": "L Compartment",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "lglasscompartment",
 		"group": "Base Parts",
-		"name": "L Glass Compartment"
+		"name": "L Glass Compartment",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "tcompartment",
 		"group": "Base Parts",
-		"name": "T Compartment"
+		"name": "T Compartment",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "xcompartment",
 		"group": "Base Parts",
-		"name": "X Compartment"
+		"name": "X Compartment",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "foundation",
 		"group": "Base Parts",
-		"name": "Foundation"
+		"name": "Foundation",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				},
+				{
+					"id": "lead",
+					"name": "Lead",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "hatch",
 		"group": "Base Parts",
-		"name": "Hatch"
+		"name": "Hatch",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "quartz",
+					"name": "Quartz",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "largeroom",
 		"group": "Base Parts",
-		"name": "Large Room"
+		"name": "Large Room",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "largeroompartition",
 		"group": "Base Parts",
-		"name": "Large Room Partition"
+		"name": "Large Room Partition",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "largeroompartitiondoor",
 		"group": "Base Parts",
-		"name": "Large Room Partition Door"
+		"name": "Large Room Partition Door",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "quartz",
+					"name": "Quartz",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "largeroomglassdome",
 		"group": "Base Parts",
-		"name": "Large Room Glass Dome"
+		"name": "Large Room Glass Dome",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "enameledglass",
+					"name": "Enameled Glass",
+					"quantity": 4
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 2
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 4
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "moonpool",
 		"group": "Base Parts",
-		"name": "Moonpool"
+		"name": "Moonpool",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "lead",
+					"name": "Lead",
+					"quantity": 2
+				},
+				{
+					"id": "lubricant",
+					"name": "Lubricant",
+					"quantity": 1
+				},
+				{
+					"id": "titaniumingot",
+					"name": "Titanium Ingot",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "multipurposeroom",
 		"group": "Base Parts",
-		"name": "Multipurpose Room"
+		"name": "Multipurpose Room",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 6
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "multipurposeroomglassdome",
 		"group": "Base Parts",
-		"name": "Multipurpose Room Glass Dome"
+		"name": "Multipurpose Room Glass Dome",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "enameledglass",
+					"name": "Enameled Glass",
+					"quantity": 2
+				},
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "observatory",
 		"group": "Base Parts",
-		"name": "Observatory"
+		"name": "Observatory",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "enameledglass",
+					"name": "Enameled Glass",
+					"quantity": 2
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "reinforcement",
 		"group": "Base Parts",
-		"name": "Reinforcement"
+		"name": "Reinforcement",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "lithium",
+					"name": "Lithium",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "scannerroom",
 		"group": "Base Parts",
-		"name": "Scanner Room"
+		"name": "Scanner Room",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 5
+				},
+				{
+					"id": "copperore",
+					"name": "Copper Ore",
+					"quantity": 2
+				},
+				{
+					"id": "gold",
+					"name": "Gold",
+					"quantity": 1
+				},
+				{
+					"id": "tablecoralsample",
+					"name": "Table Coral Sample",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "scannerroomcameradrone",
 		"group": "Base Parts",
-		"name": "Scanner Room Camera Drone"
+		"name": "Scanner Room Camera Drone",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "battery",
+					"name": "Battery",
+					"quantity": 1
+				},
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Scanner Room",
+			"yield": 1
+		}
 	},
 	{
 		"id": "scannerroomrangeupgrade",
 		"group": "Base Parts",
-		"name": "Scanner Room Range Upgrade"
+		"name": "Scanner Room Range Upgrade",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "copperore",
+					"name": "Copper Ore",
+					"quantity": 1
+				},
+				{
+					"id": "magnetite",
+					"name": "Magnetite",
+					"quantity": 1
+				}
+			],
+			"tool": "Scanner Room",
+			"yield": 1
+		}
 	},
 	{
 		"id": "scannerroomspeedupgrade",
 		"group": "Base Parts",
-		"name": "Scanner Room Speed Upgrade"
+		"name": "Scanner Room Speed Upgrade",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "silverore",
+					"name": "Silver Ore",
+					"quantity": 1
+				},
+				{
+					"id": "gold",
+					"name": "Gold",
+					"quantity": 1
+				}
+			],
+			"tool": "Scanner Room",
+			"yield": 1
+		}
 	},
 	{
 		"id": "verticalconnector",
 		"group": "Base Parts",
-		"name": "Vertical Connector"
+		"name": "Vertical Connector",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "window",
 		"group": "Base Parts",
-		"name": "Window"
+		"name": "Window",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "solarpanel",
 		"group": "Base Parts",
-		"name": "Solar Panel"
+		"name": "Solar Panel",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "quartz",
+					"name": "Quartz",
+					"quantity": 2
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				},
+				{
+					"id": "copperore",
+					"name": "Copper Ore",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "thermalplant",
 		"group": "Base Parts",
-		"name": "Thermal Plant"
+		"name": "Thermal Plant",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 5
+				},
+				{
+					"id": "magnetite",
+					"name": "Magnetite",
+					"quantity": 2
+				},
+				{
+					"id": "aerogel",
+					"name": "Aerogel",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "powertransmitter",
 		"group": "Base Parts",
-		"name": "Power Transmitter"
+		"name": "Power Transmitter",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "gold",
+					"name": "Gold",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium Ingot",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "floodlight",
 		"group": "Base Parts",
-		"name": "Floodlight"
+		"name": "Floodlight",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "spotlight",
 		"group": "Base Parts",
-		"name": "Spotlight"
+		"name": "Spotlight",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
-		"id": "interiorgrowbed",
+		"id": "indoorgrowbed",
 		"group": "Base Parts",
-		"name": "Interior Growbed"
+		"name": "Indoor Growbed",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 4
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "exteriorgrowbed",
 		"group": "Base Parts",
-		"name": "Exterior Growbed"
+		"name": "Exterior Growbed",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "baseattachedairpump",
 		"group": "Base Parts",
-		"name": "Base-Attached Air Pump"
+		"name": "Base-Attached Air Pump",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "fabricator",
 		"group": "Base Parts",
-		"name": "Fabricator"
+		"name": "Fabricator",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				},
+				{
+					"id": "gold",
+					"name": "Gold",
+					"quantity": 1
+				},
+				{
+					"id": "tablecoralsample",
+					"name": "Table Coral Sample",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "radio",
 		"group": "Base Parts",
-		"name": "Radio"
+		"name": "Radio",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				},
+				{
+					"id": "copperore",
+					"name": "Copper Ore",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "medicalkitfabricator",
 		"group": "Base Parts",
-		"name": "Medical Kit Fabricator"
+		"name": "Medical Kit Fabricator",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "fibermesh",
+					"name": "Fiber Mesh",
+					"quantity": 1
+				},
+				{
+					"id": "silverore",
+					"name": "Silver Ore",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "walllocker",
 		"group": "Base Parts",
-		"name": "Wall Locker"
+		"name": "Wall Locker",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "locker",
 		"group": "Base Parts",
-		"name": "Locker"
+		"name": "Locker",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "quartz",
+					"name": "Quartz",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "batterycharger",
 		"group": "Base Parts",
-		"name": "Battery Charger"
+		"name": "Battery Charger",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "powercellcharger",
 		"group": "Base Parts",
-		"name": "Power Cell Charger"
+		"name": "Power Cell Charger",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "advancedwiringkit",
+					"name": "Advanced Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "ruby",
+					"name": "Ruby",
+					"quantity": 2
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "aquarium",
 		"group": "Base Parts",
-		"name": "Aquarium"
+		"name": "Aquarium",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "modificationstation",
 		"group": "Base Parts",
-		"name": "Modification Station"
+		"name": "Modification Station",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				},
+				{
+					"id": "diamond",
+					"name": "Diamond",
+					"quantity": 1
+				},
+				{
+					"id": "lead",
+					"name": "Lead",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "basicplantpot",
 		"group": "Base Parts",
-		"name": "Basic Plant Pot"
+		"name": "Basic Plant Pot",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "compositeplantpot",
 		"group": "Base Parts",
-		"name": "Composite Plant Pot"
+		"name": "Composite Plant Pot",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "chicplantpot",
 		"group": "Base Parts",
-		"name": "Chic Plant Pot"
+		"name": "Chic Plant Pot",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "plantshelf",
 		"group": "Base Parts",
-		"name": "Plant Shelf"
+		"name": "Plant Shelf",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "ladder",
 		"group": "Base Parts",
-		"name": "Ladder"
+		"name": "Ladder",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "waterfiltrationmachine",
 		"group": "Base Parts",
-		"name": "Water Filtration Machine"
+		"name": "Water Filtration Machine",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				},
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				},
+				{
+					"id": "aerogel",
+					"name": "Aerogel",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "vehicleupgradeconsole",
 		"group": "Base Parts",
-		"name": "Vehicle Upgrade Console"
+		"name": "Vehicle Upgrade Console",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				},
+				{
+					"id": "computerchip",
+					"name": "Computer Chip",
+					"quantity": 1
+				},
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "bioreactor",
 		"group": "Base Parts",
-		"name": "Bioreactor"
+		"name": "Bioreactor",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 3
+				},
+				{
+					"id": "wiringkit",
+					"name": "Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "lubricant",
+					"name": "Lubricant",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "nuclearreactor",
 		"group": "Base Parts",
-		"name": "Nuclear Reactor"
+		"name": "Nuclear Reactor",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "plasteelingot",
+					"name": "Plasteel Ingot",
+					"quantity": 1
+				},
+				{
+					"id": "advancedwiringkit",
+					"name": "Advanced Wiring Kit",
+					"quantity": 1
+				},
+				{
+					"id": "lead",
+					"name": "Lead",
+					"quantity": 3
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "aliencontainment",
 		"group": "Base Parts",
-		"name": "Alien Containment"
+		"name": "Alien Containment",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 5
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "bench",
 		"group": "Miscellaneous Items",
-		"name": "Bench"
+		"name": "Bench",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "basicdoublebed",
 		"group": "Miscellaneous Items",
-		"name": "Basic Double Bed"
+		"name": "Basic Double Bed",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				},
+				{
+					"id": "fibermesh",
+					"name": "Fiber Mesh",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "quilteddoublebed",
 		"group": "Miscellaneous Items",
-		"name": "Quilted Double Bed"
+		"name": "Quilted Double Bed",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				},
+				{
+					"id": "fibermesh",
+					"name": "Fiber Mesh",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "narrowbed",
 		"group": "Miscellaneous Items",
-		"name": "Narrow Bed"
+		"name": "Narrow Bed",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				},
+				{
+					"id": "fibermesh",
+					"name": "Fiber Mesh",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "desk",
 		"group": "Miscellaneous Items",
-		"name": "Desk"
+		"name": "Desk",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "swivelchair",
 		"group": "Miscellaneous Items",
-		"name": "Swivel Chair"
+		"name": "Swivel Chair",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "officechair",
 		"group": "Miscellaneous Items",
-		"name": "Office Chair"
+		"name": "Office Chair",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "commandchair",
 		"group": "Miscellaneous Items",
-		"name": "Command Chair"
+		"name": "Command Chair",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "sign",
 		"group": "Miscellaneous Items",
-		"name": "Sign"
+		"name": "Sign",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "pictureframe",
 		"group": "Miscellaneous Items",
-		"name": "Picture Frame"
+		"name": "Picture Frame",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "copperwire",
+					"name": "Copper Wire",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "bartable",
 		"group": "Miscellaneous Items",
-		"name": "Bar Table"
+		"name": "Bar Table",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "trashcan",
 		"group": "Miscellaneous Items",
-		"name": "Trash Can"
+		"name": "Trash Can",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "nuclearwastedisposal",
 		"group": "Miscellaneous Items",
-		"name": "Nuclear Waste Disposal"
+		"name": "Nuclear Waste Disposal",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "vendingmachine",
 		"group": "Miscellaneous Items",
-		"name": "Vending Machine"
+		"name": "Vending Machine",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "coffeevendingmachine",
 		"group": "Miscellaneous Items",
-		"name": "Coffee Vending Machine"
+		"name": "Coffee Vending Machine",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "counter",
 		"group": "Miscellaneous Items",
-		"name": "Counter"
+		"name": "Counter",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "wallplanter",
 		"group": "Miscellaneous Items",
-		"name": "Wall Planter"
+		"name": "Wall Planter",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "singlewallshelf",
 		"group": "Miscellaneous Items",
-		"name": "Single Wall Shelf"
+		"name": "Single Wall Shelf",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "wallshelves",
 		"group": "Miscellaneous Items",
-		"name": "Wall Shelves"
+		"name": "Wall Shelves",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 2
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "anunusualdoll",
 		"group": "Miscellaneous Items",
-		"name": "An Unusual Doll"
+		"name": "An Unusual Doll",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "glass",
+					"name": "Glass",
+					"quantity": 1
+				},
+				{
+					"id": "titanium",
+					"name": "Titanium",
+					"quantity": 1
+				}
+			],
+			"tool": "Habitat Builder",
+			"yield": 1
+		}
 	},
 	{
 		"id": "arcadegorgetoy",
