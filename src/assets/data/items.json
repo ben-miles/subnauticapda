@@ -2827,6 +2827,21 @@
 		"name": "Scanner Room"
 	},
 	{
+		"id": "scannerroomcameradrone",
+		"group": "Base Parts",
+		"name": "Scanner Room Camera Drone"
+	},
+	{
+		"id": "scannerroomrangeupgrade",
+		"group": "Base Parts",
+		"name": "Scanner Room Range Upgrade"
+	},
+	{
+		"id": "scannerroomspeedupgrade",
+		"group": "Base Parts",
+		"name": "Scanner Room Speed Upgrade"
+	},
+	{
 		"id": "verticalconnector",
 		"group": "Base Parts",
 		"name": "Vertical Connector"
