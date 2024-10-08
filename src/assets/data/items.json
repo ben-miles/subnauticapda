@@ -2961,5 +2961,104 @@
 		"group": "Base Parts",
 		"name": "Alien Containment"
 	},
+	{
+		"id": "bench",
+		"group": "Miscellaneous Items",
+		"name": "Bench"
+	},
+	{
+		"id": "basicdoublebed",
+		"group": "Miscellaneous Items",
+		"name": "Basic Double Bed"
+	},
+	{
+		"id": "quilteddoublebed",
+		"group": "Miscellaneous Items",
+		"name": "Quilted Double Bed"
+	},
+	{
+		"id": "narrowbed",
+		"group": "Miscellaneous Items",
+		"name": "Narrow Bed"
+	},
+	{
+		"id": "desk",
+		"group": "Miscellaneous Items",
+		"name": "Desk"
+	},
+	{
+		"id": "swivelchair",
+		"group": "Miscellaneous Items",
+		"name": "Swivel Chair"
+	},
+	{
+		"id": "officechair",
+		"group": "Miscellaneous Items",
+		"name": "Office Chair"
+	},
+	{
+		"id": "commandchair",
+		"group": "Miscellaneous Items",
+		"name": "Command Chair"
+	},
+	{
+		"id": "sign",
+		"group": "Miscellaneous Items",
+		"name": "Sign"
+	},
+	{
+		"id": "pictureframe",
+		"group": "Miscellaneous Items",
+		"name": "Picture Frame"
+	},
+	{
+		"id": "bartable",
+		"group": "Miscellaneous Items",
+		"name": "Bar Table"
+	},
+	{
+		"id": "trashcan",
+		"group": "Miscellaneous Items",
+		"name": "Trash Can"
+	},
+	{
+		"id": "nuclearwastedisposal",
+		"group": "Miscellaneous Items",
+		"name": "Nuclear Waste Disposal"
+	},
+	{
+		"id": "vendingmachine",
+		"group": "Miscellaneous Items",
+		"name": "Vending Machine"
+	},
+	{
+		"id": "coffeevendingmachine",
+		"group": "Miscellaneous Items",
+		"name": "Coffee Vending Machine"
+	},
+	{
+		"id": "counter",
+		"group": "Miscellaneous Items",
+		"name": "Counter"
+	},
+	{
+		"id": "wallplanter",
+		"group": "Miscellaneous Items",
+		"name": "Wall Planter"
+	},
+	{
+		"id": "singlewallshelf",
+		"group": "Miscellaneous Items",
+		"name": "Single Wall Shelf"
+	},
+	{
+		"id": "wallshelves",
+		"group": "Miscellaneous Items",
+		"name": "Wall Shelves"
+	},
+	{
+		"id": "anunusualdoll",
+		"group": "Miscellaneous Items",
+		"name": "An Unusual Doll"
 	}
 ]
