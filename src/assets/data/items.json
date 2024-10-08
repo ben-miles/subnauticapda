@@ -2782,6 +2782,16 @@
 		"name": "Large Room"
 	},
 	{
+		"id": "largeroompartition",
+		"group": "Base Parts",
+		"name": "Large Room Partition"
+	},
+	{
+		"id": "largeroompartitiondoor",
+		"group": "Base Parts",
+		"name": "Large Room Partition Door"
+	},
+	{
 		"id": "largeroomglassdome",
 		"group": "Base Parts",
 		"name": "Large Room Glass Dome"
