@@ -73,5 +73,10 @@
 		"id": "placeableitems", 
 		"isOpen": true,
 		"name": "Placeable Items"
+	},
+	{
+		"id": "foodandwater", 
+		"isOpen": true,
+		"name": "Food & Water"
 	}
 ]

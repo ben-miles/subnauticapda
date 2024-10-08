@@ -4253,5 +4253,190 @@
 		"group": "Placeable Items",
 		"name": "Toy Car",
 		"location": "Lifepod 7"
+	},
+	{
+		"id": "cookedbladderfish",
+		"group": "Food & Water",
+		"name": "Cooked Bladderfish"
+	},
+	{
+		"id": "cookedboomerang",
+		"group": "Food & Water",
+		"name": "Cooked Boomerang"
+	},
+	{
+		"id": "cookedeyeye",
+		"group": "Food & Water",
+		"name": "Cooked Eyeye"
+	},
+	{
+		"id": "cookedgarryfish",
+		"group": "Food & Water",
+		"name": "Cooked Garryfish"
+	},
+	{
+		"id": "cookedholefish",
+		"group": "Food & Water",
+		"name": "Cooked Holefish"
+	},
+	{
+		"id": "cookedhoopfish",
+		"group": "Food & Water",
+		"name": "Cooked Hoopfish"
+	},
+	{
+		"id": "cookedhoverfish",
+		"group": "Food & Water",
+		"name": "Cooked Hoverfish"
+	},
+	{
+		"id": "cookedmagmarang",
+		"group": "Food & Water",
+		"name": "Cooked Magmarang"
+	},
+	{
+		"id": "cookedoculus",
+		"group": "Food & Water",
+		"name": "Cooked Oculus"
+	},
+	{
+		"id": "cookedpeeper",
+		"group": "Food & Water",
+		"name": "Cooked Peeper"
+	},
+	{
+		"id": "cookedredeyeye",
+		"group": "Food & Water",
+		"name": "Cooked Red Eyeye"
+	},
+	{
+		"id": "cookedreginald",
+		"group": "Food & Water",
+		"name": "Cooked Reginald"
+	},
+	{
+		"id": "cookedspadefish",
+		"group": "Food & Water",
+		"name": "Cooked Spadefish"
+	},
+	{
+		"id": "cookedspinefish",
+		"group": "Food & Water",
+		"name": "Cooked Spinefish"
+	},
+	{
+		"id": "curedbladderfish",
+		"group": "Food & Water",
+		"name": "Cured Bladderfish"
+	},
+	{
+		"id": "curedboomerang",
+		"group": "Food & Water",
+		"name": "Cured Boomerang"
+	},
+	{
+		"id": "curedeyeye",
+		"group": "Food & Water",
+		"name": "Cured Eyeye"
+	},
+	{
+		"id": "curedgarryfish",
+		"group": "Food & Water",
+		"name": "Cured Garryfish"
+	},
+	{
+		"id": "curedholefish",
+		"group": "Food & Water",
+		"name": "Cured Holefish"
+	},
+	{
+		"id": "curedhoopfish",
+		"group": "Food & Water",
+		"name": "Cured Hoopfish"
+	},
+	{
+		"id": "curedhoverfish",
+		"group": "Food & Water",
+		"name": "Cured Hoverfish"
+	},
+	{
+		"id": "curedmagmarang",
+		"group": "Food & Water",
+		"name": "Cured Magmarang"
+	},
+	{
+		"id": "curedoculus",
+		"group": "Food & Water",
+		"name": "Cured Oculus"
+	},
+	{
+		"id": "curedpeeper",
+		"group": "Food & Water",
+		"name": "Cured Peeper"
+	},
+	{
+		"id": "curedredeyeye",
+		"group": "Food & Water",
+		"name": "Cured Red Eyeye"
+	},
+	{
+		"id": "curedreginald",
+		"group": "Food & Water",
+		"name": "Cured Reginald"
+	},
+	{
+		"id": "curedspadefish",
+		"group": "Food & Water",
+		"name": "Cured Spadefish"
+	},
+	{
+		"id": "curedspinefish",
+		"group": "Food & Water",
+		"name": "Cured Spinefish"
+	},
+	{
+		"id": "nutrientblock",
+		"group": "Food & Water",
+		"name": "Nutrient Block"
+	},
+	{
+		"id": "mixchips",
+		"group": "Food & Water",
+		"name": "Mix Chips"
+	},
+	{
+		"id": "potatomix",
+		"group": "Food & Water",
+		"name": "Potato Mix"
+	},
+	{
+		"id": "ricesnack",
+		"group": "Food & Water",
+		"name": "Rice Snack"
+	},
+	{
+		"id": "coffeeamericano",
+		"group": "Food & Water",
+		"name": "Coffee Americano"
+	},
+	{
+		"id": "disinfectedwater",
+		"group": "Food & Water",
+		"name": "Disinfected Water"
+	},
+	{
+		"id": "filteredwater",
+		"group": "Food & Water",
+		"name": "Filtered Water"
+	},
+	{
+		"id": "largefilteredwater",
+		"group": "Food & Water",
+		"name": "Large Filtered Water"
+	},
+	{
+		"id": "reclaimedwater",
+		"group": "Food & Water",
+		"name": "Reclaimed Water"
 	}
 ]
