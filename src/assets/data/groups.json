@@ -5,6 +5,16 @@
 		"name": "Flora & Seeds"
 	},
 	{
+		"id": "faunaandeggs", 
+		"isOpen": true,
+		"name": "Fauna & Eggs"
+	},
+	{
+		"id": "foodandwater", 
+		"isOpen": true,
+		"name": "Food & Water"
+	},
+	{
 		"id": "rawmaterials", 
 		"isOpen": true,
 		"name": "Raw Materials"
@@ -73,10 +83,5 @@
 		"id": "placeableitems", 
 		"isOpen": true,
 		"name": "Placeable Items"
-	},
-	{
-		"id": "foodandwater", 
-		"isOpen": true,
-		"name": "Food & Water"
 	}
 ]
