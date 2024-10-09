@@ -282,6 +282,241 @@
 		"location": "Bulb Zone, Grassy Plateaus, Mushroom Forest, Mushroom Forest Caves, Reefback, Safe Shallows, Safe Shallows Caves"
 	},
 	{
+		"id": "ampeel",
+		"group": "Fauna & Eggs",
+		"name": "Ampeel"
+	},
+	{
+		"id": "ampeelegg",
+		"group": "Fauna & Eggs",
+		"name": "Ampeel Egg"
+	},
+	{
+		"id": "bladderfish",
+		"group": "Fauna & Eggs",
+		"name": "Bladderfish"
+	},
+	{
+		"id": "boneshark",
+		"group": "Fauna & Eggs",
+		"name": "Boneshark"
+	},
+	{
+		"id": "bonesharkegg",
+		"group": "Fauna & Eggs",
+		"name": "Boneshark Egg"
+	},
+	{
+		"id": "boomerang",
+		"group": "Fauna & Eggs",
+		"name": "Boomerang"
+	},
+	{
+		"id": "crabsnake",
+		"group": "Fauna & Eggs",
+		"name": "Crabsnake"
+	},
+	{
+		"id": "crabsnakeegg",
+		"group": "Fauna & Eggs",
+		"name": "Crabsnake Egg"
+	},
+	{
+		"id": "crabsquid",
+		"group": "Fauna & Eggs",
+		"name": "Crabsquid"
+	},
+	{
+		"id": "crabsquidegg",
+		"group": "Fauna & Eggs",
+		"name": "Crabsquid Egg"
+	},
+	{
+		"id": "crashfish",
+		"group": "Fauna & Eggs",
+		"name": "Crashfish"
+	},
+	{
+		"id": "crashfishegg",
+		"group": "Fauna & Eggs",
+		"name": "Crashfish Egg"
+	},
+	{
+		"id": "cuddlefish",
+		"group": "Fauna & Eggs",
+		"name": "Cuddlefish"
+	},
+	{
+		"id": "cuddlefishegg",
+		"group": "Fauna & Eggs",
+		"name": "Cuddlefish Egg"
+	},
+	{
+		"id": "eyeye",
+		"group": "Fauna & Eggs",
+		"name": "Eyeye"
+	},
+	{
+		"id": "floater",
+		"group": "Fauna & Eggs",
+		"name": "Floater"
+	},
+	{
+		"id": "garryfish",
+		"group": "Fauna & Eggs",
+		"name": "Garryfish"
+	},
+	{
+		"id": "gasopod",
+		"group": "Fauna & Eggs",
+		"name": "Gasopod"
+	},
+	{
+		"id": "gasopodegg",
+		"group": "Fauna & Eggs",
+		"name": "Gasopod Egg"
+	},
+	{
+		"id": "holefish",
+		"group": "Fauna & Eggs",
+		"name": "Holefish"
+	},
+	{
+		"id": "hoopfish",
+		"group": "Fauna & Eggs",
+		"name": "Hoopfish"
+	},
+	{
+		"id": "hoverfish",
+		"group": "Fauna & Eggs",
+		"name": "Hoverfish"
+	},
+	{
+		"id": "jellyray",
+		"group": "Fauna & Eggs",
+		"name": "Jellyray"
+	},
+	{
+		"id": "jellyrayegg",
+		"group": "Fauna & Eggs",
+		"name": "Jellyray Egg"
+	},
+	{
+		"id": "lavalizard",
+		"group": "Fauna & Eggs",
+		"name": "Lavalizard"
+	},
+	{
+		"id": "lavalizardegg",
+		"group": "Fauna & Eggs",
+		"name": "Lavalizard Egg"
+	},
+	{
+		"id": "magmarang",
+		"group": "Fauna & Eggs",
+		"name": "Magmarang"
+	},
+	{
+		"id": "mesmer",
+		"group": "Fauna & Eggs",
+		"name": "Mesmer"
+	},
+	{
+		"id": "mesmeregg",
+		"group": "Fauna & Eggs",
+		"name": "Mesmer Egg"
+	},
+	{
+		"id": "oculus",
+		"group": "Fauna & Eggs",
+		"name": "Oculus"
+	},
+	{
+		"id": "peeper",
+		"group": "Fauna & Eggs",
+		"name": "Peeper"
+	},
+	{
+		"id": "rabbitray",
+		"group": "Fauna & Eggs",
+		"name": "Rabbitray"
+	},
+	{
+		"id": "rabbitrayegg",
+		"group": "Fauna & Eggs",
+		"name": "Rabbitray Egg"
+	},
+	{
+		"id": "redeyeye",
+		"group": "Fauna & Eggs",
+		"name": "Redeyeye"
+	},
+	{
+		"id": "reefbackleviathan",
+		"group": "Fauna & Eggs",
+		"name": "Reefbackleviathan"
+	},
+	{
+		"id": "reefbackleviathanegg",
+		"group": "Fauna & Eggs",
+		"name": "Reefbackleviathan Egg"
+	},
+	{
+		"id": "reginald",
+		"group": "Fauna & Eggs",
+		"name": "Reginald"
+	},
+	{
+		"id": "sandshark",
+		"group": "Fauna & Eggs",
+		"name": "Sandshark"
+	},
+	{
+		"id": "sandsharkegg",
+		"group": "Fauna & Eggs",
+		"name": "Sandshark Egg"
+	},
+	{
+		"id": "seadragonleviathanegg",
+		"group": "Fauna & Eggs",
+		"name": "Sea Dragon Leviathan Egg"
+	},
+	{
+		"id": "shuttlebug",
+		"group": "Fauna & Eggs",
+		"name": "Shuttlebug"
+	},
+	{
+		"id": "shuttlebugegg",
+		"group": "Fauna & Eggs",
+		"name": "Shuttlebug Egg"
+	},
+	{
+		"id": "spadefish",
+		"group": "Fauna & Eggs",
+		"name": "Spadefish"
+	},
+	{
+		"id": "spadefishegg",
+		"group": "Fauna & Eggs",
+		"name": "Spadefish Egg"
+	},
+	{
+		"id": "spinefish",
+		"group": "Fauna & Eggs",
+		"name": "Spinefish"
+	},
+	{
+		"id": "stalker",
+		"group": "Fauna & Eggs",
+		"name": "Stalker"
+	},
+	{
+		"id": "stalkeregg",
+		"group": "Fauna & Eggs",
+		"name": "Stalker Egg"
+	},
+	{
 		"id": "alienfeces",
 		"group": "Raw Materials",
 		"name": "Alien Feces",
