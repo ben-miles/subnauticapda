@@ -4257,186 +4257,599 @@
 	{
 		"id": "cookedbladderfish",
 		"group": "Food & Water",
-		"name": "Cooked Bladderfish"
+		"name": "Cooked Bladderfish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "bladderfish",
+					"name": "Bladderfish",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedboomerang",
 		"group": "Food & Water",
-		"name": "Cooked Boomerang"
+		"name": "Cooked Boomerang",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "boomerang",
+					"name": "Boomerang",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedeyeye",
 		"group": "Food & Water",
-		"name": "Cooked Eyeye"
+		"name": "Cooked Eyeye",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "eyeye",
+					"name": "Eyeye",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedgarryfish",
 		"group": "Food & Water",
-		"name": "Cooked Garryfish"
+		"name": "Cooked Garryfish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "garryfish",
+					"name": "Garryfish",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedholefish",
 		"group": "Food & Water",
-		"name": "Cooked Holefish"
+		"name": "Cooked Holefish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "holefish",
+					"name": "Holefish",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedhoopfish",
 		"group": "Food & Water",
-		"name": "Cooked Hoopfish"
+		"name": "Cooked Hoopfish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "hoopfish",
+					"name": "Hoopfish",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedhoverfish",
 		"group": "Food & Water",
-		"name": "Cooked Hoverfish"
+		"name": "Cooked Hoverfish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "hoverfish",
+					"name": "Hoverfish",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedmagmarang",
 		"group": "Food & Water",
-		"name": "Cooked Magmarang"
+		"name": "Cooked Magmarang",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "magmarang",
+					"name": "Magmarang",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedoculus",
 		"group": "Food & Water",
-		"name": "Cooked Oculus"
+		"name": "Cooked Oculus",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "oculus",
+					"name": "Oculus",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedpeeper",
 		"group": "Food & Water",
-		"name": "Cooked Peeper"
+		"name": "Cooked Peeper",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "peeper",
+					"name": "Peeper",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedredeyeye",
 		"group": "Food & Water",
-		"name": "Cooked Red Eyeye"
+		"name": "Cooked Red Eyeye",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "redeyeye",
+					"name": "Red Eyeye",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedreginald",
 		"group": "Food & Water",
-		"name": "Cooked Reginald"
+		"name": "Cooked Reginald",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "reginald",
+					"name": "Reginald",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedspadefish",
 		"group": "Food & Water",
-		"name": "Cooked Spadefish"
+		"name": "Cooked Spadefish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "spadefish",
+					"name": "Spadefish",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "cookedspinefish",
 		"group": "Food & Water",
-		"name": "Cooked Spinefish"
+		"name": "Cooked Spinefish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "spinefish",
+					"name": "Spinefish",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedbladderfish",
 		"group": "Food & Water",
-		"name": "Cured Bladderfish"
+		"name": "Cured Bladderfish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "bladderfish",
+					"name": "Bladderfish",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedboomerang",
 		"group": "Food & Water",
-		"name": "Cured Boomerang"
+		"name": "Cured Boomerang",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "boomerang",
+					"name": "Boomerang",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedeyeye",
 		"group": "Food & Water",
-		"name": "Cured Eyeye"
+		"name": "Cured Eyeye",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "eyeye",
+					"name": "Eyeye",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedgarryfish",
 		"group": "Food & Water",
-		"name": "Cured Garryfish"
+		"name": "Cured Garryfish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "garryfish",
+					"name": "Garryfish",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedholefish",
 		"group": "Food & Water",
-		"name": "Cured Holefish"
+		"name": "Cured Holefish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "holefish",
+					"name": "Holefish",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedhoopfish",
 		"group": "Food & Water",
-		"name": "Cured Hoopfish"
+		"name": "Cured Hoopfish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "hoopfish",
+					"name": "Hoopfish",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedhoverfish",
 		"group": "Food & Water",
-		"name": "Cured Hoverfish"
+		"name": "Cured Hoverfish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "hoverfish",
+					"name": "Hoverfish",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedmagmarang",
 		"group": "Food & Water",
-		"name": "Cured Magmarang"
+		"name": "Cured Magmarang",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "magmarang",
+					"name": "Magmarang",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedoculus",
 		"group": "Food & Water",
-		"name": "Cured Oculus"
+		"name": "Cured Oculus",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "oculus",
+					"name": "Oculus",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedpeeper",
 		"group": "Food & Water",
-		"name": "Cured Peeper"
+		"name": "Cured Peeper",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "peeper",
+					"name": "Peeper",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedredeyeye",
 		"group": "Food & Water",
-		"name": "Cured Red Eyeye"
+		"name": "Cured Red Eyeye",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "redeyeye",
+					"name": "Red Eyeye",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedreginald",
 		"group": "Food & Water",
-		"name": "Cured Reginald"
+		"name": "Cured Reginald",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "reginald",
+					"name": "Reginald",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedspadefish",
 		"group": "Food & Water",
-		"name": "Cured Spadefish"
+		"name": "Cured Spadefish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "spadefish",
+					"name": "Spadefish",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "curedspinefish",
 		"group": "Food & Water",
-		"name": "Cured Spinefish"
+		"name": "Cured Spinefish",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "spinefish",
+					"name": "Spinefish",
+					"quantity": 1
+				},
+				{
+					"id": "saltdeposit",
+					"name": "Salt Deposit",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
+	},
+	{
+		"id": "gelsack",
+		"group": "Food & Water",
+		"name": "Gel Sack",
+		"location": "Blood Kelp Zone, Bone Fields Caves, Deep Grand Reef, Deep Sparse Reef, Dunes, Grand Reef, Lost River, Mountains, Northwestern Mushroom Forest, Sea Treader's Tunnel Caves"
 	},
 	{
 		"id": "nutrientblock",
 		"group": "Food & Water",
-		"name": "Nutrient Block"
+		"name": "Nutrient Block",
+		"location":"Aurora, Lifepod 5, Wrecks"
 	},
 	{
 		"id": "mixchips",
 		"group": "Food & Water",
-		"name": "Mix Chips"
+		"name": "Mix Chips",
+		"location": "Vending Machine"
 	},
 	{
 		"id": "potatomix",
 		"group": "Food & Water",
-		"name": "Potato Mix"
+		"name": "Potato Mix",
+		"location": "Vending Machine"
 	},
 	{
 		"id": "ricesnack",
 		"group": "Food & Water",
-		"name": "Rice Snack"
+		"name": "Rice Snack",
+		"location": "Vending Machine"
 	},
 	{
 		"id": "coffeeamericano",
 		"group": "Food & Water",
-		"name": "Coffee Americano"
+		"name": "Coffee Americano",
+		"location": "Coffee Vending Machine"
 	},
 	{
 		"id": "disinfectedwater",
 		"group": "Food & Water",
-		"name": "Disinfected Water"
+		"name": "Disinfected Water",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "bleach",
+					"name": "Bleach",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 2
+		}
 	},
 	{
 		"id": "filteredwater",
 		"group": "Food & Water",
-		"name": "Filtered Water"
+		"name": "Filtered Water",
+		"recipe": {
+			"ingredients": [
+				{
+					"id": "bladderfish",
+					"name": "Bladderfish",
+					"quantity": 1
+				}
+			],
+			"tool": "Fabricator",
+			"yield": 1
+		}
 	},
 	{
 		"id": "largefilteredwater",
 		"group": "Food & Water",
-		"name": "Large Filtered Water"
+		"name": "Large Filtered Water",
+		"location": "Water Filtration Machine"
 	},
 	{
 		"id": "reclaimedwater",
 		"group": "Food & Water",
-		"name": "Reclaimed Water"
+		"name": "Reclaimed Water",
+		"location": "Water Filtration Suit"
 	}
 ]
