@@ -284,62 +284,74 @@
 	{
 		"id": "ampeel",
 		"group": "Fauna & Eggs",
-		"name": "Ampeel"
+		"name": "Ampeel",
+		"location": "Blood Kelp Trench, Northern Blood Kelp Zone, Bulb Zone"
 	},
 	{
 		"id": "ampeelegg",
 		"group": "Fauna & Eggs",
-		"name": "Ampeel Egg"
+		"name": "Ampeel Egg",
+		"location": "Blood Kelp Trench, Bulb Zone"
 	},
 	{
 		"id": "bladderfish",
 		"group": "Fauna & Eggs",
-		"name": "Bladderfish"
+		"name": "Bladderfish",
+		"location": "Dunes, Grand Reef, Grassy Plateaus, Kelp Forest, Mushroom Forest, Safe Shallows, Lost River, Tree Cove, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "boneshark",
 		"group": "Fauna & Eggs",
-		"name": "Boneshark"
+		"name": "Boneshark",
+		"location": "Bulb Zone, Crag Field, Crash Zone, Crash Zone Mesas, Grand Reef, Mushroom Forest, Underwater Islands, Underwater Islands Caves, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "bonesharkegg",
 		"group": "Fauna & Eggs",
-		"name": "Boneshark Egg"
+		"name": "Boneshark Egg",
+		"location": "Bulb Zone, Mushroom Forest, Underwater Islands"
 	},
 	{
 		"id": "boomerang",
 		"group": "Fauna & Eggs",
-		"name": "Boomerang"
+		"name": "Boomerang",
+		"location": "Bulb Zone, Crag Field, Crash Zone, Deep Grand Reef, Dunes, Grand Reef, Grassy Plateaus, Kelp Forest, Mountains, Mountains Caves, Safe Shallows, Safe Shallows Caves, Sea Treader's Path, Sea Treader's Tunnel Caves, Underwater Islands, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "crabsnake",
 		"group": "Fauna & Eggs",
-		"name": "Crabsnake"
+		"name": "Crabsnake",
+		"location": "Jellyshroom Cave"
 	},
 	{
 		"id": "crabsnakeegg",
 		"group": "Fauna & Eggs",
-		"name": "Crabsnake Egg"
+		"name": "Crabsnake Egg",
+		"location": "Jellyshroom Cave"
 	},
 	{
 		"id": "crabsquid",
 		"group": "Fauna & Eggs",
-		"name": "Crabsquid"
+		"name": "Crabsquid",
+		"location": "Bulb Zone, Bulb Zone Caves, Lost River"
 	},
 	{
 		"id": "crabsquidegg",
 		"group": "Fauna & Eggs",
-		"name": "Crabsquid Egg"
+		"name": "Crabsquid Egg",
+		"location": "Deep Grand Reef, Northern Blood Kelp Zone "
 	},
 	{
 		"id": "crashfish",
 		"group": "Fauna & Eggs",
-		"name": "Crashfish"
+		"name": "Crashfish",
+		"location": "Kelp Forest Caves, Safe Shallows, Safe Shallows Caves"
 	},
 	{
 		"id": "crashfishegg",
 		"group": "Fauna & Eggs",
-		"name": "Crashfish Egg"
+		"name": "Crashfish Egg",
+		"location": "Kelp Forest Caves, Safe Shallows Caves"
 	},
 	{
 		"id": "cuddlefish",
@@ -349,172 +361,188 @@
 	{
 		"id": "cuddlefishegg",
 		"group": "Fauna & Eggs",
-		"name": "Cuddlefish Egg"
+		"name": "Cuddlefish Egg",
+		"location": "Dunes Sinkhole, Mushroom Forest Caves (Northeastern and Northwestern), Lost River Laboratory Cache, Deep Grand Reef Degasi Seabase"
 	},
 	{
 		"id": "eyeye",
 		"group": "Fauna & Eggs",
-		"name": "Eyeye"
+		"name": "Eyeye",
+		"location": "Bulb Zone, Bulb Zone Caves, Crash Zone, Dunes, Grand Reef, Jellyshroom Cave, Kelp Forest, Kelp Forest Caves, Sea Treader's Path, Sea Treader's Tunnel Caves"
 	},
 	{
 		"id": "floater",
 		"group": "Fauna & Eggs",
-		"name": "Floater"
+		"name": "Floater",
+		"location": "Grassy Plateaus, Safe Shallows"
 	},
 	{
 		"id": "garryfish",
 		"group": "Fauna & Eggs",
-		"name": "Garryfish"
+		"name": "Garryfish",
+		"location": "Crash Zone Mesas, Dunes, Safe Shallows, Safe Shallows Caves, Underwater Islands, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "gasopod",
 		"group": "Fauna & Eggs",
-		"name": "Gasopod"
+		"name": "Gasopod",
+		"location": "Crash Zone Mesas, Dunes, Safe Shallows"
 	},
 	{
 		"id": "gasopodegg",
 		"group": "Fauna & Eggs",
-		"name": "Gasopod Egg"
+		"name": "Gasopod Egg",
+		"location": "Crash Zone Mesas, Dunes, Safe Shallows"
 	},
 	{
 		"id": "holefish",
 		"group": "Fauna & Eggs",
-		"name": "Holefish"
+		"name": "Holefish",
+		"location": "Bulb Zone Caves, Crash Zone, Mushroom Forest Caves, Safe Shallows, Safe Shallows Caves, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "hoopfish",
 		"group": "Fauna & Eggs",
-		"name": "Hoopfish"
+		"name": "Hoopfish",
+		"location": "Bulb Zone, Crag Field, Dunes, Grand Reef, Grassy Plateaus, Kelp Forest, Kelp Forest Caves, Mountains, Sea Treader's Path, Sea Treader's Tunnel Caves, Underwater Islands, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "hoverfish",
 		"group": "Fauna & Eggs",
-		"name": "Hoverfish"
+		"name": "Hoverfish",
+		"location": "Crash Zone, Crash Zone Mesas, Kelp Forest, Kelp Forest Caves, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "jellyray",
 		"group": "Fauna & Eggs",
-		"name": "Jellyray"
+		"name": "Jellyray",
+		"location": "Deep Grand Reef, Mushroom Forest"
 	},
 	{
 		"id": "jellyrayegg",
 		"group": "Fauna & Eggs",
-		"name": "Jellyray Egg"
+		"name": "Jellyray Egg",
+		"location": "Mushroom Forest, Mushroom Forest Caves"
 	},
 	{
 		"id": "lavalizard",
 		"group": "Fauna & Eggs",
-		"name": "Lavalizard"
+		"name": "Lavalizard",
+		"location": "Inactive Lava Zone, Lava Lakes"
 	},
 	{
 		"id": "lavalizardegg",
 		"group": "Fauna & Eggs",
-		"name": "Lavalizard Egg"
+		"name": "Lavalizard Egg",
+		"location": "Lava Castle"
 	},
 	{
 		"id": "magmarang",
 		"group": "Fauna & Eggs",
-		"name": "Magmarang"
+		"name": "Magmarang",
+		"location": "Inactive Lava Zone, Lava Lakes"
 	},
 	{
 		"id": "mesmer",
 		"group": "Fauna & Eggs",
-		"name": "Mesmer"
+		"name": "Mesmer",
+		"location": "Bulb Zone, Crag Field, Grand Reef, Kelp Forest Caves, Lost River, Northeastern Mushroom Forest"
 	},
 	{
 		"id": "mesmeregg",
 		"group": "Fauna & Eggs",
-		"name": "Mesmer Egg"
+		"name": "Mesmer Egg",
+		"location": "Bulb Zone, Bulb Zone Caves, Lost River"
 	},
 	{
 		"id": "oculus",
 		"group": "Fauna & Eggs",
-		"name": "Oculus"
+		"name": "Oculus",
+		"location": "Jellyshroom Cave, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "peeper",
 		"group": "Fauna & Eggs",
-		"name": "Peeper"
+		"name": "Peeper",
+		"location": "Bulb Zone, Crash Zone, Crash Zone Mesas, Dunes, Deep Sparse Reef, Grand Reef, Kelp Forest, Safe Shallows, Sparse Reef, Mountains, Northeastern Mushroom Forest, Northeastern Mushroom Forest Caves, Underwater Islands, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "rabbitray",
 		"group": "Fauna & Eggs",
-		"name": "Rabbitray"
+		"name": "Rabbitray",
+		"location": "Crash Zone, Crash Zone Mesas, Kelp Forest, Safe Shallows, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "rabbitrayegg",
 		"group": "Fauna & Eggs",
-		"name": "Rabbitray Egg"
+		"name": "Rabbitray Egg",
+		"location": "Safe Shallows"
 	},
 	{
 		"id": "redeyeye",
 		"group": "Fauna & Eggs",
-		"name": "Redeyeye"
+		"name": "Redeyeye",
+		"location": "Inactive Lava Zone, Lava Lakes"
 	},
 	{
 		"id": "reefbackleviathan",
 		"group": "Fauna & Eggs",
-		"name": "Reefbackleviathan"
-	},
-	{
-		"id": "reefbackleviathanegg",
-		"group": "Fauna & Eggs",
-		"name": "Reefbackleviathan Egg"
+		"name": "Reefback Leviathan",
+		"location": "Blood Kelp Zone, Bulb Zone, Crag Field, Dunes, Grassy Plateaus, Mushroom Forest, Sparse Reef, Underwater Islands"
 	},
 	{
 		"id": "reginald",
 		"group": "Fauna & Eggs",
-		"name": "Reginald"
+		"name": "Reginald",
+		"location": "Crag Field, Crash Zone, Crash Zone Mesas, Deep Grand Reef, Deep Sparse Reef, Grand Reef, Grand Reef Caves, Grassy Plateaus, Lost River, Mountains Caves, Mountains, Sea Treader's Path, Sparse Reef, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "sandshark",
 		"group": "Fauna & Eggs",
-		"name": "Sandshark"
+		"name": "Sandshark",
+		"location": "Crash Zone, Dunes, Grassy Plateaus"
 	},
 	{
 		"id": "sandsharkegg",
 		"group": "Fauna & Eggs",
-		"name": "Sandshark Egg"
-	},
-	{
-		"id": "seadragonleviathanegg",
-		"group": "Fauna & Eggs",
-		"name": "Sea Dragon Leviathan Egg"
+		"name": "Sandshark Egg",
+		"location": "Grassy Plateaus"
 	},
 	{
 		"id": "shuttlebug",
 		"group": "Fauna & Eggs",
-		"name": "Shuttlebug"
-	},
-	{
-		"id": "shuttlebugegg",
-		"group": "Fauna & Eggs",
-		"name": "Shuttlebug Egg"
+		"name": "Shuttlebug",
+		"location": "Bulb Zone, Crag Field, Crash Zone, Deep Sparse Reef, Dunes, Dunes Caves, Grassy Plateaus Caves, Mountains Caves, Mountains, Mushroom Forest Caves, Safe Shallows Caves, Sea Treader's Path, Sea Treader's Tunnel Caves, Sparse Reef, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "spadefish",
 		"group": "Fauna & Eggs",
-		"name": "Spadefish"
+		"name": "Spadefish",
+		"location": "Deep Sparse Reef, Dunes, Grand Reef, Grassy Plateaus, Mushroom Forest, Mushroom Forest Caves, Sea Treader's Path, Sea Treader's Tunnel Caves, Sparse Reef, Underwater Islands"
 	},
 	{
 		"id": "spadefishegg",
 		"group": "Fauna & Eggs",
-		"name": "Spadefish Egg"
+		"name": "Spadefish Egg",
+		"location": "Deep Sparse Reef, Grand Reef, Grassy Plateaus Caves, Underwater Islands, Underwater Islands Caves"
 	},
 	{
 		"id": "spinefish",
 		"group": "Fauna & Eggs",
-		"name": "Spinefish"
+		"name": "Spinefish",
+		"location": "Blood Kelp Zone, Blood Kelp Caves, Bone Fields Caves, Lost River"
 	},
 	{
 		"id": "stalker",
 		"group": "Fauna & Eggs",
-		"name": "Stalker"
+		"name": "Stalker",
+		"location": "Crash Zone, Kelp Forest, Kelp Forest Caves, Primary Containment Facility Aquarium"
 	},
 	{
 		"id": "stalkeregg",
 		"group": "Fauna & Eggs",
-		"name": "Stalker Egg"
+		"name": "Stalker Egg",
+		"location": "Kelp Forest"
 	},
 	{
 		"id": "alienfeces",
