@@ -5,6 +5,16 @@
 		"name": "Flora & Seeds"
 	},
 	{
+		"id": "faunaandeggs", 
+		"isOpen": true,
+		"name": "Fauna & Eggs"
+	},
+	{
+		"id": "foodandwater", 
+		"isOpen": true,
+		"name": "Food & Water"
+	},
+	{
 		"id": "rawmaterials", 
 		"isOpen": true,
 		"name": "Raw Materials"
@@ -58,5 +68,20 @@
 		"id": "neptuneescaperocket", 
 		"isOpen": true,
 		"name": "Neptune Escape Rocket"
+	},
+	{
+		"id": "baseparts", 
+		"isOpen": true,
+		"name": "Base Parts"
+	},
+	{
+		"id": "miscellaneousitems", 
+		"isOpen": true,
+		"name": "Miscellaneous Items"
+	},
+	{
+		"id": "placeableitems", 
+		"isOpen": true,
+		"name": "Placeable Items"
 	}
 ]
